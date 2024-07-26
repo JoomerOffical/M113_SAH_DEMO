@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource><!-- 1.	Начальная фраза игрока. -->
+	<string
+		id="100"
+		modelName="mask_father"
+		modelSkin="2"
+		modelSlot="1"
+		value="ДОК ВИНСЕНТ|Despierta, adicto a la television. (Просыпайся, лежебока.) Пора с колен тебя поднимать, да за руль сажать. Ведь сегодня последний день."
+		sound=""
+		time="10" />
+
+	<string
+		id="101"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Доброе утро, Док. Чего хотел?"
+		sound=""
+		time="3" />
+
+	<string
+		id="102"
+		modelName="mask_father"
+		modelSkin="2"
+		modelSlot="1"
+		value="ДОК ВИНСЕНТ|Вот так, молодец. В общем, мой amigo, я решил что пора тебя выписывать, ведь все твои показатели здоровья в норме. Да и я сам вижу, что тебе надоело тут сидеть."
+		sound=""
+		time="12" />
+
+	<string
+		id="103"
+		modelName="mask_father"
+		modelSkin="2"
+		modelSlot="1"
+		value="ДОК ВИНСЕНТ|Правда, я бы тебе не советовал ехать на дальняк. Тебе лучше поездить по нашим местам. К тому же у меня и задание для тебя есть."
+		sound=""
+		time="8" />
+
+	<string
+		id="104"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Ну слава богу, ядрен бензин. Я то  думал, что меня тут намертво к койке привяжут."
+		sound=""
+		time="5" />
+
+	<string
+		id="105"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|То есть, хотел сказать, спасибо Док за то, что помог мне. Постараюсь не вляпаться еще куда-нибудь."
+		sound=""
+		time="5" />
+
+	<string
+		id="106"
+		modelName="mask_father"
+		modelSkin="2"
+		modelSlot="1"
+		value="ДОК ВИНСЕНТ|Да, но сначала..."
+		sound=""
+		time="3" />
+
+	<string
+		id="107"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Мне уже не терпиться за баранку сесть. Так что ты хотел, Док?"
+		sound=""
+		time="5" />
+
+	<string
+		id="108"
+		modelName="mask_father"
+		modelSkin="2"
+		modelSlot="1"
+		value="ДОК ВИНСЕНТ|Ох, ну раз уж отправляешься в путь, окажи старику небольшую услугу. Возьми эту квитанцию и поезжай в Монтерей. Забери лампочку для моего маяка и возвращайся поскорее. После чего сможешь отправиться, куда глаза глядят."
+		sound=""
+		time="12" />
+
+	<string
+		id="109"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Лады, старик. Я скоро вернусь."
+		sound=""
+		time="3" />
+
+	<string
+		id="201"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Так, судя по сведениям, торговец должен выехать из Вексики по этой дороге. Что ж, посидим, подождем."
+		sound=""
+		time="8" />
+
+	<string
+		id="202"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|А вот и грузовичок. С виду и не скажешь, что он содержит что-то прям ценное. Ну да ладно, пора его решать."
+		sound=""
+		time="9" />
+
+	<string
+		id="203"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Мда, без охраны, без какого-либо сопровождения. Ладно, что у него тут лежит?"
+		sound=""
+		time="7" />
+
+	<string
+		id="204"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Пачки с деньгами, золотые статуэтки и драгоцености и... какая-то брошюра времен старого мира."
+		sound=""
+		time="8" />
+
+	<string
+		id="205"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Эдмонтон – чудесный город, расположенный на юге Канады. Живописные окрестности делают его настоящим раем для туристов... Ладно, потом почитаю, надо двигать, пока местные ничего не поняли."
+		sound=""
+		time="12" />
+
+	<string
+		id="300"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Да, как только я шухера навел, так он сразу сбегать. Хотя этот может меня привести к их аванпосту и тогда я пробью 2 покрышки разом."
+		sound=""
+		time="10" />
+
+	<string
+		id="301"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Черт. Теперь придется самому искать их аванпост."
+		sound=""
+		time="5" />
+
+	<string
+		id="302"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|А вот это наверное их аванпост. Мда, не густо. Ладно, пора их кончать."
+		sound=""
+		time="6" />
+
+	<string
+		id="400"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="ОТШЕЛЬНИК|Алло? Бродяга, прием. Это Эрмитано. Как слышно, прием?"
+		sound=""
+		time="5" />
+
+	<string
+		id="401"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Слышу хорошо. Что там с виноградом, прием?"
+		sound=""
+		time="5" />
+
+	<string
+		id="402"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="ОТШЕЛЬНИК|В общем я выяснил причину их отравления, но лучше тебе приехать ко мне, надо тебе самому посмотреть. Прием."
+		sound=""
+		time="8" />
+
+	<string
+		id="403"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Понял тебя, как освобожусь, приеду к тебе. Конец связи."
+		sound=""
+		time="5" />
+
+	<string
+		id="196"
+		value="ExMachina: Меридиан 113||Вы хотите воспользоваться|интерактивной системой помощи игры?"
+		numButtons="2" />
+
+	<string
+		id="197"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="198"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Я не знаю, куда ведет эта дорога, поэтому останусь здесь." 
+		sound="data\sounds\Speech\r5m1\r5m1_8802_nomad.ogg"
+		time="5" />
+
+	<string
+		id="199"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Какое-то странное место. Лучше держаться отсюда подальше."
+		sound="data\sounds\Speech\r5m1\r5m1_8803_nomad.ogg"
+		time="5" />
+
+</resource>

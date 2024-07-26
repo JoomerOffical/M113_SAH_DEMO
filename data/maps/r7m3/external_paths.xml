@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="AfterGranCarav2">
+		<Point
+			coord="2425.081 3087.380" />
+
+		<Point
+			coord="2430.295 3135.311" />
+
+		<Point
+			coord="2437.462 3189.515" />
+
+		<Point
+			coord="2433.545 3250.048" />
+
+		<Point
+			coord="2413.808 3320.933" />
+
+		<Point
+			coord="2380.855 3371.839" />
+
+		<Point
+			coord="2346.330 3430.426" />
+
+		<Point
+			coord="2307.270 3480.896" />
+
+		<Point
+			coord="2255.265 3515.955" />
+
+		<Point
+			coord="2197.789 3533.021" />
+
+		<Point
+			coord="2122.390 3548.291" />
+
+		<Point
+			coord="2061.836 3581.227" />
+
+		<Point
+			coord="2028.421 3631.942" />
+
+		<Point
+			coord="2026.942 3720.870" />
+	</Path>
+
+	<Path
+		Name="AfterGranCarav">
+		<Point
+			coord="2298.898 2766.911" />
+
+		<Point
+			coord="2303.260 2808.700" />
+
+		<Point
+			coord="2320.098 2843.445" />
+
+		<Point
+			coord="2339.144 2917.904" />
+
+		<Point
+			coord="2343.329 2949.331" />
+
+		<Point
+			coord="2346.376 2971.595" />
+
+		<Point
+			coord="2351.351 3006.225" />
+	</Path>
+
+	<Path
+		Name="AfterGranAssis">
+		<Point
+			coord="2327.878 2761.844" />
+
+		<Point
+			coord="2329.640 2800.667" />
+
+		<Point
+			coord="2344.526 2932.150" />
+
+		<Point
+			coord="2351.975 2946.561" />
+
+		<Point
+			coord="2356.367 2957.100" />
+
+		<Point
+			coord="2372.673 2994.761" />
+	</Path>
+
+	<Path
+		Name="AfterGran2">
+		<Point
+			coord="2409.542 3091.550" />
+
+		<Point
+			coord="2418.789 3144.672" />
+
+		<Point
+			coord="2423.255 3200.977" />
+
+		<Point
+			coord="2418.226 3250.891" />
+
+		<Point
+			coord="2397.498 3318.078" />
+
+		<Point
+			coord="2370.350 3367.068" />
+
+		<Point
+			coord="2336.924 3426.867" />
+
+		<Point
+			coord="2295.365 3473.296" />
+
+		<Point
+			coord="2236.378 3506.737" />
+
+		<Point
+			coord="2164.189 3522.876" />
+
+		<Point
+			coord="2094.558 3542.742" />
+
+		<Point
+			coord="2034.946 3586.066" />
+	</Path>
+
+	<Path
+		Name="AfterGran">
+		<Point
+			coord="2308.217 2763.688" />
+
+		<Point
+			coord="2316.369 2803.202" />
+
+		<Point
+			coord="2333.853 2900.266" />
+
+		<Point
+			coord="2344.141 2951.678" />
+
+		<Point
+			coord="2347.947 2982.233" />
+
+		<Point
+			coord="2366.205 3018.327" />
+
+		<Point
+			coord="2407.072 3074.103" />
+
+		<Point
+			coord="2423.858 3127.339" />
+
+		<Point
+			coord="2430.043 3192.272" />
+
+		<Point
+			coord="2422.656 3264.017" />
+
+		<Point
+			coord="2393.450 3339.519" />
+
+		<Point
+			coord="2354.850 3405.877" />
+
+		<Point
+			coord="2321.224 3457.208" />
+
+		<Point
+			coord="2282.216 3492.892" />
+
+		<Point
+			coord="2231.282 3518.260" />
+
+		<Point
+			coord="2158.283 3532.999" />
+
+		<Point
+			coord="2103.185 3551.458" />
+
+		<Point
+			coord="2063.178 3571.340" />
+
+		<Point
+			coord="2017.785 3664.702" />
+	</Path>
+
+	<Path
+		Name="Ermosinyo_Huares_DQC">
+		<Point
+			coord="470.667 2566.775" />
+
+		<Point
+			coord="528.491 2585.730" />
+
+		<Point
+			coord="576.943 2630.711" />
+
+		<Point
+			coord="616.907 2655.510" />
+
+		<Point
+			coord="691.288 2672.043" />
+
+		<Point
+			coord="732.148 2684.890" />
+
+		<Point
+			coord="796.367 2678.094" />
+
+		<Point
+			coord="882.320 2665.774" />
+
+		<Point
+			coord="948.541 2634.658" />
+
+		<Point
+			coord="1013.172 2599.399" />
+
+		<Point
+			coord="1048.472 2524.986" />
+
+		<Point
+			coord="1097.603 2431.407" />
+
+		<Point
+			coord="1162.178 2352.357" />
+
+		<Point
+			coord="1199.779 2305.659" />
+
+		<Point
+			coord="1289.693 2252.274" />
+
+		<Point
+			coord="1386.648 2172.896" />
+
+		<Point
+			coord="1451.200 2120.147" />
+
+		<Point
+			coord="1540.628 2068.267" />
+
+		<Point
+			coord="1645.073 1999.777" />
+
+		<Point
+			coord="1813.744 1866.903" />
+
+		<Point
+			coord="1900.137 1799.093" />
+
+		<Point
+			coord="1919.359 1759.095" />
+
+		<Point
+			coord="1933.274 1699.573" />
+
+		<Point
+			coord="1924.112 1625.349" />
+
+		<Point
+			coord="1911.057 1533.234" />
+
+		<Point
+			coord="1927.952 1460.942" />
+
+		<Point
+			coord="1953.051 1440.434" />
+
+		<Point
+			coord="2006.505 1459.355" />
+
+		<Point
+			coord="2080.920 1484.133" />
+
+		<Point
+			coord="2153.539 1523.253" />
+
+		<Point
+			coord="2214.533 1567.164" />
+
+		<Point
+			coord="2310.363 1630.677" />
+
+		<Point
+			coord="2393.708 1692.541" />
+
+		<Point
+			coord="2453.869 1748.989" />
+
+		<Point
+			coord="2528.570 1820.497" />
+
+		<Point
+			coord="2620.258 1900.963" />
+
+		<Point
+			coord="2683.280 1972.972" />
+
+		<Point
+			coord="2690.583 2012.090" />
+
+		<Point
+			coord="2681.527 2108.021" />
+
+		<Point
+			coord="2680.450 2143.191" />
+
+		<Point
+			coord="2622.567 2196.667" />
+
+		<Point
+			coord="2545.335 2202.031" />
+
+		<Point
+			coord="2438.345 2138.449" />
+
+		<Point
+			coord="2342.509 2074.672" />
+
+		<Point
+			coord="2275.973 2070.207" />
+
+		<Point
+			coord="2210.838 2099.871" />
+
+		<Point
+			coord="2205.342 2168.794" />
+
+		<Point
+			coord="2270.530 2303.471" />
+
+		<Point
+			coord="2294.600 2398.394" />
+
+		<Point
+			coord="2311.431 2442.824" />
+
+		<Point
+			coord="2338.395 2444.418" />
+
+		<Point
+			coord="2372.614 2437.931" />
+
+		<Point
+			coord="2450.150 2436.264" />
+	</Path>
+
+	<Path
+		Name="Ermosinyo_Saltilio_DQC">
+		<Point
+			coord="471.469 2565.268" />
+
+		<Point
+			coord="522.541 2585.678" />
+
+		<Point
+			coord="562.087 2614.176" />
+
+		<Point
+			coord="588.726 2647.370" />
+
+		<Point
+			coord="634.161 2661.153" />
+
+		<Point
+			coord="706.732 2681.106" />
+
+		<Point
+			coord="754.218 2686.025" />
+
+		<Point
+			coord="852.689 2670.673" />
+
+		<Point
+			coord="918.922 2648.795" />
+
+		<Point
+			coord="994.586 2604.014" />
+
+		<Point
+			coord="1033.229 2561.114" />
+
+		<Point
+			coord="1065.383 2491.644" />
+
+		<Point
+			coord="1117.302 2401.324" />
+
+		<Point
+			coord="1181.281 2330.249" />
+
+		<Point
+			coord="1256.140 2274.997" />
+
+		<Point
+			coord="1309.909 2235.616" />
+
+		<Point
+			coord="1378.502 2179.095" />
+
+		<Point
+			coord="1460.385 2114.425" />
+
+		<Point
+			coord="1547.828 2062.682" />
+
+		<Point
+			coord="1644.213 1997.850" />
+
+		<Point
+			coord="1733.527 1931.696" />
+
+		<Point
+			coord="1829.272 1860.369" />
+
+		<Point
+			coord="1910.686 1786.383" />
+
+		<Point
+			coord="1926.144 1744.235" />
+
+		<Point
+			coord="1936.044 1688.399" />
+
+		<Point
+			coord="1915.046 1620.274" />
+
+		<Point
+			coord="1909.515 1534.925" />
+
+		<Point
+			coord="1926.993 1425.278" />
+
+		<Point
+			coord="1891.420 1404.005" />
+
+		<Point
+			coord="1858.717 1355.842" />
+
+		<Point
+			coord="1834.160 1281.485" />
+
+		<Point
+			coord="1817.141 1185.772" />
+
+		<Point
+			coord="1818.016 1120.791" />
+
+		<Point
+			coord="1842.918 1028.130" />
+
+		<Point
+			coord="1871.725 956.404" />
+
+		<Point
+			coord="1907.068 909.185" />
+
+		<Point
+			coord="1975.019 834.777" />
+
+		<Point
+			coord="2014.615 776.119" />
+
+		<Point
+			coord="2075.594 711.123" />
+
+		<Point
+			coord="2141.684 669.695" />
+
+		<Point
+			coord="2228.939 635.471" />
+
+		<Point
+			coord="2335.546 611.022" />
+
+		<Point
+			coord="2404.157 609.053" />
+
+		<Point
+			coord="2515.031 637.078" />
+
+		<Point
+			coord="2643.152 663.748" />
+
+		<Point
+			coord="2718.392 676.562" />
+
+		<Point
+			coord="2795.755 664.160" />
+
+		<Point
+			coord="2877.502 652.023" />
+
+		<Point
+			coord="2966.436 659.409" />
+
+		<Point
+			coord="3055.865 646.559" />
+
+		<Point
+			coord="3150.389 636.991" />
+
+		<Point
+			coord="3223.828 630.528" />
+
+		<Point
+			coord="3276.833 655.300" />
+
+		<Point
+			coord="3307.072 699.406" />
+
+		<Point
+			coord="3313.159 737.423" />
+
+		<Point
+			coord="3319.268 829.234" />
+
+		<Point
+			coord="3315.789 908.449" />
+
+		<Point
+			coord="3291.733 968.249" />
+
+		<Point
+			coord="3257.983 991.298" />
+
+		<Point
+			coord="3215.824 1001.275" />
+
+		<Point
+			coord="3178.122 996.113" />
+	</Path>
+
+	<Path
+		Name="Ermosinyo_Torreon_DQC">
+		<Point
+			coord="470.992 2566.782" />
+
+		<Point
+			coord="520.778 2582.635" />
+
+		<Point
+			coord="567.084 2625.659" />
+
+		<Point
+			coord="612.834 2657.362" />
+
+		<Point
+			coord="660.574 2668.880" />
+
+		<Point
+			coord="728.642 2686.801" />
+
+		<Point
+			coord="809.522 2676.809" />
+
+		<Point
+			coord="885.802 2666.499" />
+
+		<Point
+			coord="968.599 2623.761" />
+
+		<Point
+			coord="1022.590 2589.302" />
+
+		<Point
+			coord="1051.364 2526.458" />
+
+		<Point
+			coord="1092.970 2440.636" />
+
+		<Point
+			coord="1144.836 2370.331" />
+
+		<Point
+			coord="1199.757 2313.211" />
+
+		<Point
+			coord="1291.671 2245.422" />
+
+		<Point
+			coord="1381.517 2177.550" />
+
+		<Point
+			coord="1465.657 2110.143" />
+
+		<Point
+			coord="1604.743 2026.934" />
+
+		<Point
+			coord="1741.916 1926.064" />
+
+		<Point
+			coord="1882.960 1812.435" />
+
+		<Point
+			coord="1931.377 1726.926" />
+
+		<Point
+			coord="1921.743 1637.175" />
+
+		<Point
+			coord="1918.822 1562.833" />
+
+		<Point
+			coord="1924.409 1464.612" />
+
+		<Point
+			coord="1888.432 1400.394" />
+
+		<Point
+			coord="1850.204 1335.988" />
+
+		<Point
+			coord="1827.375 1228.703" />
+
+		<Point
+			coord="1818.742 1114.061" />
+
+		<Point
+			coord="1847.536 1012.381" />
+
+		<Point
+			coord="1881.197 919.513" />
+
+		<Point
+			coord="1938.418 885.178" />
+
+		<Point
+			coord="1989.909 809.315" />
+
+		<Point
+			coord="2039.156 740.487" />
+
+		<Point
+			coord="2117.305 680.207" />
+
+		<Point
+			coord="2195.728 646.494" />
+
+		<Point
+			coord="2284.252 624.808" />
+
+		<Point
+			coord="2387.071 601.594" />
+
+		<Point
+			coord="2465.927 623.329" />
+
+		<Point
+			coord="2540.553 646.280" />
+
+		<Point
+			coord="2611.875 664.354" />
+
+		<Point
+			coord="2712.968 676.891" />
+
+		<Point
+			coord="2731.168 714.916" />
+
+		<Point
+			coord="2718.187 755.652" />
+
+		<Point
+			coord="2683.617 789.450" />
+
+		<Point
+			coord="2629.153 812.391" />
+
+		<Point
+			coord="2582.791 819.494" />
+
+		<Point
+			coord="2534.898 812.345" />
+
+		<Point
+			coord="2471.699 802.436" />
+
+		<Point
+			coord="2419.986 801.355" />
+
+		<Point
+			coord="2388.706 812.353" />
+
+		<Point
+			coord="2377.031 833.669" />
+
+		<Point
+			coord="2377.983 892.624" />
+
+		<Point
+			coord="2369.645 935.256" />
+
+		<Point
+			coord="2330.271 957.809" />
+
+		<Point
+			coord="2284.451 960.101" />
+	</Path>
+
+	<Path
+		Name="Huares_Ermosinyo_DQC">
+		<Point
+			coord="2365.725 2437.988" />
+
+		<Point
+			coord="2320.324 2442.800" />
+
+		<Point
+			coord="2295.283 2372.436" />
+
+		<Point
+			coord="2266.971 2293.222" />
+
+		<Point
+			coord="2232.838 2221.920" />
+
+		<Point
+			coord="2213.029 2154.452" />
+
+		<Point
+			coord="2225.996 2096.000" />
+
+		<Point
+			coord="2272.181 2076.080" />
+
+		<Point
+			coord="2338.679 2075.714" />
+
+		<Point
+			coord="2395.551 2119.330" />
+
+		<Point
+			coord="2482.918 2173.846" />
+
+		<Point
+			coord="2530.220 2203.748" />
+
+		<Point
+			coord="2585.635 2204.746" />
+
+		<Point
+			coord="2662.814 2168.930" />
+
+		<Point
+			coord="2690.987 2113.480" />
+
+		<Point
+			coord="2689.627 2028.682" />
+
+		<Point
+			coord="2686.368 1974.571" />
+
+		<Point
+			coord="2638.592 1914.588" />
+
+		<Point
+			coord="2528.825 1821.155" />
+
+		<Point
+			coord="2468.698 1754.341" />
+
+		<Point
+			coord="2390.136 1679.752" />
+
+		<Point
+			coord="2286.125 1611.194" />
+
+		<Point
+			coord="2166.744 1524.193" />
+
+		<Point
+			coord="2049.422 1478.021" />
+
+		<Point
+			coord="1962.689 1448.450" />
+
+		<Point
+			coord="1918.841 1494.665" />
+
+		<Point
+			coord="1914.453 1547.804" />
+
+		<Point
+			coord="1915.571 1605.758" />
+
+		<Point
+			coord="1926.554 1654.792" />
+
+		<Point
+			coord="1933.405 1708.024" />
+
+		<Point
+			coord="1919.285 1762.732" />
+
+		<Point
+			coord="1851.937 1835.553" />
+
+		<Point
+			coord="1748.319 1914.978" />
+
+		<Point
+			coord="1621.499 2008.323" />
+
+		<Point
+			coord="1496.434 2090.300" />
+
+		<Point
+			coord="1399.479 2161.146" />
+
+		<Point
+			coord="1282.550 2254.531" />
+
+		<Point
+			coord="1201.725 2306.427" />
+
+		<Point
+			coord="1146.825 2369.292" />
+
+		<Point
+			coord="1093.378 2438.138" />
+
+		<Point
+			coord="1027.783 2568.862" />
+
+		<Point
+			coord="987.624 2618.396" />
+
+		<Point
+			coord="888.978 2661.703" />
+
+		<Point
+			coord="801.727 2675.188" />
+
+		<Point
+			coord="726.023 2684.934" />
+
+		<Point
+			coord="664.525 2669.109" />
+
+		<Point
+			coord="595.608 2658.738" />
+
+		<Point
+			coord="558.686 2699.427" />
+
+		<Point
+			coord="548.709 2720.229" />
+
+		<Point
+			coord="506.926 2713.473" />
+	</Path>
+
+	<Path
+		Name="Huares_Saltilio_DQC">
+		<Point
+			coord="2351.385 2443.599" />
+
+		<Point
+			coord="2312.664 2442.029" />
+
+		<Point
+			coord="2292.018 2358.015" />
+
+		<Point
+			coord="2254.232 2266.237" />
+
+		<Point
+			coord="2215.931 2186.714" />
+
+		<Point
+			coord="2209.304 2135.743" />
+
+		<Point
+			coord="2224.712 2097.704" />
+
+		<Point
+			coord="2291.622 2068.207" />
+
+		<Point
+			coord="2352.404 2086.438" />
+
+		<Point
+			coord="2438.868 2147.312" />
+
+		<Point
+			coord="2538.198 2208.434" />
+
+		<Point
+			coord="2612.666 2199.582" />
+
+		<Point
+			coord="2661.451 2169.145" />
+
+		<Point
+			coord="2684.509 2120.264" />
+
+		<Point
+			coord="2691.133 2024.518" />
+
+		<Point
+			coord="2682.039 1969.374" />
+
+		<Point
+			coord="2599.878 1886.786" />
+
+		<Point
+			coord="2482.239 1777.693" />
+
+		<Point
+			coord="2392.997 1688.447" />
+
+		<Point
+			coord="2277.854 1610.137" />
+
+		<Point
+			coord="2166.348 1530.888" />
+
+		<Point
+			coord="2088.840 1489.510" />
+
+		<Point
+			coord="1990.199 1460.524" />
+
+		<Point
+			coord="1911.678 1416.450" />
+
+		<Point
+			coord="1870.486 1377.290" />
+
+		<Point
+			coord="1841.288 1309.005" />
+
+		<Point
+			coord="1819.838 1212.129" />
+
+		<Point
+			coord="1814.826 1132.951" />
+
+		<Point
+			coord="1844.103 1030.402" />
+
+		<Point
+			coord="1879.263 925.770" />
+
+		<Point
+			coord="1942.369 885.289" />
+
+		<Point
+			coord="2002.837 790.988" />
+
+		<Point
+			coord="2065.045 714.651" />
+
+		<Point
+			coord="2162.382 655.872" />
+
+		<Point
+			coord="2250.585 633.530" />
+
+		<Point
+			coord="2356.781 609.364" />
+
+		<Point
+			coord="2437.218 617.272" />
+
+		<Point
+			coord="2548.697 650.169" />
+
+		<Point
+			coord="2638.394 662.028" />
+
+		<Point
+			coord="2694.539 674.422" />
+
+		<Point
+			coord="2777.179 666.558" />
+
+		<Point
+			coord="2885.281 649.250" />
+
+		<Point
+			coord="2981.815 661.941" />
+
+		<Point
+			coord="3118.904 640.298" />
+
+		<Point
+			coord="3256.421 626.356" />
+
+		<Point
+			coord="3301.030 672.316" />
+
+		<Point
+			coord="3313.677 734.396" />
+
+		<Point
+			coord="3318.357 815.332" />
+
+		<Point
+			coord="3318.081 908.817" />
+
+		<Point
+			coord="3298.089 965.594" />
+
+		<Point
+			coord="3225.044 1004.326" />
+
+		<Point
+			coord="3174.211 990.364" />
+	</Path>
+
+	<Path
+		Name="Huares_Torreon_DQC">
+		<Point
+			coord="2358.304 2439.316" />
+
+		<Point
+			coord="2321.069 2447.495" />
+
+		<Point
+			coord="2302.003 2398.943" />
+
+		<Point
+			coord="2280.337 2326.146" />
+
+		<Point
+			coord="2240.982 2241.770" />
+
+		<Point
+			coord="2209.660 2149.415" />
+
+		<Point
+			coord="2214.200 2108.317" />
+
+		<Point
+			coord="2265.027 2072.380" />
+
+		<Point
+			coord="2315.656 2071.221" />
+
+		<Point
+			coord="2388.561 2113.354" />
+
+		<Point
+			coord="2453.781 2161.482" />
+
+		<Point
+			coord="2526.659 2194.347" />
+
+		<Point
+			coord="2586.776 2203.405" />
+
+		<Point
+			coord="2647.911 2184.656" />
+
+		<Point
+			coord="2681.305 2144.376" />
+
+		<Point
+			coord="2683.536 2056.690" />
+
+		<Point
+			coord="2689.662 2007.215" />
+
+		<Point
+			coord="2660.231 1932.611" />
+
+		<Point
+			coord="2556.186 1848.589" />
+
+		<Point
+			coord="2471.701 1763.593" />
+
+		<Point
+			coord="2420.475 1710.365" />
+
+		<Point
+			coord="2324.374 1644.854" />
+
+		<Point
+			coord="2202.155 1550.586" />
+
+		<Point
+			coord="2099.636 1492.036" />
+
+		<Point
+			coord="2016.883 1467.848" />
+
+		<Point
+			coord="1915.104 1419.539" />
+
+		<Point
+			coord="1862.784 1355.025" />
+
+		<Point
+			coord="1831.452 1246.350" />
+
+		<Point
+			coord="1817.771 1149.390" />
+
+		<Point
+			coord="1838.421 1048.572" />
+
+		<Point
+			coord="1877.928 933.847" />
+
+		<Point
+			coord="1936.344 891.292" />
+
+		<Point
+			coord="2002.373 792.372" />
+
+		<Point
+			coord="2054.833 723.783" />
+
+		<Point
+			coord="2141.841 668.329" />
+
+		<Point
+			coord="2260.482 633.418" />
+
+		<Point
+			coord="2395.708 602.599" />
+
+		<Point
+			coord="2529.663 647.995" />
+
+		<Point
+			coord="2654.123 667.098" />
+
+		<Point
+			coord="2709.195 703.914" />
+
+		<Point
+			coord="2729.004 734.657" />
+
+		<Point
+			coord="2704.966 771.127" />
+
+		<Point
+			coord="2666.852 800.830" />
+
+		<Point
+			coord="2609.019 815.750" />
+
+		<Point
+			coord="2554.930 816.950" />
+
+		<Point
+			coord="2506.917 808.206" />
+
+		<Point
+			coord="2457.293 798.887" />
+
+		<Point
+			coord="2405.484 803.778" />
+
+		<Point
+			coord="2379.026 827.971" />
+
+		<Point
+			coord="2377.358 880.909" />
+
+		<Point
+			coord="2378.783 921.198" />
+
+		<Point
+			coord="2356.536 947.414" />
+
+		<Point
+			coord="2301.117 962.605" />
+	</Path>
+
+	<Path
+		Name="Saltilio_Ermosinyo_DQC">
+		<Point
+			coord="3230.391 1003.711" />
+
+		<Point
+			coord="3264.290 990.407" />
+
+		<Point
+			coord="3293.114 969.810" />
+
+		<Point
+			coord="3313.099 936.127" />
+
+		<Point
+			coord="3320.128 906.578" />
+
+		<Point
+			coord="3319.683 860.377" />
+
+		<Point
+			coord="3317.785 818.188" />
+
+		<Point
+			coord="3314.094 762.006" />
+
+		<Point
+			coord="3312.910 716.601" />
+
+		<Point
+			coord="3300.764 668.826" />
+
+		<Point
+			coord="3269.430 624.537" />
+
+		<Point
+			coord="3182.429 632.276" />
+
+		<Point
+			coord="3089.103 649.875" />
+
+		<Point
+			coord="3025.788 653.924" />
+
+		<Point
+			coord="2947.721 657.475" />
+
+		<Point
+			coord="2849.343 649.489" />
+
+		<Point
+			coord="2778.956 664.090" />
+
+		<Point
+			coord="2693.460 675.414" />
+
+		<Point
+			coord="2629.711 662.486" />
+
+		<Point
+			coord="2559.222 656.461" />
+
+		<Point
+			coord="2492.020 628.714" />
+
+		<Point
+			coord="2415.528 610.320" />
+
+		<Point
+			coord="2361.116 605.142" />
+
+		<Point
+			coord="2288.200 623.811" />
+
+		<Point
+			coord="2176.053 650.554" />
+
+		<Point
+			coord="2107.495 682.386" />
+
+		<Point
+			coord="2040.183 734.048" />
+
+		<Point
+			coord="1983.630 814.678" />
+
+		<Point
+			coord="1947.824 870.903" />
+
+		<Point
+			coord="1886.555 922.798" />
+
+		<Point
+			coord="1851.689 990.474" />
+
+		<Point
+			coord="1823.928 1079.678" />
+
+		<Point
+			coord="1814.375 1150.163" />
+
+		<Point
+			coord="1828.926 1253.332" />
+
+		<Point
+			coord="1851.944 1344.705" />
+
+		<Point
+			coord="1895.149 1405.055" />
+
+		<Point
+			coord="1924.449 1456.643" />
+
+		<Point
+			coord="1906.808 1536.696" />
+
+		<Point
+			coord="1923.200 1617.101" />
+
+		<Point
+			coord="1934.528 1691.539" />
+
+		<Point
+			coord="1913.983 1780.982" />
+
+		<Point
+			coord="1862.301 1820.719" />
+
+		<Point
+			coord="1792.879 1879.690" />
+
+		<Point
+			coord="1729.246 1932.037" />
+
+		<Point
+			coord="1682.664 1969.669" />
+
+		<Point
+			coord="1619.720 2013.630" />
+
+		<Point
+			coord="1566.714 2050.938" />
+
+		<Point
+			coord="1460.425 2116.794" />
+
+		<Point
+			coord="1411.418 2148.869" />
+
+		<Point
+			coord="1356.249 2198.370" />
+
+		<Point
+			coord="1297.923 2248.740" />
+
+		<Point
+			coord="1212.308 2302.459" />
+
+		<Point
+			coord="1136.056 2381.381" />
+
+		<Point
+			coord="1084.706 2449.008" />
+
+		<Point
+			coord="1029.911 2554.219" />
+
+		<Point
+			coord="998.208 2626.411" />
+
+		<Point
+			coord="939.897 2644.171" />
+
+		<Point
+			coord="859.129 2671.047" />
+
+		<Point
+			coord="746.169 2684.279" />
+
+		<Point
+			coord="650.750 2665.184" />
+
+		<Point
+			coord="591.276 2663.833" />
+
+		<Point
+			coord="555.483 2701.980" />
+
+		<Point
+			coord="512.992 2720.098" />
+	</Path>
+
+	<Path
+		Name="Saltilio_Huares_DQC">
+		<Point
+			coord="3219.598 1005.441" />
+
+		<Point
+			coord="3260.060 994.905" />
+
+		<Point
+			coord="3301.796 961.819" />
+
+		<Point
+			coord="3320.048 910.958" />
+
+		<Point
+			coord="3320.984 847.328" />
+
+		<Point
+			coord="3318.307 792.898" />
+
+		<Point
+			coord="3315.894 729.500" />
+
+		<Point
+			coord="3296.151 660.652" />
+
+		<Point
+			coord="3244.953 623.111" />
+
+		<Point
+			coord="3190.754 632.163" />
+
+		<Point
+			coord="3139.593 641.882" />
+
+		<Point
+			coord="3089.735 645.656" />
+
+		<Point
+			coord="3029.863 652.137" />
+
+		<Point
+			coord="2969.554 660.057" />
+
+		<Point
+			coord="2910.792 655.393" />
+
+		<Point
+			coord="2846.244 653.145" />
+
+		<Point
+			coord="2780.360 669.781" />
+
+		<Point
+			coord="2708.981 674.693" />
+
+		<Point
+			coord="2650.242 664.911" />
+
+		<Point
+			coord="2583.385 657.841" />
+
+		<Point
+			coord="2522.886 645.118" />
+
+		<Point
+			coord="2449.219 622.317" />
+
+		<Point
+			coord="2381.889 606.025" />
+
+		<Point
+			coord="2337.400 613.705" />
+
+		<Point
+			coord="2277.542 625.048" />
+
+		<Point
+			coord="2223.795 640.090" />
+
+		<Point
+			coord="2145.147 665.434" />
+
+		<Point
+			coord="2074.587 709.626" />
+
+		<Point
+			coord="2026.545 750.195" />
+
+		<Point
+			coord="1996.007 796.963" />
+
+		<Point
+			coord="1955.568 862.077" />
+
+		<Point
+			coord="1884.773 921.217" />
+
+		<Point
+			coord="1859.590 981.886" />
+
+		<Point
+			coord="1836.360 1051.476" />
+
+		<Point
+			coord="1815.291 1125.848" />
+
+		<Point
+			coord="1822.456 1197.412" />
+
+		<Point
+			coord="1837.925 1294.098" />
+
+		<Point
+			coord="1863.940 1368.616" />
+
+		<Point
+			coord="1913.075 1419.295" />
+
+		<Point
+			coord="1991.800 1459.584" />
+
+		<Point
+			coord="2068.364 1483.413" />
+
+		<Point
+			coord="2163.557 1528.911" />
+
+		<Point
+			coord="2225.618 1573.050" />
+
+		<Point
+			coord="2325.475 1642.883" />
+
+		<Point
+			coord="2415.385 1705.193" />
+
+		<Point
+			coord="2495.081 1792.151" />
+
+		<Point
+			coord="2567.246 1857.665" />
+
+		<Point
+			coord="2667.556 1946.867" />
+
+		<Point
+			coord="2690.127 1984.435" />
+
+		<Point
+			coord="2688.309 2056.077" />
+
+		<Point
+			coord="2681.304 2141.078" />
+
+		<Point
+			coord="2637.139 2184.388" />
+
+		<Point
+			coord="2569.361 2205.643" />
+
+		<Point
+			coord="2499.719 2179.634" />
+
+		<Point
+			coord="2401.644 2116.264" />
+
+		<Point
+			coord="2344.806 2077.305" />
+
+		<Point
+			coord="2263.764 2077.427" />
+
+		<Point
+			coord="2212.407 2104.441" />
+
+		<Point
+			coord="2220.525 2192.365" />
+
+		<Point
+			coord="2262.221 2274.490" />
+
+		<Point
+			coord="2288.472 2352.879" />
+
+		<Point
+			coord="2309.218 2440.880" />
+
+		<Point
+			coord="2355.511 2443.570" />
+
+		<Point
+			coord="2407.838 2438.820" />
+
+		<Point
+			coord="2455.133 2433.363" />
+	</Path>
+
+	<Path
+		Name="Saltilio_Torreon_DQC">
+		<Point
+			coord="3214.800 1006.715" />
+
+		<Point
+			coord="3251.804 999.573" />
+
+		<Point
+			coord="3291.890 972.500" />
+
+		<Point
+			coord="3311.301 940.788" />
+
+		<Point
+			coord="3321.789 888.353" />
+
+		<Point
+			coord="3321.549 828.161" />
+
+		<Point
+			coord="3316.073 768.156" />
+
+		<Point
+			coord="3307.181 712.447" />
+
+		<Point
+			coord="3274.396 655.166" />
+
+		<Point
+			coord="3229.397 625.234" />
+
+		<Point
+			coord="3158.299 633.645" />
+
+		<Point
+			coord="3061.674 646.806" />
+
+		<Point
+			coord="2967.863 656.472" />
+
+		<Point
+			coord="2902.234 649.766" />
+
+		<Point
+			coord="2832.136 655.749" />
+
+		<Point
+			coord="2755.726 670.244" />
+
+		<Point
+			coord="2740.103 704.503" />
+
+		<Point
+			coord="2717.193 754.799" />
+
+		<Point
+			coord="2686.181 789.146" />
+
+		<Point
+			coord="2647.755 807.115" />
+
+		<Point
+			coord="2593.271 816.207" />
+
+		<Point
+			coord="2542.101 815.396" />
+
+		<Point
+			coord="2472.368 803.456" />
+
+		<Point
+			coord="2398.840 805.660" />
+
+		<Point
+			coord="2376.790 833.392" />
+
+		<Point
+			coord="2379.415 905.862" />
+
+		<Point
+			coord="2358.757 945.867" />
+
+		<Point
+			coord="2326.523 959.767" />
+
+		<Point
+			coord="2301.338 961.336" />
+	</Path>
+
+	<Path
+		Name="Torreon_Ermosinyo_DQC">
+		<Point
+			coord="2301.183 810.731" />
+
+		<Point
+			coord="2367.766 811.727" />
+
+		<Point
+			coord="2447.089 801.149" />
+
+		<Point
+			coord="2501.351 808.978" />
+
+		<Point
+			coord="2570.088 821.680" />
+
+		<Point
+			coord="2625.681 814.943" />
+
+		<Point
+			coord="2675.819 799.201" />
+
+		<Point
+			coord="2717.100 758.535" />
+
+		<Point
+			coord="2736.462 706.503" />
+
+		<Point
+			coord="2708.113 678.186" />
+
+		<Point
+			coord="2651.091 664.329" />
+
+		<Point
+			coord="2582.363 657.048" />
+
+		<Point
+			coord="2500.002 631.845" />
+
+		<Point
+			coord="2421.206 608.170" />
+
+		<Point
+			coord="2364.352 603.027" />
+
+		<Point
+			coord="2265.653 626.536" />
+
+		<Point
+			coord="2194.480 645.397" />
+
+		<Point
+			coord="2115.766 676.496" />
+
+		<Point
+			coord="2041.090 735.121" />
+
+		<Point
+			coord="1994.016 797.955" />
+
+		<Point
+			coord="1947.298 870.323" />
+
+		<Point
+			coord="1892.573 919.679" />
+
+		<Point
+			coord="1868.008 961.840" />
+
+		<Point
+			coord="1823.353 1078.681" />
+
+		<Point
+			coord="1815.667 1174.150" />
+
+		<Point
+			coord="1825.815 1232.956" />
+
+		<Point
+			coord="1841.145 1313.809" />
+
+		<Point
+			coord="1872.355 1378.922" />
+
+		<Point
+			coord="1912.216 1418.441" />
+
+		<Point
+			coord="1919.874 1480.611" />
+
+		<Point
+			coord="1910.153 1571.404" />
+
+		<Point
+			coord="1925.042 1640.836" />
+
+		<Point
+			coord="1935.837 1713.072" />
+
+		<Point
+			coord="1909.085 1774.627" />
+
+		<Point
+			coord="1847.659 1837.632" />
+
+		<Point
+			coord="1766.584 1903.766" />
+
+		<Point
+			coord="1658.421 1985.671" />
+
+		<Point
+			coord="1558.412 2050.473" />
+
+		<Point
+			coord="1456.849 2111.674" />
+
+		<Point
+			coord="1378.810 2180.520" />
+
+		<Point
+			coord="1282.763 2253.681" />
+
+		<Point
+			coord="1196.732 2307.747" />
+
+		<Point
+			coord="1124.313 2394.040" />
+
+		<Point
+			coord="1062.940 2492.851" />
+
+		<Point
+			coord="1015.047 2597.929" />
+
+		<Point
+			coord="972.014 2620.215" />
+
+		<Point
+			coord="884.168 2661.352" />
+
+		<Point
+			coord="797.164 2677.363" />
+
+		<Point
+			coord="732.008 2687.866" />
+
+		<Point
+			coord="647.539 2663.678" />
+
+		<Point
+			coord="583.549 2666.134" />
+
+		<Point
+			coord="559.605 2715.344" />
+
+		<Point
+			coord="508.954 2721.533" />
+	</Path>
+
+	<Path
+		Name="Torreon_Huares_DQC">
+		<Point
+			coord="2304.943 809.404" />
+
+		<Point
+			coord="2390.441 811.881" />
+
+		<Point
+			coord="2440.374 799.435" />
+
+		<Point
+			coord="2535.258 814.682" />
+
+		<Point
+			coord="2590.387 819.530" />
+
+		<Point
+			coord="2644.580 809.732" />
+
+		<Point
+			coord="2691.564 786.500" />
+
+		<Point
+			coord="2715.943 757.376" />
+
+		<Point
+			coord="2738.450 703.824" />
+
+		<Point
+			coord="2717.823 677.496" />
+
+		<Point
+			coord="2634.896 668.472" />
+
+		<Point
+			coord="2551.605 652.822" />
+
+		<Point
+			coord="2459.992 626.915" />
+
+		<Point
+			coord="2397.184 607.718" />
+
+		<Point
+			coord="2317.687 615.907" />
+
+		<Point
+			coord="2249.361 630.495" />
+
+		<Point
+			coord="2176.484 654.778" />
+
+		<Point
+			coord="2109.913 684.457" />
+
+		<Point
+			coord="2052.062 723.609" />
+
+		<Point
+			coord="1984.805 811.012" />
+
+		<Point
+			coord="1930.656 889.971" />
+
+		<Point
+			coord="1875.034 955.493" />
+
+		<Point
+			coord="1830.827 1051.984" />
+
+		<Point
+			coord="1815.260 1120.667" />
+
+		<Point
+			coord="1817.569 1207.189" />
+
+		<Point
+			coord="1836.326 1288.599" />
+
+		<Point
+			coord="1859.903 1366.864" />
+
+		<Point
+			coord="1906.731 1408.830" />
+
+		<Point
+			coord="1963.834 1446.057" />
+
+		<Point
+			coord="2030.789 1471.238" />
+
+		<Point
+			coord="2090.778 1491.196" />
+
+		<Point
+			coord="2152.309 1520.837" />
+
+		<Point
+			coord="2225.079 1575.136" />
+
+		<Point
+			coord="2313.097 1635.504" />
+
+		<Point
+			coord="2406.019 1703.884" />
+
+		<Point
+			coord="2489.846 1785.956" />
+
+		<Point
+			coord="2567.620 1859.469" />
+
+		<Point
+			coord="2648.563 1926.748" />
+
+		<Point
+			coord="2675.604 1960.476" />
+
+		<Point
+			coord="2687.346 2030.138" />
+
+		<Point
+			coord="2679.687 2132.864" />
+
+		<Point
+			coord="2648.018 2178.525" />
+
+		<Point
+			coord="2595.236 2201.208" />
+
+		<Point
+			coord="2532.777 2197.459" />
+
+		<Point
+			coord="2449.773 2150.082" />
+
+		<Point
+			coord="2353.717 2080.424" />
+
+		<Point
+			coord="2310.576 2064.098" />
+
+		<Point
+			coord="2239.753 2084.165" />
+
+		<Point
+			coord="2209.910 2111.613" />
+
+		<Point
+			coord="2215.368 2171.910" />
+
+		<Point
+			coord="2251.399 2255.747" />
+
+		<Point
+			coord="2288.995 2338.634" />
+
+		<Point
+			coord="2305.397 2425.690" />
+
+		<Point
+			coord="2335.638 2443.141" />
+
+		<Point
+			coord="2384.406 2443.513" />
+
+		<Point
+			coord="2451.374 2434.823" />
+	</Path>
+
+	<Path
+		Name="Torreon_Saltilio_DQC">
+		<Point
+			coord="2308.237 809.610" />
+
+		<Point
+			coord="2375.024 814.695" />
+
+		<Point
+			coord="2434.600 801.779" />
+
+		<Point
+			coord="2500.332 808.547" />
+
+		<Point
+			coord="2559.483 819.463" />
+
+		<Point
+			coord="2615.272 813.542" />
+
+		<Point
+			coord="2657.505 806.045" />
+
+		<Point
+			coord="2699.984 776.650" />
+
+		<Point
+			coord="2730.946 735.696" />
+
+		<Point
+			coord="2742.289 678.555" />
+
+		<Point
+			coord="2806.497 660.732" />
+
+		<Point
+			coord="2886.018 652.681" />
+
+		<Point
+			coord="2939.062 665.549" />
+
+		<Point
+			coord="3017.684 655.527" />
+
+		<Point
+			coord="3094.964 643.822" />
+
+		<Point
+			coord="3208.581 627.758" />
+
+		<Point
+			coord="3306.535 621.828" />
+
+		<Point
+			coord="3304.436 664.411" />
+
+		<Point
+			coord="3313.246 743.246" />
+
+		<Point
+			coord="3319.382 846.703" />
+
+		<Point
+			coord="3317.118 919.077" />
+
+		<Point
+			coord="3288.434 973.146" />
+
+		<Point
+			coord="3245.020 1000.710" />
+
+		<Point
+			coord="3198.347 1004.831" />
+
+		<Point
+			coord="3171.729 989.338" />
+	</Path>
+
+	<Path
+		Name="hum1">
+		<Point
+			coord="3166.183 991.330" />
+
+		<Point
+			coord="3194.411 991.139" />
+
+		<Point
+			coord="3216.348 992.771" />
+
+		<Point
+			coord="3239.127 990.963" />
+
+		<Point
+			coord="3263.268 979.925" />
+
+		<Point
+			coord="3277.835 968.904" />
+	</Path>
+
+	<Path
+		Name="hum10">
+		<Point
+			coord="2387.361 796.101" />
+
+		<Point
+			coord="2360.351 798.145" />
+
+		<Point
+			coord="2336.697 797.451" />
+
+		<Point
+			coord="2317.907 794.796" />
+
+		<Point
+			coord="2313.782 768.829" />
+
+		<Point
+			coord="2311.815 755.835" />
+	</Path>
+
+	<Path
+		Name="hum11">
+		<Point
+			coord="2329.830 864.368" />
+
+		<Point
+			coord="2328.589 909.516" />
+
+		<Point
+			coord="2331.060 938.116" />
+
+		<Point
+			coord="2323.799 947.434" />
+
+		<Point
+			coord="2279.302 949.681" />
+	</Path>
+
+	<Path
+		Name="hum12">
+		<Point
+			coord="2314.155 975.425" />
+
+		<Point
+			coord="2336.454 973.143" />
+
+		<Point
+			coord="2353.656 969.370" />
+
+		<Point
+			coord="2374.684 951.212" />
+
+		<Point
+			coord="2394.257 923.920" />
+
+		<Point
+			coord="2393.959 880.795" />
+
+		<Point
+			coord="2391.853 833.717" />
+	</Path>
+
+	<Path
+		Name="hum13">
+		<Point
+			coord="2467.413 2434.475" />
+
+		<Point
+			coord="2467.176 2422.063" />
+
+		<Point
+			coord="2460.747 2412.761" />
+
+		<Point
+			coord="2447.817 2408.519" />
+
+		<Point
+			coord="2432.595 2410.868" />
+
+		<Point
+			coord="2423.427 2415.571" />
+
+		<Point
+			coord="2410.354 2415.746" />
+
+		<Point
+			coord="2392.231 2418.464" />
+
+		<Point
+			coord="2370.427 2425.536" />
+
+		<Point
+			coord="2345.832 2434.846" />
+	</Path>
+
+	<Path
+		Name="hum14">
+		<Point
+			coord="2438.059 2441.585" />
+
+		<Point
+			coord="2416.135 2441.887" />
+
+		<Point
+			coord="2386.578 2448.333" />
+
+		<Point
+			coord="2358.244 2454.811" />
+
+		<Point
+			coord="2332.882 2460.737" />
+
+		<Point
+			coord="2336.075 2482.492" />
+
+		<Point
+			coord="2339.492 2502.677" />
+
+		<Point
+			coord="2342.586 2528.555" />
+	</Path>
+
+	<Path
+		Name="hum15">
+		<Point
+			coord="2349.251 2458.190" />
+
+		<Point
+			coord="2383.432 2450.307" />
+
+		<Point
+			coord="2423.674 2442.415" />
+
+		<Point
+			coord="2453.669 2440.842" />
+
+		<Point
+			coord="2466.654 2428.435" />
+
+		<Point
+			coord="2457.977 2415.060" />
+
+		<Point
+			coord="2437.528 2412.985" />
+
+		<Point
+			coord="2420.906 2415.451" />
+
+		<Point
+			coord="2401.615 2415.765" />
+
+		<Point
+			coord="2377.427 2422.797" />
+
+		<Point
+			coord="2347.636 2434.311" />
+	</Path>
+
+	<Path
+		Name="hum16">
+		<Point
+			coord="2356.487 2429.326" />
+
+		<Point
+			coord="2381.980 2420.523" />
+
+		<Point
+			coord="2406.004 2414.621" />
+
+		<Point
+			coord="2431.636 2415.656" />
+
+		<Point
+			coord="2461.325 2417.735" />
+
+		<Point
+			coord="2462.207 2438.999" />
+
+		<Point
+			coord="2441.260 2444.807" />
+
+		<Point
+			coord="2430.761 2449.632" />
+	</Path>
+
+	<Path
+		Name="hum17">
+		<Point
+			coord="400.588 2673.434" />
+
+		<Point
+			coord="414.568 2625.028" />
+
+		<Point
+			coord="431.197 2569.236" />
+
+		<Point
+			coord="389.417 2552.385" />
+
+		<Point
+			coord="322.685 2525.229" />
+	</Path>
+
+	<Path
+		Name="hum18">
+		<Point
+			coord="317.543 2641.422" />
+
+		<Point
+			coord="327.264 2612.166" />
+
+		<Point
+			coord="339.005 2575.369" />
+
+		<Point
+			coord="353.035 2538.528" />
+
+		<Point
+			coord="367.888 2509.939" />
+
+		<Point
+			coord="407.762 2525.823" />
+
+		<Point
+			coord="462.969 2545.533" />
+	</Path>
+
+	<Path
+		Name="hum19">
+		<Point
+			coord="315.603 2521.609" />
+
+		<Point
+			coord="339.830 2530.851" />
+
+		<Point
+			coord="383.064 2548.522" />
+
+		<Point
+			coord="435.227 2568.905" />
+
+		<Point
+			coord="465.694 2578.696" />
+
+		<Point
+			coord="474.488 2547.276" />
+
+		<Point
+			coord="407.978 2527.598" />
+
+		<Point
+			coord="346.715 2503.373" />
+	</Path>
+
+	<Path
+		Name="hum2">
+		<Point
+			coord="3233.783 1015.859" />
+
+		<Point
+			coord="3212.555 1015.739" />
+
+		<Point
+			coord="3194.861 1013.572" />
+
+		<Point
+			coord="3176.721 1009.868" />
+
+		<Point
+			coord="3165.807 1009.045" />
+	</Path>
+
+	<Path
+		Name="hum20">
+		<Point
+			coord="466.450 2548.700" />
+
+		<Point
+			coord="429.390 2536.178" />
+
+		<Point
+			coord="382.512 2516.546" />
+
+		<Point
+			coord="348.655 2504.259" />
+
+		<Point
+			coord="328.765 2537.422" />
+
+		<Point
+			coord="314.319 2532.650" />
+
+		<Point
+			coord="304.625 2554.096" />
+	</Path>
+
+	<Path
+		Name="hum3">
+		<Point
+			coord="3248.852 1056.177" />
+
+		<Point
+			coord="3249.238 1105.530" />
+
+		<Point
+			coord="3249.361 1151.285" />
+
+		<Point
+			coord="3249.225 1230.560" />
+	</Path>
+
+	<Path
+		Name="hum4">
+		<Point
+			coord="3140.731 1163.389" />
+
+		<Point
+			coord="3193.612 1163.022" />
+
+		<Point
+			coord="3248.928 1162.452" />
+
+		<Point
+			coord="3275.431 1162.519" />
+
+		<Point
+			coord="3276.845 1130.814" />
+
+		<Point
+			coord="3334.283 1126.949" />
+	</Path>
+
+	<Path
+		Name="hum5">
+		<Point
+			coord="3275.461 1234.395" />
+
+		<Point
+			coord="3276.217 1160.724" />
+
+		<Point
+			coord="3274.555 1090.376" />
+
+		<Point
+			coord="3273.050 1047.014" />
+	</Path>
+
+	<Path
+		Name="hum6">
+		<Point
+			coord="3336.271 1151.669" />
+
+		<Point
+			coord="3275.344 1151.345" />
+
+		<Point
+			coord="3249.853 1152.024" />
+
+		<Point
+			coord="3244.144 1178.219" />
+
+		<Point
+			coord="3219.866 1181.576" />
+
+		<Point
+			coord="3132.670 1185.029" />
+	</Path>
+
+	<Path
+		Name="hum7">
+		<Point
+			coord="2247.576 794.315" />
+
+		<Point
+			coord="2224.430 793.418" />
+
+		<Point
+			coord="2210.693 793.271" />
+
+		<Point
+			coord="2210.501 813.379" />
+
+		<Point
+			coord="2227.599 818.136" />
+
+		<Point
+			coord="2249.358 819.529" />
+
+		<Point
+			coord="2273.445 822.913" />
+
+		<Point
+			coord="2285.326 827.356" />
+
+		<Point
+			coord="2290.229 836.962" />
+
+		<Point
+			coord="2298.028 850.565" />
+
+		<Point
+			coord="2300.354 870.434" />
+	</Path>
+
+	<Path
+		Name="hum8">
+		<Point
+			coord="2203.332 811.823" />
+
+		<Point
+			coord="2217.107 815.155" />
+
+		<Point
+			coord="2247.372 819.771" />
+
+		<Point
+			coord="2269.879 822.034" />
+
+		<Point
+			coord="2283.524 825.125" />
+
+		<Point
+			coord="2293.356 839.423" />
+
+		<Point
+			coord="2299.644 852.001" />
+
+		<Point
+			coord="2308.236 858.418" />
+
+		<Point
+			coord="2322.730 855.945" />
+
+		<Point
+			coord="2330.941 844.701" />
+	</Path>
+
+	<Path
+		Name="hum9">
+		<Point
+			coord="2267.839 822.254" />
+
+		<Point
+			coord="2240.878 819.578" />
+
+		<Point
+			coord="2211.148 818.168" />
+
+		<Point
+			coord="2209.808 796.574" />
+
+		<Point
+			coord="2221.346 793.325" />
+
+		<Point
+			coord="2245.748 794.354" />
+	</Path>
+</Paths>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+
+	<Path Name="StorageLook_cam0">
+		<Point  coord="327.561 580.968 2589.461" rotation="-0.003 0.504 -0.002 0.864"/>
+		<Point  coord="332.782 581.004 2586.504" rotation="-0.003 0.504 -0.002 0.864"/>
+	</Path>
+
+	<Path Name="StorageLook_cam1">
+		<Point  coord="377.628 605.482 2559.450" rotation="-0.076 0.530 -0.048 0.843"/>
+		<Point  coord="289.229 601.674 2513.530" rotation="-0.099 -0.003 0.000 0.995"/>
+	</Path>
+
+
+	<Path Name="CapStorage_cam0">
+		<Point  coord="3110.185 574.204 2234.551" rotation="-0.075 -0.523 0.046 0.848"/>
+		<Point  coord="3096.157 574.204 2272.863" rotation="-0.048 -0.734 0.052 0.675"/>
+	</Path>
+
+	<Path Name="CapStorage_cam1">
+		<Point  coord="3336.756 605.228 3159.646" rotation="-0.113 -0.471 0.061 0.873"/>
+		<Point  coord="3532.909 598.664 3065.279" rotation="-0.139 -0.019 0.003 0.990"/>
+	</Path>
+
+	<Path Name="GranitsaPass_cam0">
+		<Point  coord="2340.407 574.998 2828.325" rotation="-0.038 0.959 -0.155 0.234"/>
+		<Point  coord="2352.313 583.580 2851.226" rotation="-0.038 0.959 -0.155 0.234"/>
+	</Path>
+
+	<Path Name="GranitsaPass_cam1">
+		<Point  coord="2439.021 566.727 3057.457" rotation="-0.026 0.897 -0.053 0.437"/>
+		<Point  coord="2418.053 563.599 3041.062" rotation="-0.026 0.897 -0.053 0.437"/>
+	</Path>
+
+	<Path Name="GranitsaPass_cam2">
+		<Point  coord="2429.013 574.344 2910.476" rotation="-0.060 0.088 -0.005 0.994"/>
+		<Point  coord="2465.311 605.014 3251.113" rotation="0.077 0.158 0.012 0.984"/>
+		<Point  coord="2285.543 657.601 3443.147" rotation="0.087 0.491 0.050 0.865"/>
+		<Point  coord="1883.214 700.104 3486.824" rotation="0.004 0.731 0.004 0.682"/>
+		<Point  coord="999.332 735.654 3426.654" rotation="-0.004 0.888 -0.008 0.459"/>
+		<Point  coord="668.542 700.274 2790.945" rotation="0.001 0.995 -0.013 -0.098"/>
+	</Path>
+</Paths>

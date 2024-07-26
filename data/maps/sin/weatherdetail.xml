@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Weather>
+	<WeatherItem
+		name="sin">
+		<ColorType
+			name="sunrise"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyClear3.dds" />
+
+		<ColorType
+			name="day"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyClear1.dds" />
+
+		<ColorType
+			name="sunset"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyCloudy1.dds" />
+
+		<ColorType
+			name="night"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="Tx_Sky_Cloudy.dds" />
+	</WeatherItem>
+
+	<WeatherItem
+		name="sin_foggy">
+		<ColorType
+			name="sunrise"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyClear.dds" />
+
+		<ColorType
+			name="day"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyCloudy1.dds" />
+
+		<ColorType
+			name="sunset"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyClear1.dds" />
+
+		<ColorType
+			name="night"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyCloudy.dds" />
+	</WeatherItem>
+
+	<WeatherItem
+		name="sin_Thunderstorm">
+		<ColorType
+			name="sunrise"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyThunder.dds" />
+
+		<ColorType
+			name="day"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="Tx_Sky_Stormy.tga" />
+
+		<ColorType
+			name="sunset"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyRainy.dds" />
+
+		<ColorType
+			name="night"
+			DiffuseTexture="LoadMe.txt"
+			LightMapTexture="LoadMe.txt"
+			CloudsTexture="SkyStormy.dds" />
+	</WeatherItem>
+</Weather>

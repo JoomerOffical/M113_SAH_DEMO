@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+
+	<string
+		id="197"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="198"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Я не знаю, куда ведет эта дорога, поэтому останусь здесь." 
+		sound="data\sounds\Speech\r5m1\r5m1_8802_nomad.ogg"
+		time="5" />
+
+	<string
+		id="199"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Какое-то странное место. Лучше держаться отсюда подальше."
+		sound="data\sounds\Speech\r5m1\r5m1_8803_nomad.ogg"
+		time="5" />
+
+	<string
+		id="100"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Так. Сейчас посмотрим, что тут у нас на складе. Хотя я уже сейчас чую вонючий запах." 
+		sound=""
+		time="6" />
+
+	<string
+		id="101"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Фу! Какая мерзость, ядрен бензин. Такое ощущение, что виноград не отравили, а просто не хранили в холоде." 
+		sound=""
+		time="9" />
+
+	<string
+		id="102"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Ладно. Возьму один из этих экземпляров. И надо бы спросить у кого-нибудь, что послужило отравлением внограда." 
+		sound=""
+		time="9" />
+
+		<string
+		id="200"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="ОТШЕЛЬНИК|Алло? Бродяга, прием. Это Эрмитано. Как слышно, прием?"
+		sound=""
+		time="5" />
+
+	<string
+		id="201"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Слышу хорошо. Что там с виноградом, прием?"
+		sound=""
+		time="5" />
+
+	<string
+		id="202"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="ОТШЕЛЬНИК|В общем я выяснил причину их отравления, но лучше тебе приехать ко мне, надо тебе самому посмотреть. Прием."
+		sound=""
+		time="8" />
+
+	<string
+		id="203"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Понял тебя, как освобожусь, приеду к тебе. Конец связи."
+		sound=""
+		time="5" />
+
+		<string
+		id="300"
+		modelName="r2_man"
+		modelSkin="5"
+		modelCfg="240"
+		modelSlot="1"
+		value="НАЕМНИК|А вот и ты. Мы провели небольшую разведку и вот, что мы имеем." 
+		sound=""
+		time="5" />
+
+	<string
+		id="301"
+		modelName="r2_man"
+		modelSkin="5"
+		modelCfg="240"
+		modelSlot="1"
+		value="НАЕМНИК|Бандитов всего шестеро, но они плохо вооружены. Мы высаживаемся, уничтожаем бандитов и захватываем склады. Все понятно?" 
+		sound=""
+		time="9" />
+
+	<string
+		id="302"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Понял. Вперед." 
+		sound=""
+		time="3" />
+
+	<string
+		id="400"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Хефе, прием. Это Бродяга, склад захвачен бандиты уничтожены."
+		sound=""
+		time="5" />
+
+	<string
+		id="401"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="ЭРМОСИНЬО|Отлично! Тогда забери со склада немного ресурсов и тащи их на Винодельню. А я объявлю о восстановлении винодельни. Прием?"
+		sound=""
+		time="9" />
+
+	<string
+		id="402"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Понял. Конец связи."
+		sound=""
+		time="3" />
+
+	<string
+		id="500"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Не вижу ни одной таблички с надписью: ''До Эдмонтона 10 километров''. Ну что ж. Будем искать. "
+		sound="data\sounds\Speech\r5m1\r5m1_101_nomad.ogg"
+		time="7" />	
+
+	<string
+		id="501"
+		value="В РЕЛИЗНОЙ ВЕРСИИ..." 
+		sound=""
+		time="8" />	
+
+	<string
+		id="502"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="314"
+		value="ВОЖДЬ ЯНКИ|Надеюсь, вы знаете наши условия, Сэм? Иначе нам бы не пришлось встречаться тут." 
+		sound=""
+		time="8" />	
+
+	<string
+		id="503"
+		modelName="Sam_mask"
+		modelSlot="1"	
+		value="СЭМ|Но вы же понимаете, что я не смогу удовлетворить все ваши условия. Вам тоже придется пойти на уступки." 
+		sound=""
+		time="9" />		
+
+	<string
+		id="504"
+		modelName="mask_lisa"
+		value="ОДНОГЛАЗАЯ|Бродяга, как ты мог так поступить? Я же верила тебе!"
+		sound=""
+		time="6" />
+
+	<string
+		id="505"
+		modelName="mask_axel"
+		modelSkin="1"
+		modelSlot="1"
+		value="КАПИТАН АМЕРИГО|Не слушай ее! Она бы тебя все равно кинула и не дала награды за наши головы. А теперь прикончи ее, мой друг, и пойдем праздновать."
+		sound=""
+		time="12" />
+
+	<string
+		id="506"
+		modelName="mask_lisa"
+		modelSkin="1"
+		value="ЛИСА|Вот уж не думала, что встречу еще кого-то в таких то снежных землях."
+		sound=""
+		time="7" />	
+
+	<string
+		id="507"
+		modelName="NewHero_mask"
+		modelSlot="1"
+		value="БРОДЯГА|Ну... когда ты ''сильно жаждишь'' спасти мир от роботов, ты и не в такие дебри заберешься."
+		sound=""
+		time="9" />	
+
+	<string
+		id="508"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Ну и что нам теперь с тобой делать, ядрен бензин?"
+		sound=""
+		time="5" />	
+		
+	<string
+		id="509"
+		modelName="mask_hero"
+		modelSlot="1"
+		value="ЭМИССАР|Ты хотел меня убить? Так добей меня! Давай! Прикончи меня!! Прямо тут!"
+		sound=""
+		time="7" />	
+
+	<string
+		id="600"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="174"
+		value="КАРАВАНЩИК|Мы прошли. Кстати, зачем тебе через границу надо было? Что ты там искать собрался?" 
+		sound=""
+		time="7" />			
+
+	<string
+		id="601"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Долго объяснять. Да и не твое это выхлопное дело."
+		sound=""
+		time="5" />	
+
+	<string
+		id="602"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="174"
+		value="КАРАВАНЩИК|Ну как хочешь. Только лишь могу пожелать тебе удачи, смотри пулю не слови." 
+		sound=""
+		time="6" />	
+
+	<string
+		id="603"
+		modelName="NewHero_mask"
+		value="БРОДЯГА|Уж постараюсь..."
+		sound=""
+		time="2" />
+
+	<string
+		id="700"
+		value="Спасибо за прохождение демо-версии мода."
+		numButtons="1" />
+</resource>

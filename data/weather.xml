@@ -1,0 +1,2976 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Weather>
+	<WeatherCommonSets
+		sunriseTime="6.000"
+		dayTime="12.000"
+		sunsetTime="18.000"
+		nightTime="0.000"
+		starsTexture="skystars2.dds" />
+
+	<WeatherItem
+		class="WeatherClear"
+		name="test1"
+		skyDomeFactor="1.100"
+		waterSpeed="0.110"
+		waterWaveHBig="1.830"
+		waterWaveHSmall="1.630"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="3.000"
+		waterCourseAngle="0.830"
+		waterSpecularM="200.000"
+		waterSpecularS="0.010">
+		<Sky
+			sunriseColor="175.950 158.100 140.250"
+			dayColor="132.600 165.750 160.650"
+			sunsetColor="170.850 135.150 117.300"
+			nightColor="255.000 255.000 255.000" />
+
+		<Fog
+			sunriseColor="255.000 198.900 137.700"
+			dayColor="214.200 221.850 221.850"
+			sunsetColor="255.000 170.850 124.950"
+			nightColor="0.000 0.000 0.000" />
+
+		<Ambient
+			sunriseColor="107.100 130.050 145.350"
+			dayColor="165.750 145.350 137.700"
+			sunsetColor="150.450 104.550 79.050"
+			nightColor="45.900 109.650 150.450" />
+
+		<Diffuse
+			sunriseColor="244.800 155.550 73.950"
+			dayColor="155.550 147.900 132.600"
+			sunsetColor="178.500 163.200 124.950"
+			nightColor="122.400 163.200 219.300" />
+
+		<Sun
+			sunriseColor="255.000 61.200 0.000"
+			dayColor="170.850 132.600 86.700"
+			sunsetColor="255.000 76.500 0.000"
+			nightColor="17.850 35.700 56.100" />
+
+		<Plant
+			sunriseColor="206.550 191.250 181.050"
+			dayColor="132.600 135.150 135.150"
+			sunsetColor="198.900 122.400 56.100"
+			nightColor="64.000 114.750 163.200" />
+
+		<PlantDiffuse
+			sunriseColor="255.000 165.750 89.250"
+			dayColor="255.000 255.000 192.000"
+			sunsetColor="255.000 175.950 71.400"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="229.500 191.250 84.150"
+			dayColor="79.050 48.450 12.750"
+			sunsetColor="255.000 86.700 17.850"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="255.000 239.700 211.650"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 193.800 140.250"
+			nightColor="145.350 193.800 206.550" />
+
+		<ModelDiffuse
+			sunriseColor="255.000 102.000 0.000"
+			dayColor="71.400 20.400 0.000"
+			sunsetColor="255.000 137.700 68.850"
+			nightColor="64.000 107.100 142.800" />
+
+		<PostEffect
+			sunrise="wr5m2sunrise"
+			day="wr5m2"
+			sunset="wr5m2sunrise"
+			night="wDay_r1m1" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="34.000"
+			day="48.000"
+			sunset="35.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.025"
+			day="0.025"
+			sunset="0.012"
+			night="-0.013" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="7.000"
+			windChangeVelTime="1.000"
+			windChangeDirTime="7.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="mp1"
+		skyDomeFactor="0.880"
+		waterSpeed="0.190"
+		waterWaveHBig="0.790"
+		waterWaveHSmall="1.240"
+		waterWaveSizeBig="0.280"
+		waterWaveSizeSmall="2.740"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="181.050 193.800 206.550"
+			sunsetColor="117.300 114.750 114.750"
+			nightColor="165.750 135.150 128.000" />
+
+		<Fog
+			sunriseColor="175.950 237.150 255.000"
+			dayColor="214.200 255.000 255.000"
+			sunsetColor="255.000 165.750 102.000"
+			nightColor="51.000 35.700 10.200" />
+
+		<Ambient
+			sunriseColor="178.500 191.250 226.950"
+			dayColor="104.550 193.800 175.950"
+			sunsetColor="66.300 81.600 112.200"
+			nightColor="163.200 193.800 211.650" />
+
+		<Diffuse
+			sunriseColor="107.100 198.900 229.500"
+			dayColor="255.000 226.950 170.850"
+			sunsetColor="244.800 175.950 128.000"
+			nightColor="163.200 135.150 175.950" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 242.250 191.250"
+			sunsetColor="255.000 181.050 128.000"
+			nightColor="64.000 64.000 107.100" />
+
+		<Plant
+			sunriseColor="183.600 224.400 234.600"
+			dayColor="160.650 255.000 140.250"
+			sunsetColor="114.750 128.000 168.300"
+			nightColor="150.450 145.350 170.850" />
+
+		<PlantDiffuse
+			sunriseColor="196.350 226.950 255.000"
+			dayColor="255.000 255.000 191.250"
+			sunsetColor="255.000 155.550 56.100"
+			nightColor="137.700 91.800 63.750" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="191.250 242.250 191.250"
+			sunsetColor="255.000 198.900 128.000"
+			nightColor="64.000 64.000 153.000" />
+
+		<ModelAmbient
+			sunriseColor="109.650 178.500 198.900"
+			dayColor="109.650 170.850 28.050"
+			sunsetColor="145.350 128.000 183.600"
+			nightColor="94.350 160.650 209.100" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 181.050 255.000"
+			dayColor="244.800 191.250 255.000"
+			sunsetColor="255.000 170.850 84.150"
+			nightColor="119.850 63.750 56.100" />
+
+		<PostEffect
+			sunrise="wr5m1clear"
+			day="wnone_posFX"
+			sunset="wr5m1clear"
+			night="wr5m2" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="52.000"
+			day="47.000"
+			sunset="60.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="-0.039"
+			day="0.000"
+			sunset="0.012"
+			night="-0.025" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="7.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="7.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="mp2"
+		skyDomeFactor="1.140"
+		waterSpeed="0.120"
+		waterWaveHBig="0.850"
+		waterWaveHSmall="2.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="3.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.010">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="181.050 209.100 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="119.850 51.000 0.000" />
+
+		<Fog
+			sunriseColor="79.050 86.700 99.450"
+			dayColor="216.750 237.150 255.000"
+			sunsetColor="255.000 178.500 128.000"
+			nightColor="0.000 35.700 43.350" />
+
+		<Ambient
+			sunriseColor="89.250 147.900 99.450"
+			dayColor="255.000 204.000 130.050"
+			sunsetColor="160.650 191.250 226.950"
+			nightColor="175.950 122.400 91.800" />
+
+		<Diffuse
+			sunriseColor="209.100 128.000 128.000"
+			dayColor="155.550 147.900 109.650"
+			sunsetColor="204.000 117.300 61.200"
+			nightColor="79.050 107.100 132.600" />
+
+		<Sun
+			sunriseColor="191.250 175.950 191.250"
+			dayColor="192.000 192.000 192.000"
+			sunsetColor="255.000 51.000 0.000"
+			nightColor="153.000 186.150 221.850" />
+
+		<Plant
+			sunriseColor="128.000 163.200 128.000"
+			dayColor="99.450 91.800 86.700"
+			sunsetColor="89.250 153.000 191.250"
+			nightColor="64.000 64.000 64.000" />
+
+		<PlantDiffuse
+			sunriseColor="178.500 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="229.500 107.100 33.150"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 255.000 255.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 160.650 128.000"
+			dayColor="214.200 135.150 0.000"
+			sunsetColor="135.150 181.050 221.850"
+			nightColor="117.300 140.250 175.950" />
+
+		<ModelDiffuse
+			sunriseColor="224.400 128.000 128.000"
+			dayColor="211.650 234.600 255.000"
+			sunsetColor="255.000 128.000 30.600"
+			nightColor="128.000 128.000 128.000" />
+
+		<PostEffect
+			sunrise="wr5m1clear"
+			day="wr5m1clear"
+			sunset="wr5m1clear"
+			night="wr6m1_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="50.000"
+			day="48.000"
+			sunset="50.500"
+			night="50.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.037"
+			sunset="0.013"
+			night="0.131" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="7.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="7.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="r6m1"
+		skyDomeFactor="0.780"
+		waterSpeed="0.190"
+		waterWaveHBig="0.580"
+		waterWaveHSmall="1.160"
+		waterWaveSizeBig="0.260"
+		waterWaveSizeSmall="2.110"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.010">
+		<Sky
+			sunriseColor="165.750 122.400 51.000"
+			dayColor="114.000 114.000 114.000"
+			sunsetColor="255.000 150.450 63.750"
+			nightColor="150.450 183.600 211.650" />
+
+		<Fog
+			sunriseColor="0.000 94.350 102.000"
+			dayColor="153.000 181.050 214.200"
+			sunsetColor="255.000 183.600 56.100"
+			nightColor="0.000 30.600 56.100" />
+
+		<Ambient
+			sunriseColor="76.500 124.950 178.500"
+			dayColor="104.550 145.350 186.150"
+			sunsetColor="2.550 86.700 140.250"
+			nightColor="40.800 84.150 102.000" />
+
+		<Diffuse
+			sunriseColor="175.950 170.850 73.950"
+			dayColor="255.000 191.250 124.950"
+			sunsetColor="255.000 163.200 0.000"
+			nightColor="35.700 71.400 102.000" />
+
+		<Sun
+			sunriseColor="170.850 175.950 128.000"
+			dayColor="214.200 221.850 183.600"
+			sunsetColor="255.000 145.350 61.200"
+			nightColor="79.050 147.900 255.000" />
+
+		<Plant
+			sunriseColor="58.650 122.400 104.550"
+			dayColor="178.500 183.600 109.650"
+			sunsetColor="181.050 168.300 128.000"
+			nightColor="12.750 84.150 30.600" />
+
+		<PlantDiffuse
+			sunriseColor="255.000 229.500 89.250"
+			dayColor="192.000 192.000 147.900"
+			sunsetColor="196.350 130.050 71.400"
+			nightColor="45.900 71.400 107.100" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 135.150 45.900"
+			nightColor="132.600 168.300 255.000" />
+
+		<ModelAmbient
+			sunriseColor="73.950 114.750 132.600"
+			dayColor="107.100 135.150 150.450"
+			sunsetColor="99.450 150.450 137.700"
+			nightColor="84.150 150.450 186.150" />
+
+		<ModelDiffuse
+			sunriseColor="255.000 255.000 128.000"
+			dayColor="204.000 198.900 122.400"
+			sunsetColor="255.000 150.450 0.000"
+			nightColor="79.050 86.700 81.600" />
+
+		<PostEffect
+			sunrise="wr6m1"
+			day="wr6m1"
+			sunset="wr6m1"
+			night="wr6m1_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="48.000"
+			day="48.000"
+			sunset="58.000"
+			night="48.000" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.026"
+			sunset="0.013"
+			night="0.039" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="menu_clear"
+		skyDomeFactor="1.340"
+		waterSpeed="0.130"
+		waterWaveHBig="1.050"
+		waterWaveHSmall="1.870"
+		waterWaveSizeBig="0.290"
+		waterWaveSizeSmall="2.540"
+		waterCourseAngle="5.450"
+		waterSpecularM="6.000"
+		waterSpecularS="0.010">
+		<Sky
+			sunriseColor="160.650 140.250 104.550"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="198.900 170.850 128.000"
+			nightColor="153.000 153.000 137.700" />
+
+		<Fog
+			sunriseColor="119.850 145.350 168.300"
+			dayColor="255.000 229.500 196.350"
+			sunsetColor="255.000 211.650 168.300"
+			nightColor="25.500 48.450 58.650" />
+
+		<Ambient
+			sunriseColor="30.600 86.700 140.250"
+			dayColor="79.050 102.000 165.750"
+			sunsetColor="73.950 153.000 255.000"
+			nightColor="25.500 15.300 33.150" />
+
+		<Diffuse
+			sunriseColor="255.000 239.700 198.900"
+			dayColor="255.000 244.800 178.500"
+			sunsetColor="255.000 124.950 0.000"
+			nightColor="94.350 124.950 89.250" />
+
+		<Sun
+			sunriseColor="255.000 209.100 150.450"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 61.200 17.850"
+			nightColor="128.000 128.000 128.000" />
+
+		<Plant
+			sunriseColor="130.050 122.400 107.100"
+			dayColor="147.900 109.650 40.800"
+			sunsetColor="255.000 140.250 73.950"
+			nightColor="0.000 0.000 0.000" />
+
+		<PlantDiffuse
+			sunriseColor="255.000 221.850 183.600"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 168.300 128.000"
+			nightColor="163.200 147.900 89.250" />
+
+		<Specular
+			sunriseColor="183.600 153.000 119.850"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 155.550 84.150"
+			nightColor="35.700 84.150 119.850" />
+
+		<ModelAmbient
+			sunriseColor="193.800 168.300 147.900"
+			dayColor="168.300 191.250 255.000"
+			sunsetColor="124.950 107.100 147.900"
+			nightColor="12.750 25.500 45.900" />
+
+		<ModelDiffuse
+			sunriseColor="255.000 255.000 168.300"
+			dayColor="255.000 219.300 122.400"
+			sunsetColor="255.000 163.200 107.100"
+			nightColor="181.050 181.050 132.600" />
+
+		<PostEffect
+			sunrise="wr5m1clear"
+			day="wr5m1clear"
+			sunset="wr5m1clear"
+			night="wnone_posFX" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="31.000"
+			day="61.000"
+			sunset="74.000"
+			night="59.000" />
+
+		<cloudsSpeed
+			sunrise="-0.013"
+			day="0.000"
+			sunset="0.026"
+			night="0.052" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherThunderstorm"
+		name="menu_rain"
+		skyDomeFactor="0.980"
+		waterSpeed="0.170"
+		waterWaveHBig="5.000"
+		waterWaveHSmall="1.950"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="2.240"
+		waterCourseAngle="1.040"
+		waterSpecularM="17.000"
+		waterSpecularS="0.010"
+		reduceDistFactor="0.753"
+		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
+		density="2"
+		distance="29.900"
+		minThunderDuty="203"
+		maxThunderDuty="859"
+		minThunderPeriod="1568"
+		maxThunderPeriod="16371"
+		lightEffectCount="1"
+		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Sky
+			sunriseColor="117.300 153.000 160.650"
+			dayColor="117.300 99.450 48.450"
+			sunsetColor="255.000 255.000 160.650"
+			nightColor="219.300 219.300 196.350" />
+
+		<Fog
+			sunriseColor="61.200 84.150 114.750"
+			dayColor="91.800 99.450 89.250"
+			sunsetColor="255.000 130.050 43.350"
+			nightColor="10.200 12.750 20.400" />
+
+		<Ambient
+			sunriseColor="0.000 0.000 0.000"
+			dayColor="109.650 168.300 255.000"
+			sunsetColor="56.100 117.300 196.350"
+			nightColor="0.000 17.850 48.450" />
+
+		<Diffuse
+			sunriseColor="186.150 234.600 255.000"
+			dayColor="255.000 153.000 25.500"
+			sunsetColor="255.000 128.000 0.000"
+			nightColor="128.000 128.000 128.000" />
+
+		<Sun
+			sunriseColor="239.700 211.650 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 86.700 0.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="48.450 79.050 119.850"
+			dayColor="0.000 0.000 0.000"
+			sunsetColor="91.800 43.350 0.000"
+			nightColor="15.300 17.850 15.300" />
+
+		<PlantDiffuse
+			sunriseColor="234.600 204.000 168.300"
+			dayColor="255.000 255.000 0.000"
+			sunsetColor="175.950 145.350 119.850"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="128.000 163.200 206.550"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="104.550 130.050 255.000"
+			dayColor="196.350 198.900 255.000"
+			sunsetColor="196.350 175.950 130.050"
+			nightColor="0.000 35.700 35.700" />
+
+		<ModelDiffuse
+			sunriseColor="186.150 255.000 140.250"
+			dayColor="255.000 255.000 63.750"
+			sunsetColor="255.000 193.800 128.000"
+			nightColor="128.000 128.000 128.000" />
+
+		<PostEffect
+			sunrise="wmenu"
+			day="wr5m1clear"
+			sunset="wr5m1clear"
+			night="wmenu" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="40.000"
+			day="39.000"
+			sunset="63.000"
+			night="68.000" />
+
+		<cloudsSpeed
+			sunrise="0.100"
+			day="0.026"
+			sunset="0.066"
+			night="0.118" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="100.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherThunderstorm"
+		name="r6m1_storm"
+		skyDomeFactor="0.520"
+		waterSpeed="0.130"
+		waterWaveHBig="1.160"
+		waterWaveHSmall="2.000"
+		waterWaveSizeBig="0.340"
+		waterWaveSizeSmall="1.700"
+		waterCourseAngle="1.040"
+		waterSpecularM="101.000"
+		waterSpecularS="0.004"
+		reduceDistFactor="0.519"
+		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
+		density="2"
+		distance="22.200"
+		minThunderDuty="113"
+		maxThunderDuty="434"
+		minThunderPeriod="19487"
+		maxThunderPeriod="49872"
+		lightEffectCount="1"
+		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Sky
+			sunriseColor="181.050 114.750 35.700"
+			dayColor="117.300 117.300 119.850"
+			sunsetColor="122.400 109.650 102.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="84.150 89.250 68.850"
+			dayColor="89.250 107.100 128.000"
+			sunsetColor="153.000 117.300 68.850"
+			nightColor="0.000 15.300 30.600" />
+
+		<Ambient
+			sunriseColor="0.000 61.200 128.000"
+			dayColor="119.850 145.350 170.850"
+			sunsetColor="5.100 58.650 84.150"
+			nightColor="28.050 58.650 89.250" />
+
+		<Diffuse
+			sunriseColor="255.000 178.500 128.000"
+			dayColor="135.150 122.400 99.450"
+			sunsetColor="255.000 124.950 0.000"
+			nightColor="68.850 94.350 130.050" />
+
+		<Sun
+			sunriseColor="196.350 168.300 128.000"
+			dayColor="198.900 178.500 150.450"
+			sunsetColor="255.000 128.000 0.000"
+			nightColor="114.750 132.600 153.000" />
+
+		<Plant
+			sunriseColor="61.200 99.450 155.550"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="17.850 89.250 140.250"
+			nightColor="64.000 102.000 140.250" />
+
+		<PlantDiffuse
+			sunriseColor="255.000 191.250 71.400"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="255.000 99.450 0.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="191.250 147.900 102.000"
+			dayColor="170.850 193.800 135.150"
+			sunsetColor="193.800 128.000 51.000"
+			nightColor="175.950 204.000 211.650" />
+
+		<ModelAmbient
+			sunriseColor="68.850 91.800 91.800"
+			dayColor="104.550 128.000 153.000"
+			sunsetColor="48.450 91.800 122.400"
+			nightColor="73.950 94.350 117.300" />
+
+		<ModelDiffuse
+			sunriseColor="255.000 175.950 61.200"
+			dayColor="145.350 128.000 107.100"
+			sunsetColor="255.000 114.750 0.000"
+			nightColor="40.800 56.100 73.950" />
+
+		<PostEffect
+			sunrise="wr6m1_rean"
+			day="wr6m1_rean"
+			sunset="wr6m1_rean"
+			night="wr6m1_rean" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="49.000"
+			day="31.000"
+			sunset="40.000"
+			night="36.000" />
+
+		<cloudsSpeed
+			sunrise="0.026"
+			day="0.066"
+			sunset="0.013"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="r6m1_WeatherFoggy"
+		skyDomeFactor="0.440"
+		waterSpeed="0.090"
+		waterWaveHBig="0.660"
+		waterWaveHSmall="0.790"
+		waterWaveSizeBig="0.190"
+		waterWaveSizeSmall="1.580"
+		waterCourseAngle="0.000"
+		waterSpecularM="1.000"
+		waterSpecularS="0.001"
+		reduceDistFactor="0.442">
+		<Sky
+			sunriseColor="128.000 140.250 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="155.550 145.350 117.300"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="135.150 150.450 128.000"
+			dayColor="192.000 192.000 192.000"
+			sunsetColor="221.850 124.950 51.000"
+			nightColor="58.650 56.100 0.000" />
+
+		<Ambient
+			sunriseColor="128.000 153.000 128.000"
+			dayColor="192.000 192.000 192.000"
+			sunsetColor="249.900 175.950 79.050"
+			nightColor="84.150 76.500 64.000" />
+
+		<Diffuse
+			sunriseColor="128.000 147.900 128.000"
+			dayColor="33.150 33.150 35.700"
+			sunsetColor="128.000 68.850 0.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Sun
+			sunriseColor="128.000 160.650 128.000"
+			dayColor="192.000 192.000 192.000"
+			sunsetColor="255.000 128.000 51.000"
+			nightColor="147.900 196.350 255.000" />
+
+		<Plant
+			sunriseColor="128.000 153.000 128.000"
+			dayColor="192.000 192.000 192.000"
+			sunsetColor="204.000 163.200 128.000"
+			nightColor="122.400 114.750 64.000" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 153.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="128.000 71.400 0.000"
+			nightColor="94.350 89.250 64.000" />
+
+		<Specular
+			sunriseColor="128.000 150.450 128.000"
+			dayColor="192.000 192.000 192.000"
+			sunsetColor="170.850 128.000 71.400"
+			nightColor="109.650 89.250 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 150.450 128.000"
+			dayColor="192.000 192.000 192.000"
+			sunsetColor="226.950 168.300 128.000"
+			nightColor="104.550 107.100 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 140.250 128.000"
+			dayColor="122.400 124.950 124.950"
+			sunsetColor="128.000 73.950 0.000"
+			nightColor="56.100 25.500 17.850" />
+
+		<PostEffect
+			sunrise="wr6m1_rean"
+			day="wDay_r1m1"
+			sunset="wr6m1_rean"
+			night="wr6m1_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="13.000"
+			day="20.000"
+			sunset="24.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="-0.013"
+			sunset="0.100"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="r5m2"
+		skyDomeFactor="0.760"
+		waterSpeed="0.290"
+		waterWaveHBig="0.660"
+		waterWaveHSmall="1.370"
+		waterWaveSizeBig="0.220"
+		waterWaveSizeSmall="1.830"
+		waterCourseAngle="0.000"
+		waterSpecularM="163.000"
+		waterSpecularS="0.010">
+		<Sky
+			sunriseColor="109.650 86.700 53.550"
+			dayColor="91.800 119.850 142.800"
+			sunsetColor="66.300 53.550 45.900"
+			nightColor="183.600 183.600 170.850" />
+
+		<Fog
+			sunriseColor="219.300 193.800 117.300"
+			dayColor="135.150 173.400 211.650"
+			sunsetColor="158.100 94.350 81.600"
+			nightColor="35.700 33.150 45.900" />
+
+		<Ambient
+			sunriseColor="109.650 112.200 51.000"
+			dayColor="155.550 211.650 255.000"
+			sunsetColor="117.300 91.800 94.350"
+			nightColor="140.250 145.350 150.450" />
+
+		<Diffuse
+			sunriseColor="255.000 242.250 155.550"
+			dayColor="252.450 188.700 142.800"
+			sunsetColor="255.000 160.650 198.900"
+			nightColor="66.300 99.450 122.400" />
+
+		<Sun
+			sunriseColor="137.700 137.700 132.600"
+			dayColor="255.000 255.000 204.000"
+			sunsetColor="255.000 128.000 128.000"
+			nightColor="76.500 147.900 178.500" />
+
+		<Plant
+			sunriseColor="86.700 91.800 0.000"
+			dayColor="150.450 155.550 114.750"
+			sunsetColor="76.500 91.800 63.750"
+			nightColor="119.850 114.750 165.750" />
+
+		<PlantDiffuse
+			sunriseColor="255.000 255.000 175.950"
+			dayColor="153.000 224.400 224.400"
+			sunsetColor="255.000 165.750 191.250"
+			nightColor="204.000 196.350 130.050" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="102.000 102.000 63.750"
+			dayColor="155.550 173.400 196.350"
+			sunsetColor="160.650 122.400 147.900"
+			nightColor="94.350 145.350 191.250" />
+
+		<ModelDiffuse
+			sunriseColor="155.550 153.000 28.050"
+			dayColor="204.000 196.350 160.650"
+			sunsetColor="155.550 99.450 71.400"
+			nightColor="178.500 150.450 242.250" />
+
+		<PostEffect
+			sunrise="wr5m1clear"
+			day="wnone_posFX"
+			sunset="wr5m2"
+			night="wr6m1_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="24.000"
+			day="23.000"
+			sunset="24.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.013"
+			sunset="0.025"
+			night="0.013" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="100.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="r5m2_WeatherFoggy"
+		skyDomeFactor="0.400"
+		waterSpeed="0.520"
+		waterWaveHBig="0.280"
+		waterWaveHSmall="1.060"
+		waterWaveSizeBig="0.280"
+		waterWaveSizeSmall="2.270"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005"
+		reduceDistFactor="0.469">
+		<Sky
+			sunriseColor="124.950 119.850 84.000"
+			dayColor="168.300 168.300 196.350"
+			sunsetColor="73.950 43.350 40.800"
+			nightColor="188.700 163.200 114.750" />
+
+		<Fog
+			sunriseColor="188.700 178.500 117.300"
+			dayColor="193.800 204.000 198.900"
+			sunsetColor="204.000 145.350 109.650"
+			nightColor="43.350 43.350 38.250" />
+
+		<Ambient
+			sunriseColor="130.050 163.200 211.650"
+			dayColor="142.800 170.850 124.950"
+			sunsetColor="119.850 124.950 145.350"
+			nightColor="130.050 175.950 255.000" />
+
+		<Diffuse
+			sunriseColor="234.600 160.650 66.300"
+			dayColor="216.750 216.750 198.900"
+			sunsetColor="216.750 178.500 104.550"
+			nightColor="99.450 91.800 33.150" />
+
+		<Sun
+			sunriseColor="132.600 119.850 135.150"
+			dayColor="150.450 135.150 150.450"
+			sunsetColor="255.000 128.000 43.350"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="63.750 63.750 71.400"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="91.800 79.050 66.300"
+			nightColor="45.900 48.450 130.050" />
+
+		<PlantDiffuse
+			sunriseColor="255.000 255.000 255.000"
+			dayColor="255.000 255.000 249.900"
+			sunsetColor="201.450 201.450 181.050"
+			nightColor="191.250 204.000 204.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="112.200 132.600 145.350"
+			dayColor="140.250 181.050 158.100"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="102.000 147.900 196.350" />
+
+		<ModelDiffuse
+			sunriseColor="201.450 130.050 45.900"
+			dayColor="168.300 163.200 130.050"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="119.850 94.350 40.800" />
+
+		<PostEffect
+			sunrise="wr5m1_fog"
+			day="wr5m1_fog"
+			sunset="wr5m2"
+			night="wr5m2" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="23.000"
+			day="18.000"
+			sunset="18.000"
+			night="0.000" />
+
+		<cloudsSpeed
+			sunrise="0.100"
+			day="0.038"
+			sunset="0.051"
+			night="0.025" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="100.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherThunderstorm"
+		name="r5m2WeatherThunderstorm"
+		skyDomeFactor="0.440"
+		waterSpeed="0.180"
+		waterWaveHBig="2.010"
+		waterWaveHSmall="1.920"
+		waterWaveSizeBig="0.360"
+		waterWaveSizeSmall="1.830"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.010"
+		reduceDistFactor="0.654"
+		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
+		density="2"
+		distance="8.700"
+		minThunderDuty="300"
+		maxThunderDuty="1000"
+		minThunderPeriod="36004"
+		maxThunderPeriod="60000"
+		lightEffectCount="1"
+		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="145.350 137.700 124.950"
+			sunsetColor="135.150 114.750 86.700"
+			nightColor="163.200 150.450 135.150" />
+
+		<Fog
+			sunriseColor="242.250 204.000 170.850"
+			dayColor="135.150 140.250 140.250"
+			sunsetColor="211.650 170.850 109.650"
+			nightColor="71.400 76.500 79.050" />
+
+		<Ambient
+			sunriseColor="137.700 168.300 204.000"
+			dayColor="211.650 188.700 170.850"
+			sunsetColor="135.150 145.350 155.550"
+			nightColor="122.400 122.400 150.450" />
+
+		<Diffuse
+			sunriseColor="211.650 188.700 181.050"
+			dayColor="160.650 198.900 204.000"
+			sunsetColor="226.950 229.500 255.000"
+			nightColor="117.300 114.750 66.300" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 128.000 40.800"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="94.350 160.650 117.300"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="91.800 63.750 94.350"
+			nightColor="117.300 104.550 81.600" />
+
+		<PlantDiffuse
+			sunriseColor="221.850 216.750 178.500"
+			dayColor="165.750 204.000 255.000"
+			sunsetColor="255.000 255.000 255.000"
+			nightColor="226.950 216.750 132.600" />
+
+		<Specular
+			sunriseColor="128.000 119.850 163.200"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="63.750 43.350 40.800"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="114.750 153.000 193.800"
+			dayColor="112.200 112.200 99.450"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="94.350 109.650 109.650" />
+
+		<ModelDiffuse
+			sunriseColor="219.300 214.200 170.850"
+			dayColor="140.250 145.350 178.500"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="229.500 234.600 191.250" />
+
+		<PostEffect
+			sunrise="wr5m1clear"
+			day="wr6m1_night"
+			sunset="wr5m2"
+			night="wr6m1_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="27.000"
+			day="13.000"
+			sunset="15.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="-0.013"
+			sunset="0.025"
+			night="0.025" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="mp3"
+		skyDomeFactor="1.860"
+		waterSpeed="0.520"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="1.000"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005">
+		<Sky
+			sunriseColor="104.550 128.000 128.000"
+			dayColor="109.650 114.750 117.300"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="255.000 94.350 58.650" />
+
+		<Fog
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="163.200 191.250 214.200"
+			sunsetColor="186.150 128.000 84.150"
+			nightColor="255.000 104.550 0.000" />
+
+		<Ambient
+			sunriseColor="61.200 128.000 191.250"
+			dayColor="255.000 226.950 168.300"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 117.300 153.000" />
+
+		<Diffuse
+			sunriseColor="191.250 128.000 73.950"
+			dayColor="68.850 153.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="196.350 104.550 64.000" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="165.750 211.650 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="255.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="150.450 196.350 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="68.850 35.700 0.000" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="91.800 181.050 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="214.200 135.150 58.650" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="163.200 211.650 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="255.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="122.400 160.650 206.550"
+			dayColor="255.000 196.350 140.250"
+			sunsetColor="175.950 211.650 255.000"
+			nightColor="119.850 147.900 150.450" />
+
+		<ModelDiffuse
+			sunriseColor="255.000 255.000 255.000"
+			dayColor="155.550 206.550 255.000"
+			sunsetColor="255.000 91.800 0.000"
+			nightColor="255.000 61.200 28.050" />
+
+		<PostEffect
+			sunrise="wr6m1_rean"
+			day="wr5m1clear"
+			sunset="wr5m1clear"
+			night="wr5m2" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="1" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="-0.013"
+			day="0.013"
+			sunset="0.100"
+			night="-0.013" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="mp4"
+		skyDomeFactor="1.320"
+		waterSpeed="0.120"
+		waterWaveHBig="2.160"
+		waterWaveHSmall="2.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="2.180"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.010">
+		<Sky
+			sunriseColor="104.550 130.050 135.150"
+			dayColor="181.050 196.350 186.150"
+			sunsetColor="167.000 167.000 167.000"
+			nightColor="255.000 255.000 255.000" />
+
+		<Fog
+			sunriseColor="226.950 211.650 255.000"
+			dayColor="255.000 219.300 191.250"
+			sunsetColor="255.000 186.150 128.000"
+			nightColor="0.000 28.050 58.650" />
+
+		<Ambient
+			sunriseColor="147.900 124.950 170.850"
+			dayColor="191.250 153.000 124.950"
+			sunsetColor="128.000 181.050 221.850"
+			nightColor="33.150 130.050 160.650" />
+
+		<Diffuse
+			sunriseColor="130.050 224.400 209.100"
+			dayColor="214.200 239.700 255.000"
+			sunsetColor="234.600 153.000 102.000"
+			nightColor="45.900 79.050 102.000" />
+
+		<Sun
+			sunriseColor="224.400 155.550 219.300"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 145.350 79.050"
+			nightColor="84.150 226.950 242.250" />
+
+		<Plant
+			sunriseColor="140.250 132.600 193.800"
+			dayColor="255.000 165.750 61.200"
+			sunsetColor="193.800 175.950 249.900"
+			nightColor="45.900 102.000 150.450" />
+
+		<PlantDiffuse
+			sunriseColor="255.000 255.000 255.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 193.800 128.000"
+			nightColor="255.000 255.000 255.000" />
+
+		<Specular
+			sunriseColor="255.000 191.250 255.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 183.600 160.650"
+			nightColor="102.000 196.350 214.200" />
+
+		<ModelAmbient
+			sunriseColor="135.150 145.350 204.000"
+			dayColor="255.000 226.950 196.350"
+			sunsetColor="128.000 175.950 209.100"
+			nightColor="64.000 119.850 135.150" />
+
+		<ModelDiffuse
+			sunriseColor="163.200 255.000 255.000"
+			dayColor="168.300 221.850 255.000"
+			sunsetColor="255.000 147.900 91.800"
+			nightColor="153.000 163.200 206.550" />
+
+		<PostEffect
+			sunrise="wnone_posFX"
+			day="wnone_posFX"
+			sunset="wnone_posFX"
+			night="wr5m1_fog" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="64.000"
+			day="50.000"
+			sunset="34.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.013"
+			sunset="-0.013"
+			night="0.066" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="r5m1_WeatherClear"
+		skyDomeFactor="0.440"
+		waterSpeed="0.080"
+		waterWaveHBig="0.980"
+		waterWaveHSmall="1.320"
+		waterWaveSizeBig="0.420"
+		waterWaveSizeSmall="2.050"
+		waterCourseAngle="0.000"
+		waterSpecularM="140.000"
+		waterSpecularS="0.010">
+		<Sky
+			sunriseColor="119.850 99.450 104.550"
+			dayColor="147.900 181.050 183.600"
+			sunsetColor="150.450 119.850 163.200"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="204.000 193.800 255.000"
+			dayColor="244.800 229.500 204.000"
+			sunsetColor="255.000 198.900 155.550"
+			nightColor="91.800 63.750 51.000" />
+
+		<Ambient
+			sunriseColor="147.900 124.950 209.100"
+			dayColor="170.850 135.150 84.150"
+			sunsetColor="79.050 94.350 137.700"
+			nightColor="109.650 109.650 130.050" />
+
+		<Diffuse
+			sunriseColor="91.800 153.000 147.900"
+			dayColor="135.150 153.000 191.250"
+			sunsetColor="255.000 128.000 35.700"
+			nightColor="61.200 43.350 30.600" />
+
+		<Sun
+			sunriseColor="128.000 147.900 186.150"
+			dayColor="255.000 237.150 155.550"
+			sunsetColor="255.000 119.850 28.050"
+			nightColor="119.850 122.400 64.000" />
+
+		<Plant
+			sunriseColor="211.650 150.450 198.900"
+			dayColor="204.000 153.000 114.750"
+			sunsetColor="153.000 117.300 114.750"
+			nightColor="58.650 48.450 17.850" />
+
+		<PlantDiffuse
+			sunriseColor="43.350 128.000 165.750"
+			dayColor="155.550 160.650 163.200"
+			sunsetColor="255.000 145.350 51.000"
+			nightColor="76.500 33.150 15.300" />
+
+		<Specular
+			sunriseColor="128.000 128.000 163.200"
+			dayColor="255.000 209.100 168.300"
+			sunsetColor="244.800 128.000 28.050"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="165.750 122.400 135.150"
+			dayColor="206.550 132.600 48.450"
+			sunsetColor="155.550 122.400 114.750"
+			nightColor="94.350 91.800 89.250" />
+
+		<ModelDiffuse
+			sunriseColor="153.000 175.950 196.350"
+			dayColor="155.550 186.150 224.400"
+			sunsetColor="234.600 150.450 107.100"
+			nightColor="71.400 56.100 35.700" />
+
+		<PostEffect
+			sunrise="wr5m1clear"
+			day="wr5m1clear"
+			sunset="wr5m1clear"
+			night="wnone_posFX" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="44.000"
+			day="51.000"
+			sunset="48.000"
+			night="0.000" />
+
+		<cloudsSpeed
+			sunrise="-0.013"
+			day="0.013"
+			sunset="0.013"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="r5m1_WeatherFoggy"
+		skyDomeFactor="0.320"
+		waterSpeed="0.070"
+		waterWaveHBig="1.040"
+		waterWaveHSmall="0.870"
+		waterWaveSizeBig="0.240"
+		waterWaveSizeSmall="2.180"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005"
+		reduceDistFactor="0.623">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="140.250 128.000 104.550"
+			sunsetColor="135.150 114.750 63.750"
+			nightColor="0.000 33.150 43.350" />
+
+		<Fog
+			sunriseColor="183.600 196.350 209.100"
+			dayColor="255.000 209.100 175.950"
+			sunsetColor="186.150 155.550 107.100"
+			nightColor="15.300 28.050 33.150" />
+
+		<Ambient
+			sunriseColor="73.950 107.100 140.250"
+			dayColor="192.000 192.000 193.800"
+			sunsetColor="99.450 56.100 0.000"
+			nightColor="68.850 91.800 117.300" />
+
+		<Diffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="51.000 86.700 130.050" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="204.000 128.000 61.200"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="183.600 183.600 181.050"
+			sunsetColor="128.000 73.950 0.000"
+			nightColor="68.850 79.050 104.550" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="170.850 168.300 168.300"
+			sunsetColor="175.950 168.300 153.000"
+			nightColor="64.000 64.000 102.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="224.400 128.000 40.800"
+			nightColor="64.000 102.000 140.250" />
+
+		<ModelAmbient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="209.100 193.800 140.250"
+			sunsetColor="128.000 58.650 17.850"
+			nightColor="89.250 117.300 140.250" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="160.650 140.250 128.000"
+			sunsetColor="196.350 140.250 40.800"
+			nightColor="45.900 79.050 178.500" />
+
+		<PostEffect
+			sunrise="wr5m1_fog"
+			day="wr5m1_fog"
+			sunset="wr5m1_fog"
+			night="wr5m1_fog" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="30.000"
+			day="26.000"
+			sunset="24.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.000"
+			sunset="-0.026"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="100.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherThunderstorm"
+		name="r5m1_WeatherThunderstorm"
+		skyDomeFactor="0.300"
+		waterSpeed="0.130"
+		waterWaveHBig="3.030"
+		waterWaveHSmall="2.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="3.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="110.000"
+		waterSpecularS="0.004"
+		reduceDistFactor="0.753"
+		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
+		density="5"
+		distance="20.000"
+		minThunderDuty="300"
+		maxThunderDuty="600"
+		minThunderPeriod="30000"
+		maxThunderPeriod="60000"
+		lightEffectCount="1"
+		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Sky
+			sunriseColor="122.400 124.950 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="76.500 117.300 183.600" />
+
+		<Fog
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="153.000 165.750 183.600"
+			sunsetColor="160.650 140.250 128.000"
+			nightColor="17.850 33.150 45.900" />
+
+		<Ambient
+			sunriseColor="145.350 89.250 15.300"
+			dayColor="68.850 109.650 175.950"
+			sunsetColor="94.350 128.000 168.300"
+			nightColor="58.650 104.550 160.650" />
+
+		<Diffuse
+			sunriseColor="137.700 175.950 219.300"
+			dayColor="255.000 204.000 150.450"
+			sunsetColor="255.000 153.000 99.450"
+			nightColor="91.800 107.100 119.850" />
+
+		<Sun
+			sunriseColor="170.850 128.000 91.800"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="204.000 128.000 63.750"
+			nightColor="198.900 198.900 170.850" />
+
+		<Plant
+			sunriseColor="130.050 71.400 10.200"
+			dayColor="107.100 140.250 168.300"
+			sunsetColor="94.350 128.000 168.300"
+			nightColor="25.500 40.800 61.200" />
+
+		<PlantDiffuse
+			sunriseColor="247.350 255.000 255.000"
+			dayColor="155.550 145.350 130.050"
+			sunsetColor="186.150 128.000 79.050"
+			nightColor="64.000 109.650 140.250" />
+
+		<Specular
+			sunriseColor="168.300 128.000 68.850"
+			dayColor="192.000 192.000 192.000"
+			sunsetColor="209.100 128.000 71.400"
+			nightColor="64.000 145.350 237.150" />
+
+		<ModelAmbient
+			sunriseColor="117.300 84.150 25.500"
+			dayColor="130.050 145.350 168.300"
+			sunsetColor="58.650 107.100 135.150"
+			nightColor="43.350 58.650 76.500" />
+
+		<ModelDiffuse
+			sunriseColor="237.150 242.250 255.000"
+			dayColor="135.150 91.800 48.450"
+			sunsetColor="255.000 140.250 117.300"
+			nightColor="64.000 102.000 104.550" />
+
+		<PostEffect
+			sunrise="wr6m1_rean"
+			day="wr6m1_rean"
+			sunset="wr5m2"
+			night="wr5m1_fog" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="64.000"
+			day="76.000"
+			sunset="29.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.052"
+			sunset="0.100"
+			night="0.026" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="r6m2_WeatherClear"
+		skyDomeFactor="1.060"
+		waterSpeed="0.130"
+		waterWaveHBig="0.260"
+		waterWaveHSmall="0.610"
+		waterWaveSizeBig="0.410"
+		waterWaveSizeSmall="2.470"
+		waterCourseAngle="0.870"
+		waterSpecularM="40.000"
+		waterSpecularS="0.006">
+		<Sky
+			sunriseColor="211.650 191.250 128.000"
+			dayColor="114.750 112.200 114.750"
+			sunsetColor="160.650 128.000 104.550"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="216.750 191.250 117.300"
+			dayColor="168.300 214.200 198.900"
+			sunsetColor="255.000 181.050 94.350"
+			nightColor="64.000 64.000 64.000" />
+
+		<Ambient
+			sunriseColor="142.800 168.300 102.000"
+			dayColor="117.300 183.600 140.250"
+			sunsetColor="73.950 117.300 112.200"
+			nightColor="64.000 64.000 64.000" />
+
+		<Diffuse
+			sunriseColor="255.000 183.600 81.600"
+			dayColor="226.950 135.150 51.000"
+			sunsetColor="255.000 124.950 28.050"
+			nightColor="64.000 64.000 64.000" />
+
+		<Sun
+			sunriseColor="249.900 158.100 99.450"
+			dayColor="255.000 193.800 137.700"
+			sunsetColor="255.000 160.650 104.550"
+			nightColor="64.000 198.900 255.000" />
+
+		<Plant
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="175.950 153.000 130.050"
+			sunsetColor="91.800 124.950 160.650"
+			nightColor="64.000 64.000 64.000" />
+
+		<PlantDiffuse
+			sunriseColor="234.600 145.350 91.800"
+			dayColor="255.000 209.100 158.100"
+			sunsetColor="255.000 91.800 22.950"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="255.000 211.650 142.800"
+			dayColor="255.000 219.300 153.000"
+			sunsetColor="255.000 201.450 163.200"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="117.300 132.600 112.200"
+			dayColor="86.700 150.450 142.800"
+			sunsetColor="58.650 99.450 104.550"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="255.000 160.650 56.100"
+			dayColor="255.000 181.050 53.550"
+			sunsetColor="255.000 130.050 28.050"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="wr5m1clear"
+			day="wr5m1clear"
+			sunset="wr5m2"
+			night="wr5m2" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.051"
+			day="0.100"
+			sunset="0.013"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="r6m2_WeatherFoggy"
+		skyDomeFactor="1.000"
+		waterSpeed="0.120"
+		waterWaveHBig="0.970"
+		waterWaveHSmall="0.940"
+		waterWaveSizeBig="0.220"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="23.000"
+		waterSpecularS="0.001"
+		reduceDistFactor="0.494">
+		<Sky
+			sunriseColor="160.650 145.350 128.000"
+			dayColor="140.250 130.050 130.050"
+			sunsetColor="175.950 128.000 84.150"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="153.000 170.850 128.000"
+			dayColor="175.950 175.950 175.950"
+			sunsetColor="191.250 130.050 66.300"
+			nightColor="0.000 15.300 35.700" />
+
+		<Ambient
+			sunriseColor="128.000 158.100 128.000"
+			dayColor="130.050 130.050 99.450"
+			sunsetColor="109.650 150.450 135.150"
+			nightColor="107.100 135.150 153.000" />
+
+		<Diffuse
+			sunriseColor="175.950 178.500 128.000"
+			dayColor="71.400 102.000 181.050"
+			sunsetColor="211.650 128.000 53.550"
+			nightColor="186.150 193.800 211.650" />
+
+		<Sun
+			sunriseColor="255.000 211.650 155.550"
+			dayColor="168.300 135.150 119.850"
+			sunsetColor="130.050 191.250 150.450"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 153.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 91.800 114.750" />
+
+		<PlantDiffuse
+			sunriseColor="142.800 135.150 128.000"
+			dayColor="142.800 145.350 140.250"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 114.750 183.600" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 140.250 51.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 145.350 128.000"
+			dayColor="137.700 137.700 102.000"
+			sunsetColor="86.700 132.600 122.400"
+			nightColor="68.850 86.700 107.100" />
+
+		<ModelDiffuse
+			sunriseColor="175.950 175.950 128.000"
+			dayColor="112.200 119.850 170.850"
+			sunsetColor="255.000 119.850 53.550"
+			nightColor="165.750 221.850 255.000" />
+
+		<PostEffect
+			sunrise="wnone_posFX"
+			day="wr6m1_rean"
+			sunset="wr6m1_rean"
+			night="wr6m1_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="0.013"
+			sunset="0.038"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherThunderstorm"
+		name="r6m2_WeatherThunderstorm"
+		skyDomeFactor="1.000"
+		waterSpeed="0.070"
+		waterWaveHBig="1.250"
+		waterWaveHSmall="2.000"
+		waterWaveSizeBig="0.220"
+		waterWaveSizeSmall="1.160"
+		waterCourseAngle="0.000"
+		waterSpecularM="137.000"
+		waterSpecularS="0.005"
+		reduceDistFactor="0.800"
+		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
+		density="5"
+		distance="20.000"
+		minThunderDuty="300"
+		maxThunderDuty="600"
+		minThunderPeriod="30000"
+		maxThunderPeriod="60000"
+		lightEffectCount="1"
+		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="104.550 135.150 145.350"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Ambient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="130.050 132.600 132.600"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Diffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="175.950 186.150 219.300"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="128.000 128.000 128.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="wr5m1clear"
+			day="wr5m1_fog"
+			sunset="wr6m1_rean"
+			night="wr5m2" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.000"
+			day="0.013"
+			sunset="0.039"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="sin_WeatherClear"
+		skyDomeFactor="1.000"
+		waterSpeed="0.520"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="1.000"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Ambient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Diffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="NoEffect"
+			day="NoEffect"
+			sunset="NoEffect"
+			night="NoEffect" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="1" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.100"
+			day="0.100"
+			sunset="0.100"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="7.000"
+			windChangeVelTime="10.000"
+			windChangeDirTime="7.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="sin_WeatherFoggy"
+		skyDomeFactor="1.000"
+		waterSpeed="0.520"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005"
+		reduceDistFactor="1.000">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Ambient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Diffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="NoEffect"
+			day="wr5m1_fog"
+			sunset="NoEffect"
+			night="NoEffect" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="1" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.100"
+			day="0.100"
+			sunset="0.100"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="10.000"
+			windMinVel="5.000"
+			windChangeVelTime="5.000"
+			windChangeDirTime="10.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherThunderstorm"
+		name="sin_WeatherThunderstorm"
+		skyDomeFactor="1.000"
+		waterSpeed="0.520"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="1.000"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005"
+		reduceDistFactor="0.800"
+		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
+		density="5"
+		distance="20.000"
+		minThunderDuty="300"
+		maxThunderDuty="600"
+		minThunderPeriod="30000"
+		maxThunderPeriod="60000"
+		lightEffectCount="1"
+		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Ambient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Diffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="NoEffect"
+			day="NoEffect"
+			sunset="NoEffect"
+			night="NoEffect" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="1" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.100"
+			day="0.100"
+			sunset="0.100"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="100.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="sin"
+		skyDomeFactor="0.580"
+		waterSpeed="0.520"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005">
+		<Sky
+			sunriseColor="163.200 160.650 135.150"
+			dayColor="91.800 109.650 173.400"
+			sunsetColor="56.100 63.750 63.750"
+			nightColor="35.700 43.350 53.550" />
+
+		<Fog
+			sunriseColor="188.700 181.050 170.850"
+			dayColor="160.650 178.500 183.600"
+			sunsetColor="209.100 160.650 114.750"
+			nightColor="28.050 38.250 45.900" />
+
+		<Ambient
+			sunriseColor="117.300 119.850 160.650"
+			dayColor="117.300 150.450 191.250"
+			sunsetColor="94.350 76.500 38.250"
+			nightColor="20.400 45.900 79.050" />
+
+		<Diffuse
+			sunriseColor="255.000 242.250 214.200"
+			dayColor="255.000 229.500 214.200"
+			sunsetColor="255.000 239.700 221.850"
+			nightColor="73.950 56.100 25.500" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 140.250 142.800"
+			dayColor="130.050 145.350 153.000"
+			sunsetColor="71.400 71.400 84.150"
+			nightColor="7.650 28.050 35.700" />
+
+		<PlantDiffuse
+			sunriseColor="155.550 142.800 132.600"
+			dayColor="175.950 178.500 178.500"
+			sunsetColor="255.000 255.000 183.600"
+			nightColor="181.050 163.200 122.400" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="104.550 117.300 145.350"
+			dayColor="117.300 137.700 168.300"
+			sunsetColor="94.350 102.000 73.950"
+			nightColor="33.150 45.900 56.100" />
+
+		<ModelDiffuse
+			sunriseColor="219.300 204.000 198.900"
+			dayColor="229.500 234.600 201.450"
+			sunsetColor="255.000 229.500 232.050"
+			nightColor="86.700 81.600 45.900" />
+
+		<PostEffect
+			sunrise="wr5m2"
+			day="wsin_day"
+			sunset="wsin_sunset"
+			night="wsin_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.013"
+			day="-0.013"
+			sunset="0.025"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="100.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherFoggy"
+		name="sin_foggy"
+		skyDomeFactor="0.380"
+		waterSpeed="0.520"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005"
+		reduceDistFactor="0.617">
+		<Sky
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="76.500 102.000 112.200"
+			sunsetColor="99.450 94.350 45.900"
+			nightColor="45.900 56.100 38.250" />
+
+		<Fog
+			sunriseColor="183.600 196.350 196.350"
+			dayColor="145.350 168.300 142.800"
+			sunsetColor="219.300 198.900 122.400"
+			nightColor="52.000 51.000 39.000" />
+
+		<Ambient
+			sunriseColor="61.200 76.500 99.450"
+			dayColor="94.350 99.450 130.050"
+			sunsetColor="45.900 61.200 94.350"
+			nightColor="40.800 40.800 17.850" />
+
+		<Diffuse
+			sunriseColor="234.600 234.600 226.950"
+			dayColor="255.000 255.000 128.000"
+			sunsetColor="229.500 211.650 163.200"
+			nightColor="58.650 63.750 91.800" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="96.900 114.750 135.150"
+			dayColor="96.900 102.000 114.750"
+			sunsetColor="81.600 94.350 84.150"
+			nightColor="40.800 51.000 71.400" />
+
+		<PlantDiffuse
+			sunriseColor="219.300 201.450 181.050"
+			dayColor="221.850 229.500 204.000"
+			sunsetColor="239.700 242.250 229.500"
+			nightColor="119.850 114.750 86.700" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="102.000 122.400 130.050"
+			dayColor="119.850 130.050 137.700"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="33.150 40.800 17.850" />
+
+		<ModelDiffuse
+			sunriseColor="255.000 239.700 232.050"
+			dayColor="255.000 255.000 153.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="76.500 102.000 132.600" />
+
+		<PostEffect
+			sunrise="wsin_sunrise_F"
+			day="wsin_day_F"
+			sunset="wsin_sunset_F"
+			night="wsin_night_F" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="12.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.100"
+			day="-0.013"
+			sunset="-0.038"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="100.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherThunderstorm"
+		name="sin_Thunderstorm"
+		skyDomeFactor="0.520"
+		waterSpeed="0.520"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005"
+		reduceDistFactor="0.247"
+		inclementWeatherPS="ET_PS_RAIN_WEATHER"
+		soundName="ET_S_RAIN"
+		density="5"
+		distance="30.900"
+		minThunderDuty="300"
+		maxThunderDuty="600"
+		minThunderPeriod="30000"
+		maxThunderPeriod="60000"
+		lightEffectCount="1"
+		lightEffectName1="ET_PS_LIGHT_WEATHER1">
+		<Sky
+			sunriseColor="86.700 73.950 73.950"
+			dayColor="155.550 137.700 124.950"
+			sunsetColor="71.400 63.750 66.300"
+			nightColor="109.650 122.400 64.000" />
+
+		<Fog
+			sunriseColor="132.600 145.350 122.400"
+			dayColor="109.650 124.950 117.300"
+			sunsetColor="109.650 102.000 91.800"
+			nightColor="33.150 40.800 40.800" />
+
+		<Ambient
+			sunriseColor="140.250 178.500 234.600"
+			dayColor="160.650 160.650 201.450"
+			sunsetColor="158.100 142.800 137.700"
+			nightColor="45.900 45.900 86.700" />
+
+		<Diffuse
+			sunriseColor="211.650 188.700 178.500"
+			dayColor="234.600 219.300 170.850"
+			sunsetColor="209.100 221.850 239.700"
+			nightColor="96.900 112.200 71.400" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="104.550 119.850 130.050"
+			dayColor="104.550 96.900 99.450"
+			sunsetColor="109.650 117.300 163.200"
+			nightColor="58.650 61.200 58.650" />
+
+		<PlantDiffuse
+			sunriseColor="249.900 234.600 196.350"
+			dayColor="237.150 255.000 221.850"
+			sunsetColor="219.300 209.100 201.450"
+			nightColor="175.950 183.600 198.900" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 170.850 214.200"
+			dayColor="102.000 109.650 119.850"
+			sunsetColor="104.550 114.750 135.150"
+			nightColor="73.950 73.950 104.550" />
+
+		<ModelDiffuse
+			sunriseColor="221.850 221.850 160.650"
+			dayColor="221.850 234.600 219.300"
+			sunsetColor="204.000 191.250 168.300"
+			nightColor="73.950 81.600 40.800" />
+
+		<PostEffect
+			sunrise="wr5m2"
+			day="wsin_day_TS"
+			sunset="wsin_sunset_TS"
+			night="wsin_night_TS" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="0.500"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.025"
+			day="0.025"
+			sunset="-0.013"
+			night="0.089" />
+
+		<WindInfo
+			windMaxVel="15.000"
+			windMinVel="5.000"
+			windChangeVelTime="100.000"
+			windChangeDirTime="5.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="r7m1_Clear"
+		skyDomeFactor="1.200"
+		waterSpeed="0.480"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="1.160"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005">
+		<Sky
+			sunriseColor="140.250 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Fog
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Ambient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Diffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Sun
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="wr5m2"
+			day="wr5m2"
+			sunset="wr5m2"
+			night="wr5m2" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="0.000"
+			day="0.500"
+			sunset="0.500"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="-0.025"
+			day="0.100"
+			sunset="0.100"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="0.000"
+			windMinVel="0.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="r4m1_clear"
+		skyDomeFactor="0.400"
+		waterSpeed="0.120"
+		waterWaveHBig="0.720"
+		waterWaveHSmall="1.160"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="1.620"
+		waterCourseAngle="1.550"
+		waterSpecularM="14.000"
+		waterSpecularS="0.001">
+		<Sky
+			sunriseColor="158.100 137.700 114.750"
+			dayColor="122.400 122.400 119.850"
+			sunsetColor="193.800 150.450 99.450"
+			nightColor="140.250 135.150 132.600" />
+
+		<Fog
+			sunriseColor="229.500 193.800 145.350"
+			dayColor="237.150 214.200 163.200"
+			sunsetColor="251.000 202.000 130.000"
+			nightColor="73.950 71.400 71.400" />
+
+		<Ambient
+			sunriseColor="153.000 151.000 102.000"
+			dayColor="198.000 155.000 98.000"
+			sunsetColor="227.000 191.000 147.000"
+			nightColor="79.050 99.450 117.300" />
+
+		<Diffuse
+			sunriseColor="245.000 188.700 198.900"
+			dayColor="186.150 229.500 255.000"
+			sunsetColor="255.000 170.850 53.550"
+			nightColor="79.050 66.300 56.100" />
+
+		<Sun
+			sunriseColor="209.100 140.250 99.450"
+			dayColor="193.800 160.650 102.000"
+			sunsetColor="209.100 145.350 73.950"
+			nightColor="38.250 40.800 51.000" />
+
+		<Plant
+			sunriseColor="219.300 204.000 209.100"
+			dayColor="188.700 178.500 191.250"
+			sunsetColor="226.950 191.250 142.800"
+			nightColor="86.700 102.000 163.200" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="255.000 158.100 99.450"
+			nightColor="5.100 137.700 255.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="wr4m1_rise"
+			day="wr4m1_day"
+			sunset="wr4m1_set"
+			night="wr4m1_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="48.000"
+			day="15.000"
+			sunset="46.000"
+			night="100.000" />
+
+		<cloudsSpeed
+			sunrise="0.025"
+			day="0.000"
+			sunset="0.013"
+			night="0.000" />
+
+		<WindInfo
+			windMaxVel="0.000"
+			windMinVel="0.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="r4m1_clear_soft"
+		skyDomeFactor="0.380"
+		waterSpeed="0.210"
+		waterWaveHBig="1.040"
+		waterWaveHSmall="1.220"
+		waterWaveSizeBig="0.450"
+		waterWaveSizeSmall="1.230"
+		waterCourseAngle="0.000"
+		waterSpecularM="62.000"
+		waterSpecularS="0.003">
+		<Sky
+			sunriseColor="163.200 137.700 99.000"
+			dayColor="158.100 130.050 73.950"
+			sunsetColor="122.400 128.000 135.150"
+			nightColor="178.500 137.700 117.300" />
+
+		<Fog
+			sunriseColor="183.600 177.000 173.400"
+			dayColor="188.700 175.950 132.600"
+			sunsetColor="234.600 191.250 130.000"
+			nightColor="71.400 71.400 79.050" />
+
+		<Ambient
+			sunriseColor="137.700 142.800 147.900"
+			dayColor="89.250 102.000 112.200"
+			sunsetColor="170.850 150.450 112.200"
+			nightColor="91.800 114.750 145.350" />
+
+		<Diffuse
+			sunriseColor="255.000 214.200 175.950"
+			dayColor="255.000 211.650 86.700"
+			sunsetColor="165.750 128.000 128.000"
+			nightColor="81.600 66.300 61.200" />
+
+		<Sun
+			sunriseColor="237.150 216.750 196.350"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="76.500 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Plant
+			sunriseColor="188.700 191.250 219.300"
+			dayColor="204.000 181.050 153.000"
+			sunsetColor="255.000 201.450 170.850"
+			nightColor="84.150 114.750 173.400" />
+
+		<PlantDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<Specular
+			sunriseColor="255.000 229.500 214.200"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="0.000 102.000 255.000" />
+
+		<ModelAmbient
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<ModelDiffuse
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="wr4m1_rise_soft"
+			day="wr4m1_day_soft"
+			sunset="wr4m1_set_soft"
+			night="wr4m1_night" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="0" />
+
+		<ShadowTransparency
+			sunrise="40.000"
+			day="20.000"
+			sunset="50.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.000"
+			day="0.062"
+			sunset="0.013"
+			night="0.000" />
+
+		<WindInfo
+			windMaxVel="0.000"
+			windMinVel="0.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
+</Weather>

@@ -1,0 +1,4278 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Roads>
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416116360"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416115828"
+		BackZLink="RoadNode416108912"
+		org="3537.060 0.000 583.625"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416115828"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416117424"
+		BackZLink="RoadNode416116360"
+		org="3579.030 0.000 580.554"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416117424"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416116892"
+		BackZLink="RoadNode416115828"
+		org="3610.740 0.000 585.755"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416116892"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416112104"
+		BackZLink="RoadNode416117424"
+		org="3642.451 0.000 590.955"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416112104"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416108380"
+		BackZLink="RoadNode416116892"
+		org="3673.722 0.000 600.894"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416108380"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416111572"
+		BackZLink="RoadNode416112104"
+		org="3701.368 0.000 613.600"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416111572"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416113700"
+		BackZLink="RoadNode416108380"
+		org="3728.575 0.000 631.044"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416113700"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416113168"
+		BackZLink="RoadNode416111572"
+		org="3755.782 0.000 648.488"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416113168"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416114232"
+		BackZLink="RoadNode416113700"
+		org="3782.989 0.000 665.932"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416114232"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416115296"
+		BackZLink="RoadNode416113168"
+		org="3826.255 0.000 703.062"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416115296"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416112636"
+		BackZLink="RoadNode416114232"
+		org="3853.227 0.000 745.140"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416112636"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416114764"
+		BackZLink="RoadNode416115296"
+		org="3891.156 0.000 775.059"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416114764"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416109976"
+		BackZLink="RoadNode416112636"
+		org="3928.143 0.000 798.302"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416109976"
+		roadset="r4_highway"
+		skinNumber="0"
+		BackZLink="RoadNode416114764"
+		org="3986.176 0.000 823.904"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416108912"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416116360"
+		BackZLink="RoadNode416109444"
+		org="3487.317 0.000 595.334"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416109444"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416108912"
+		BackZLink="RoadNode416111040"
+		org="3442.002 0.000 606.390"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416111040"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416109444"
+		BackZLink="RoadNode416110508"
+		org="3396.688 0.000 617.446"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416110508"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416111040"
+		BackZLink="RoadNode416117956"
+		org="3350.707 0.000 618.358"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416117956"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416110508"
+		BackZLink="RoadNode416118488"
+		org="3304.727 0.000 619.270"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416118488"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416117956"
+		BackZLink="RoadNode416119020"
+		org="3265.777 0.000 618.578"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416119020"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416118488"
+		BackZLink="RoadNode416119552"
+		org="3229.236 0.000 621.483"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416119552"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416119020"
+		BackZLink="RoadNode416120084"
+		org="3192.104 0.000 627.174"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416120084"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416119552"
+		BackZLink="RoadNode416120616"
+		org="3157.382 0.000 636.463"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416120616"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416120084"
+		BackZLink="RoadNode416122212"
+		org="3112.372 0.000 642.303"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416122212"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416120616"
+		BackZLink="RoadNode416121148"
+		org="3072.650 0.000 644.727"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416121148"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416122212"
+		BackZLink="RoadNode416121680"
+		org="3030.433 0.000 651.413"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode416121680"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416121148"
+		BackZLink="RoadNode417229536"
+		org="2988.385 0.000 655.067"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417229536"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode416121680"
+		BackZLink="RoadNode417226344"
+		org="2951.891 0.000 660.506"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417226344"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417229536"
+		BackZLink="RoadNode417226876"
+		org="2918.867 0.000 656.365"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417226876"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417226344"
+		BackZLink="RoadNode417229004"
+		org="2885.843 0.000 652.224"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417229004"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417226876"
+		BackZLink="RoadNode417227940"
+		org="2857.572 0.000 652.195"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417227940"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417229004"
+		BackZLink="RoadNode417228472"
+		org="2812.314 0.000 658.984"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417228472"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417227940"
+		BackZLink="RoadNode417230068"
+		org="2771.809 0.000 669.884"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417230068"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417228472"
+		BackZLink="RoadNode417230600"
+		org="2714.028 0.000 677.862"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417230600"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417230068"
+		BackZLink="RoadNode417231664"
+		org="2679.057 0.000 671.725"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417231664"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417230600"
+		BackZLink="RoadNode418662356"
+		org="2644.085 0.000 665.587"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536292268"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536292800"
+		org="3311.394 0.000 693.409"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536292800"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536293332"
+		BackZLink="RoadNode1536292268"
+		org="3313.770 0.000 731.937"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536293332"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536293864"
+		BackZLink="RoadNode1536292800"
+		org="3316.146 0.000 770.465"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536293864"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536295460"
+		BackZLink="RoadNode1536293332"
+		org="3318.522 0.000 808.993"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536295460"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536295992"
+		BackZLink="RoadNode1536293864"
+		org="3320.050 0.000 841.747"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536295992"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536296524"
+		BackZLink="RoadNode1536295460"
+		org="3321.578 0.000 874.500"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536296524"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536297588"
+		BackZLink="RoadNode1536295992"
+		org="3319.130 0.000 910.019"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536297588"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536297056"
+		BackZLink="RoadNode1536296524"
+		org="3310.400 0.000 945.004"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536297056"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536298652"
+		BackZLink="RoadNode1536297588"
+		org="3288.975 0.000 973.521"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536298652"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536298120"
+		BackZLink="RoadNode1536297056"
+		org="3256.638 0.000 995.956"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536298120"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536299184"
+		BackZLink="RoadNode1536298652"
+		org="3218.310 0.000 1004.689"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536299184"
+		roadset="r2_gravel"
+		skinNumber="0"
+		BackZLink="RoadNode1536298120"
+		org="3165.479 0.000 998.552"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536841836"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536842368"
+		org="3260.542 0.000 1244.657"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536842368"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536842900"
+		BackZLink="RoadNode1536841836"
+		org="3261.041 0.000 1209.727"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536842900"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536843432"
+		BackZLink="RoadNode1536842368"
+		org="3261.541 0.000 1174.797"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536843432"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536843964"
+		BackZLink="RoadNode1536842900"
+		org="3262.040 0.000 1139.866"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536843964"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536846092"
+		BackZLink="RoadNode1536843432"
+		org="3262.540 0.000 1104.936"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536846092"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode1536841304"
+		BackZLink="RoadNode1536843964"
+		org="3261.067 0.000 1071.149"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1536841304"
+		roadset="r2_gravel"
+		skinNumber="0"
+		BackZLink="RoadNode1536846092"
+		org="3259.595 0.000 1037.362"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417442968"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode417442436"
+		org="3241.987 0.000 1173.838"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417442436"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode417443500"
+		BackZLink="RoadNode417442968"
+		org="3209.315 0.000 1174.124"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417443500"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode417444032"
+		BackZLink="RoadNode417442436"
+		org="3176.644 0.000 1174.410"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417444032"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode417444564"
+		BackZLink="RoadNode417443500"
+		org="3143.973 0.000 1174.695"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417444564"
+		roadset="r2_gravel"
+		skinNumber="0"
+		BackZLink="RoadNode417444032"
+		org="3111.301 0.000 1174.981"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418624832"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode418625364"
+		org="3282.462 0.000 1140.456"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418625364"
+		roadset="r2_gravel"
+		skinNumber="0"
+		FwdZLink="RoadNode418628580"
+		BackZLink="RoadNode418624832"
+		org="3318.940 0.000 1140.796"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418628580"
+		roadset="r2_gravel"
+		skinNumber="0"
+		BackZLink="RoadNode418625364"
+		org="3355.419 0.000 1141.136"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418662356"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode417231664"
+		BackZLink="RoadNode2065422420"
+		org="2607.069 0.000 661.604"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2065422420"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418662356"
+		BackZLink="RoadNode418663952"
+		org="2570.053 0.000 657.620"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418663952"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2065422420"
+		BackZLink="RoadNode418664484"
+		org="2524.943 0.000 643.638"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418664484"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418663952"
+		BackZLink="RoadNode418665016"
+		org="2479.832 0.000 629.656"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418665016"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418664484"
+		BackZLink="RoadNode418665548"
+		org="2448.142 0.000 619.998"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418665548"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418665016"
+		BackZLink="RoadNode418666080"
+		org="2416.451 0.000 610.339"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418666080"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418665548"
+		BackZLink="RoadNode418666612"
+		org="2383.786 0.000 604.744"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418666612"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418666080"
+		BackZLink="RoadNode418667144"
+		org="2349.747 0.000 608.892"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418667144"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418666612"
+		BackZLink="RoadNode418667676"
+		org="2314.732 0.000 617.103"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418667676"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418667144"
+		BackZLink="RoadNode418668208"
+		org="2279.719 0.000 625.314"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418668208"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418667676"
+		BackZLink="RoadNode418668740"
+		org="2244.704 0.000 633.525"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418668740"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418668208"
+		BackZLink="RoadNode418669272"
+		org="2209.690 0.000 641.736"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418669272"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418668740"
+		BackZLink="RoadNode418669804"
+		org="2172.438 0.000 654.082"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418669804"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418669272"
+		BackZLink="RoadNode418670336"
+		org="2135.256 0.000 669.305"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418670336"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418669804"
+		BackZLink="RoadNode418670868"
+		org="2103.241 0.000 689.586"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418670868"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418670336"
+		BackZLink="RoadNode418671400"
+		org="2071.297 0.000 712.744"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418671400"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418670868"
+		BackZLink="RoadNode418671932"
+		org="2039.354 0.000 735.901"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418671932"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418671400"
+		BackZLink="RoadNode418672464"
+		org="2020.832 0.000 762.604"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418672464"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418671932"
+		BackZLink="RoadNode418672996"
+		org="2002.310 0.000 789.306"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418672996"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418672464"
+		BackZLink="RoadNode418673528"
+		org="1983.788 0.000 816.008"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418673528"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418672996"
+		BackZLink="RoadNode418674060"
+		org="1961.955 0.000 854.659"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418674060"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418673528"
+		BackZLink="RoadNode418674592"
+		org="1937.848 0.000 886.695"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418674592"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418674060"
+		BackZLink="RoadNode418675124"
+		org="1901.915 0.000 911.826"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418675124"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418674592"
+		BackZLink="RoadNode418675656"
+		org="1864.530 0.000 916.623"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418675656"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418675124"
+		BackZLink="RoadNode418676188"
+		org="1827.582 0.000 901.657"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418676188"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418675656"
+		BackZLink="RoadNode418676720"
+		org="1798.795 0.000 870.141"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418676720"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418676188"
+		BackZLink="RoadNode418677252"
+		org="1786.984 0.000 836.490"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418677252"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418676720"
+		BackZLink="RoadNode418677784"
+		org="1782.512 0.000 800.010"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418677784"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418677252"
+		BackZLink="RoadNode418678316"
+		org="1778.041 0.000 763.529"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418678316"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418677784"
+		BackZLink="RoadNode418143784"
+		org="1774.944 0.000 728.886"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418143784"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418678316"
+		BackZLink="RoadNode418144316"
+		org="1771.848 0.000 694.243"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418144316"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418143784"
+		BackZLink="RoadNode418144848"
+		org="1768.752 0.000 659.600"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418144848"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418144316"
+		BackZLink="RoadNode418145380"
+		org="1765.656 0.000 624.957"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418145380"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418144848"
+		BackZLink="RoadNode418145912"
+		org="1759.479 0.000 579.767"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418145912"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418145380"
+		BackZLink="RoadNode418146444"
+		org="1748.220 0.000 534.783"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418146444"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418145912"
+		BackZLink="RoadNode418146976"
+		org="1734.829 0.000 507.181"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418146976"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418146444"
+		BackZLink="RoadNode418147508"
+		org="1716.356 0.000 479.784"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418147508"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418146976"
+		BackZLink="RoadNode418148040"
+		org="1697.882 0.000 452.388"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418148040"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418147508"
+		BackZLink="RoadNode418148572"
+		org="1679.408 0.000 424.992"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418148572"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418148040"
+		BackZLink="RoadNode418149104"
+		org="1658.162 0.000 395.378"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418149104"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418148572"
+		BackZLink="RoadNode418149636"
+		org="1636.916 0.000 365.765"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418149636"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418149104"
+		BackZLink="RoadNode418150168"
+		org="1608.868 0.000 339.949"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418150168"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418149636"
+		BackZLink="RoadNode418150700"
+		org="1578.974 0.000 319.634"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418150700"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418150168"
+		BackZLink="RoadNode418151232"
+		org="1542.278 0.000 303.118"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418151232"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418150700"
+		BackZLink="RoadNode418151764"
+		org="1496.046 0.000 291.289"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418151764"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418151232"
+		BackZLink="RoadNode418152296"
+		org="1444.777 0.000 297.533"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418152296"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418151764"
+		BackZLink="RoadNode418152828"
+		org="1409.162 0.000 315.270"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418152828"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418152296"
+		BackZLink="RoadNode2038263768"
+		org="1376.577 0.000 325.026"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode417445096"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418153360"
+		org="2287.521 0.000 957.949"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418153360"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418157616"
+		BackZLink="RoadNode417445096"
+		org="2339.993 0.000 957.793"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418157616"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418157084"
+		BackZLink="RoadNode418153360"
+		org="2375.521 0.000 925.279"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418157084"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418159212"
+		BackZLink="RoadNode418157616"
+		org="2378.885 0.000 898.825"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418159212"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418160276"
+		BackZLink="RoadNode418157084"
+		org="2376.422 0.000 855.267"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418160276"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418445752"
+		BackZLink="RoadNode418159212"
+		org="2381.709 0.000 821.888"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418445752"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418159744"
+		BackZLink="RoadNode418160276"
+		org="2403.807 0.000 804.398"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418159744"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418446284"
+		BackZLink="RoadNode418445752"
+		org="2429.048 0.000 799.306"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418446284"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418447348"
+		BackZLink="RoadNode418159744"
+		org="2464.290 0.000 801.691"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418447348"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418446816"
+		BackZLink="RoadNode418446284"
+		org="2499.973 0.000 808.022"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418446816"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418447880"
+		BackZLink="RoadNode418447348"
+		org="2535.657 0.000 814.353"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418447880"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418448944"
+		BackZLink="RoadNode418446816"
+		org="2571.341 0.000 820.684"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418448944"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418448412"
+		BackZLink="RoadNode418447880"
+		org="2611.250 0.000 814.730"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418448412"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418449476"
+		BackZLink="RoadNode418448944"
+		org="2651.159 0.000 808.775"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418449476"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418450008"
+		BackZLink="RoadNode418448412"
+		org="2680.858 0.000 792.709"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418450008"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418450540"
+		BackZLink="RoadNode418449476"
+		org="2705.702 0.000 772.880"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418450540"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418451072"
+		BackZLink="RoadNode418450008"
+		org="2725.004 0.000 745.615"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418451072"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		BackZLink="RoadNode418450540"
+		org="2739.451 0.000 714.587"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418451604"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418452668"
+		BackZLink="RoadNode418454264"
+		org="2225.914 0.000 804.997"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418452668"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418452136"
+		BackZLink="RoadNode418451604"
+		org="2262.314 0.000 808.080"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418452136"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418454796"
+		BackZLink="RoadNode418452668"
+		org="2301.670 0.000 811.839"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418454796"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418455860"
+		BackZLink="RoadNode418452136"
+		org="2333.260 0.000 811.723"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418454264"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		FwdZLink="RoadNode418451604"
+		org="2198.709 0.000 801.903"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418455860"
+		roadset="r4_country_dry"
+		skinNumber="0"
+		BackZLink="RoadNode418454796"
+		org="2376.775 0.000 816.167"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2038263768"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418152828"
+		BackZLink="RoadNode418663420"
+		org="1339.899 0.000 328.472"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418663420"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2038263768"
+		BackZLink="RoadNode418456392"
+		org="1306.252 0.000 323.937"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418456392"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418663420"
+		BackZLink="RoadNode418153892"
+		org="1272.605 0.000 319.401"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418153892"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418456392"
+		BackZLink="RoadNode418156020"
+		org="1235.712 0.000 304.665"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418156020"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418153892"
+		BackZLink="RoadNode418154956"
+		org="1198.820 0.000 289.930"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418154956"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418156020"
+		BackZLink="RoadNode418155488"
+		org="1161.927 0.000 275.194"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418155488"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418154956"
+		BackZLink="RoadNode419430760"
+		org="1129.749 0.000 267.226"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419430760"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418155488"
+		BackZLink="RoadNode419431292"
+		org="1097.572 0.000 259.258"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419431292"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419430760"
+		BackZLink="RoadNode419431824"
+		org="1058.413 0.000 261.174"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419431824"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419431292"
+		BackZLink="RoadNode419432356"
+		org="1019.255 0.000 263.089"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419432356"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419431824"
+		BackZLink="RoadNode419432888"
+		org="980.096 0.000 265.004"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419432888"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419432356"
+		BackZLink="RoadNode419433420"
+		org="945.297 0.000 279.255"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419433420"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419432888"
+		BackZLink="RoadNode419433952"
+		org="918.432 0.000 287.572"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419433952"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419433420"
+		BackZLink="RoadNode419434484"
+		org="875.664 0.000 293.304"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419434484"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419433952"
+		BackZLink="RoadNode419435016"
+		org="840.831 0.000 293.101"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419435016"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419434484"
+		BackZLink="RoadNode419435548"
+		org="808.174 0.000 295.634"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419435548"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419435016"
+		BackZLink="RoadNode419436080"
+		org="771.019 0.000 305.680"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419436080"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419435548"
+		BackZLink="RoadNode419436612"
+		org="736.040 0.000 318.461"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419436612"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419436080"
+		BackZLink="RoadNode419437144"
+		org="701.061 0.000 331.242"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419437144"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419436612"
+		BackZLink="RoadNode419437676"
+		org="666.083 0.000 344.023"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419437676"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419437144"
+		BackZLink="RoadNode419438208"
+		org="630.638 0.000 359.699"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419438208"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419437676"
+		BackZLink="RoadNode419438740"
+		org="595.193 0.000 375.374"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419438740"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419438208"
+		BackZLink="RoadNode419439272"
+		org="564.039 0.000 392.073"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419439272"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419438740"
+		BackZLink="RoadNode419439804"
+		org="532.303 0.000 416.198"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419439804"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419439272"
+		BackZLink="RoadNode419440336"
+		org="504.858 0.000 441.347"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419440336"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419439804"
+		BackZLink="RoadNode419440868"
+		org="485.998 0.000 467.420"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419440868"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419440336"
+		BackZLink="RoadNode419441400"
+		org="476.551 0.000 498.953"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419441400"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419440868"
+		BackZLink="RoadNode419441932"
+		org="475.691 0.000 531.411"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419441932"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419441400"
+		BackZLink="RoadNode419442464"
+		org="474.830 0.000 563.870"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419442464"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419441932"
+		BackZLink="RoadNode419442996"
+		org="473.969 0.000 596.328"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419442996"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419442464"
+		BackZLink="RoadNode419443528"
+		org="473.109 0.000 628.786"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419443528"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419442996"
+		BackZLink="RoadNode419444060"
+		org="475.704 0.000 663.151"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419444060"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419443528"
+		BackZLink="RoadNode419444592"
+		org="480.510 0.000 693.610"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419444592"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419444060"
+		BackZLink="RoadNode419445124"
+		org="493.627 0.000 721.036"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419445124"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419444592"
+		BackZLink="RoadNode419445656"
+		org="514.419 0.000 739.848"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419445656"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419445124"
+		BackZLink="RoadNode419446188"
+		org="548.107 0.000 749.341"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419446188"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419445656"
+		BackZLink="RoadNode419446720"
+		org="581.713 0.000 758.072"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419446720"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419446188"
+		BackZLink="RoadNode419447252"
+		org="615.320 0.000 766.803"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419447252"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419446720"
+		BackZLink="RoadNode418876792"
+		org="647.935 0.000 764.849"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418876792"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419447252"
+		BackZLink="RoadNode418877324"
+		org="680.551 0.000 762.895"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418877324"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418876792"
+		BackZLink="RoadNode418877856"
+		org="713.166 0.000 760.942"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418877856"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418877324"
+		BackZLink="RoadNode418878388"
+		org="745.782 0.000 758.988"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418878388"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418877856"
+		BackZLink="RoadNode418878920"
+		org="792.883 0.000 754.188"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418878920"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418878388"
+		BackZLink="RoadNode418879452"
+		org="840.339 0.000 754.029"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418879452"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418878920"
+		BackZLink="RoadNode418879984"
+		org="871.428 0.000 763.592"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418879984"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418879452"
+		BackZLink="RoadNode418880516"
+		org="902.669 0.000 776.788"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418880516"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418879984"
+		BackZLink="RoadNode418881048"
+		org="931.090 0.000 785.408"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418881048"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418880516"
+		BackZLink="RoadNode418881580"
+		org="967.259 0.000 787.271"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418881580"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418881048"
+		BackZLink="RoadNode418882112"
+		org="1000.508 0.000 784.054"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418882112"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418881580"
+		org="1033.756 0.000 780.837"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418882644"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418883176"
+		org="1869.306 0.000 957.039"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418883176"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418883708"
+		BackZLink="RoadNode418882644"
+		org="1856.422 0.000 990.758"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418883708"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418884240"
+		BackZLink="RoadNode418883176"
+		org="1843.538 0.000 1024.478"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418884240"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418884772"
+		BackZLink="RoadNode418883708"
+		org="1830.655 0.000 1058.198"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418884772"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418885304"
+		BackZLink="RoadNode418884240"
+		org="1823.124 0.000 1089.519"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418885304"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418885836"
+		BackZLink="RoadNode418884772"
+		org="1815.593 0.000 1120.840"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418885836"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418886368"
+		BackZLink="RoadNode418885304"
+		org="1816.981 0.000 1161.270"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418886368"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418887432"
+		BackZLink="RoadNode418885836"
+		org="1818.369 0.000 1201.701"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418887432"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418886900"
+		BackZLink="RoadNode418886368"
+		org="1827.199 0.000 1246.325"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418886900"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418888496"
+		BackZLink="RoadNode418887432"
+		org="1836.030 0.000 1290.949"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418888496"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418887964"
+		BackZLink="RoadNode418886900"
+		org="1846.191 0.000 1321.557"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418887964"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418889028"
+		BackZLink="RoadNode418888496"
+		org="1856.352 0.000 1352.165"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418889028"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418889560"
+		BackZLink="RoadNode418887964"
+		org="1872.067 0.000 1381.446"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418889560"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418890092"
+		BackZLink="RoadNode418889028"
+		org="1894.142 0.000 1403.469"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418890092"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418890624"
+		BackZLink="RoadNode418889560"
+		org="1921.772 0.000 1424.165"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418890624"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418891156"
+		BackZLink="RoadNode418890092"
+		org="1950.002 0.000 1442.055"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418891156"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418891688"
+		BackZLink="RoadNode418890624"
+		org="1980.817 0.000 1455.533"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418891688"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418892220"
+		BackZLink="RoadNode418891156"
+		org="2012.233 0.000 1466.207"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418892220"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418893284"
+		BackZLink="RoadNode418891688"
+		org="2043.649 0.000 1476.880"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418893284"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418892752"
+		BackZLink="RoadNode418892220"
+		org="2078.174 0.000 1485.129"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418892752"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419095496"
+		BackZLink="RoadNode418893284"
+		org="2109.115 0.000 1500.090"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419095496"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419096028"
+		BackZLink="RoadNode418892752"
+		org="2140.971 0.000 1513.499"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419096028"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419096560"
+		BackZLink="RoadNode419095496"
+		org="2169.244 0.000 1533.622"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419096560"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419097092"
+		BackZLink="RoadNode419096028"
+		org="2197.516 0.000 1553.744"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419097092"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419097624"
+		BackZLink="RoadNode419096560"
+		org="2225.789 0.000 1573.866"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419097624"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419098156"
+		BackZLink="RoadNode419097092"
+		org="2254.061 0.000 1593.988"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419098156"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300628188"
+		BackZLink="RoadNode419097624"
+		org="2282.334 0.000 1614.111"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419098688"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419099752"
+		org="1921.707 0.000 1466.754"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419099752"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419100284"
+		BackZLink="RoadNode419098688"
+		org="1916.855 0.000 1506.601"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419100284"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419100816"
+		BackZLink="RoadNode419099752"
+		org="1912.003 0.000 1546.448"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419100816"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419101348"
+		BackZLink="RoadNode419100284"
+		org="1915.001 0.000 1582.536"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419101348"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419101880"
+		BackZLink="RoadNode419100816"
+		org="1918.575 0.000 1619.330"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419101880"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419102412"
+		BackZLink="RoadNode419101348"
+		org="1929.998 0.000 1652.365"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419102412"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419102944"
+		BackZLink="RoadNode419101880"
+		org="1934.458 0.000 1684.859"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419102944"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419103476"
+		BackZLink="RoadNode419102412"
+		org="1932.543 0.000 1718.350"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419103476"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419104008"
+		BackZLink="RoadNode419102944"
+		org="1923.664 0.000 1751.300"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419104008"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419099220"
+		BackZLink="RoadNode419103476"
+		org="1907.999 0.000 1783.001"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419099220"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419104540"
+		BackZLink="RoadNode419104008"
+		org="1885.379 0.000 1808.672"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419104540"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419105072"
+		BackZLink="RoadNode419099220"
+		org="1855.974 0.000 1833.093"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419105072"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419105604"
+		BackZLink="RoadNode419104540"
+		org="1826.568 0.000 1857.515"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419105604"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419106136"
+		BackZLink="RoadNode419105072"
+		org="1797.162 0.000 1881.936"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419106136"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419106668"
+		BackZLink="RoadNode419105604"
+		org="1768.200 0.000 1903.430"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419106668"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419107200"
+		BackZLink="RoadNode419106136"
+		org="1739.238 0.000 1924.924"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419107200"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419107732"
+		BackZLink="RoadNode419106668"
+		org="1710.276 0.000 1946.417"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419107732"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419108264"
+		BackZLink="RoadNode419107200"
+		org="1681.314 0.000 1967.911"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419108264"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120330288"
+		BackZLink="RoadNode419107732"
+		org="1652.352 0.000 1989.405"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419109860"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419110924"
+		org="2375.893 0.000 3001.003"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419110924"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419108796"
+		BackZLink="RoadNode419109860"
+		org="2394.506 0.000 3037.342"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419108796"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419110392"
+		BackZLink="RoadNode419110924"
+		org="2413.119 0.000 3073.682"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419110392"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode418455328"
+		BackZLink="RoadNode419108796"
+		org="2420.415 0.000 3109.873"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode418455328"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419111988"
+		BackZLink="RoadNode419110392"
+		org="2427.711 0.000 3146.065"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419111988"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420409488"
+		BackZLink="RoadNode418455328"
+		org="2432.356 0.000 3189.712"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420409488"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420410020"
+		BackZLink="RoadNode419111988"
+		org="2430.392 0.000 3219.681"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420410020"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420410552"
+		BackZLink="RoadNode420409488"
+		org="2425.777 0.000 3257.105"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420410552"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420411084"
+		BackZLink="RoadNode420410020"
+		org="2415.904 0.000 3297.405"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420411084"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420411616"
+		BackZLink="RoadNode420410552"
+		org="2404.664 0.000 3322.778"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420411616"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420412148"
+		BackZLink="RoadNode420411084"
+		org="2388.166 0.000 3351.028"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420412148"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420412680"
+		BackZLink="RoadNode420411616"
+		org="2371.667 0.000 3379.277"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420412680"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420413212"
+		BackZLink="RoadNode420412148"
+		org="2355.169 0.000 3407.526"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420413212"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420413744"
+		BackZLink="RoadNode420412680"
+		org="2338.670 0.000 3435.775"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420413744"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode419111456"
+		BackZLink="RoadNode420413212"
+		org="2315.716 0.000 3464.650"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode419111456"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420414276"
+		BackZLink="RoadNode420413744"
+		org="2287.251 0.000 3489.891"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420414276"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420414808"
+		BackZLink="RoadNode419111456"
+		org="2250.519 0.000 3512.030"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420414808"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420415340"
+		BackZLink="RoadNode420414276"
+		org="2210.745 0.000 3523.976"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420415340"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420415872"
+		BackZLink="RoadNode420414808"
+		org="2169.159 0.000 3532.195"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420415872"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420416936"
+		BackZLink="RoadNode420415340"
+		org="2127.572 0.000 3540.414"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420416936"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420416404"
+		BackZLink="RoadNode420415872"
+		org="2084.780 0.000 3561.066"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420416404"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420418000"
+		BackZLink="RoadNode420416936"
+		org="2052.640 0.000 3580.018"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420418000"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420417468"
+		BackZLink="RoadNode420416404"
+		org="2031.479 0.000 3613.863"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420417468"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420418532"
+		BackZLink="RoadNode420418000"
+		org="2020.971 0.000 3646.006"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420418532"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420419064"
+		BackZLink="RoadNode420417468"
+		org="2016.752 0.000 3677.561"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420419064"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420419596"
+		BackZLink="RoadNode420418532"
+		org="2022.557 0.000 3715.844"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420419596"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420420128"
+		BackZLink="RoadNode420419064"
+		org="2034.651 0.000 3753.538"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420420128"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420420660"
+		BackZLink="RoadNode420419596"
+		org="2046.746 0.000 3791.232"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420420660"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420421192"
+		BackZLink="RoadNode420420128"
+		org="2049.064 0.000 3825.602"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420421192"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420421724"
+		BackZLink="RoadNode420420660"
+		org="2051.382 0.000 3859.972"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420421724"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420422256"
+		BackZLink="RoadNode420421192"
+		org="2053.700 0.000 3894.342"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420422256"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420422788"
+		BackZLink="RoadNode420421724"
+		org="2056.018 0.000 3928.712"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420422788"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode420423852"
+		BackZLink="RoadNode420422256"
+		org="2058.336 0.000 3963.083"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode420423852"
+		roadset="r4_highway"
+		skinNumber="0"
+		BackZLink="RoadNode420422788"
+		org="2062.230 0.000 3985.698"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300628188"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300628720"
+		BackZLink="RoadNode419098156"
+		org="2314.663 0.000 1636.860"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300628720"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300627656"
+		BackZLink="RoadNode1300628188"
+		org="2346.991 0.000 1659.609"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300627656"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300627124"
+		BackZLink="RoadNode1300628720"
+		org="2379.320 0.000 1682.358"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300627124"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300626592"
+		BackZLink="RoadNode1300627656"
+		org="2411.648 0.000 1705.107"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300626592"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300626060"
+		BackZLink="RoadNode1300627124"
+		org="2439.625 0.000 1733.689"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300626060"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300625528"
+		BackZLink="RoadNode1300626592"
+		org="2467.602 0.000 1762.271"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300625528"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455819748"
+		BackZLink="RoadNode1300626060"
+		org="2495.578 0.000 1790.853"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455819748"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300624464"
+		BackZLink="RoadNode1300625528"
+		org="2523.555 0.000 1819.435"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300624464"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300624996"
+		BackZLink="RoadNode1455819748"
+		org="2551.124 0.000 1843.464"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300624996"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1300623932"
+		BackZLink="RoadNode1300624464"
+		org="2578.693 0.000 1867.492"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300623932"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455818684"
+		BackZLink="RoadNode1300624996"
+		org="2606.262 0.000 1891.521"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455818684"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455820280"
+		BackZLink="RoadNode1300623932"
+		org="2633.831 0.000 1915.549"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455820280"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455820812"
+		BackZLink="RoadNode1455818684"
+		org="2661.400 0.000 1939.578"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455820812"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455821344"
+		BackZLink="RoadNode1455820280"
+		org="2681.985 0.000 1971.423"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455821344"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455821876"
+		BackZLink="RoadNode1455820812"
+		org="2690.099 0.000 2002.206"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455821876"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455822408"
+		BackZLink="RoadNode1455821344"
+		org="2687.063 0.000 2029.748"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455822408"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455822940"
+		BackZLink="RoadNode1455821876"
+		org="2686.110 0.000 2062.820"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455822940"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455823472"
+		BackZLink="RoadNode1455822408"
+		org="2685.157 0.000 2095.891"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455823472"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1455824004"
+		BackZLink="RoadNode1455822940"
+		org="2684.204 0.000 2128.962"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1455824004"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456374216"
+		BackZLink="RoadNode1455823472"
+		org="2671.430 0.000 2156.328"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456374216"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456374748"
+		BackZLink="RoadNode1455824004"
+		org="2651.821 0.000 2175.710"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456374748"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456375280"
+		BackZLink="RoadNode1456374216"
+		org="2621.485 0.000 2193.774"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456375280"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456375812"
+		BackZLink="RoadNode1456374748"
+		org="2588.960 0.000 2203.063"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456375812"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456376344"
+		BackZLink="RoadNode1456375280"
+		org="2553.667 0.000 2204.881"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456376344"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456376876"
+		BackZLink="RoadNode1456375812"
+		org="2526.675 0.000 2197.779"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456376876"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456377408"
+		BackZLink="RoadNode1456376344"
+		org="2495.821 0.000 2178.818"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456377408"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456377940"
+		BackZLink="RoadNode1456376876"
+		org="2464.966 0.000 2159.858"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456377940"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456379004"
+		BackZLink="RoadNode1456377408"
+		org="2434.112 0.000 2140.897"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456379004"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456378472"
+		BackZLink="RoadNode1456377940"
+		org="2402.931 0.000 2119.276"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456378472"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456379536"
+		BackZLink="RoadNode1456379004"
+		org="2371.750 0.000 2097.654"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456379536"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456380068"
+		BackZLink="RoadNode1456378472"
+		org="2340.568 0.000 2076.033"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456380068"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456380600"
+		BackZLink="RoadNode1456379536"
+		org="2309.545 0.000 2067.373"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456380600"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456381132"
+		BackZLink="RoadNode1456380068"
+		org="2270.905 0.000 2071.937"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456381132"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456381664"
+		BackZLink="RoadNode1456380600"
+		org="2232.423 0.000 2089.462"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456381664"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456382196"
+		BackZLink="RoadNode1456381132"
+		org="2211.679 0.000 2110.427"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456382196"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456382728"
+		BackZLink="RoadNode1456381664"
+		org="2206.833 0.000 2142.464"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456382728"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456383260"
+		BackZLink="RoadNode1456382196"
+		org="2213.560 0.000 2176.484"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456383260"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456383792"
+		BackZLink="RoadNode1456382728"
+		org="2223.771 0.000 2200.908"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456383792"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456384324"
+		BackZLink="RoadNode1456383260"
+		org="2235.900 0.000 2231.126"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456384324"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456385388"
+		BackZLink="RoadNode1456383792"
+		org="2250.499 0.000 2256.579"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456385388"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456384856"
+		BackZLink="RoadNode1456384324"
+		org="2268.182 0.000 2294.291"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456384856"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456385920"
+		BackZLink="RoadNode1456385388"
+		org="2283.516 0.000 2337.444"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456385920"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456386452"
+		BackZLink="RoadNode1456384856"
+		org="2294.411 0.000 2375.738"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456386452"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456386984"
+		BackZLink="RoadNode1456385920"
+		org="2302.714 0.000 2414.303"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456386984"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456387516"
+		BackZLink="RoadNode1456386452"
+		org="2307.367 0.000 2452.617"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456387516"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456388048"
+		BackZLink="RoadNode1456386984"
+		org="2311.390 0.000 2493.892"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456388048"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456388580"
+		BackZLink="RoadNode1456387516"
+		org="2315.729 0.000 2533.687"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456388580"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456389112"
+		BackZLink="RoadNode1456388048"
+		org="2314.813 0.000 2579.109"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456389112"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456389644"
+		BackZLink="RoadNode1456388580"
+		org="2315.903 0.000 2611.627"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456389644"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456390176"
+		BackZLink="RoadNode1456389112"
+		org="2311.738 0.000 2649.773"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456390176"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456566872"
+		BackZLink="RoadNode1456389644"
+		org="2307.574 0.000 2687.918"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456566872"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode1456567404"
+		BackZLink="RoadNode1456390176"
+		org="2308.002 0.000 2733.338"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456567404"
+		roadset="r4_highway"
+		skinNumber="0"
+		BackZLink="RoadNode1456566872"
+		org="2308.430 0.000 2778.759"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456569532"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456570064"
+		org="2136.359 0.000 2652.243"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456570064"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456569000"
+		BackZLink="RoadNode1456569532"
+		org="2134.952 0.000 2609.749"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456569000"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456571660"
+		BackZLink="RoadNode1456570064"
+		org="2129.917 0.000 2569.392"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456571660"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456571128"
+		BackZLink="RoadNode1456569000"
+		org="2124.979 0.000 2530.863"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456571128"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456570596"
+		BackZLink="RoadNode1456571660"
+		org="2116.412 0.000 2494.472"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456570596"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456572192"
+		BackZLink="RoadNode1456571128"
+		org="2111.803 0.000 2436.578"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456572192"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456573256"
+		BackZLink="RoadNode1456570596"
+		org="2124.458 0.000 2391.215"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456573256"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456573788"
+		BackZLink="RoadNode1456572192"
+		org="2141.884 0.000 2357.108"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456573788"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456574320"
+		BackZLink="RoadNode1456573256"
+		org="2174.510 0.000 2327.958"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456574320"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456572724"
+		BackZLink="RoadNode1456573788"
+		org="2210.179 0.000 2328.706"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456572724"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456575384"
+		BackZLink="RoadNode1456574320"
+		org="2234.119 0.000 2341.894"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456575384"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		BackZLink="RoadNode1456572724"
+		org="2256.332 0.000 2373.723"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456576448"
+		roadset="r2_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456577512"
+		org="2343.442 0.000 2446.852"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456577512"
+		roadset="r2_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456576980"
+		BackZLink="RoadNode1456576448"
+		org="2380.907 0.000 2433.930"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456576980"
+		roadset="r2_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456579640"
+		BackZLink="RoadNode1456577512"
+		org="2418.058 0.000 2426.024"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456579640"
+		roadset="r2_cross"
+		skinNumber="0"
+		BackZLink="RoadNode1456576980"
+		org="2457.550 0.000 2429.755"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458604004"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458603472"
+		org="2731.493 0.000 2026.160"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458603472"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458605600"
+		BackZLink="RoadNode1458604004"
+		org="2762.613 0.000 2001.495"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458605600"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458602408"
+		BackZLink="RoadNode1458603472"
+		org="2797.247 0.000 1993.163"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458602408"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458605068"
+		BackZLink="RoadNode1458605600"
+		org="2830.013 0.000 2002.997"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458605068"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1456578576"
+		BackZLink="RoadNode1458602408"
+		org="2857.011 0.000 2022.021"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1456578576"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458604536"
+		BackZLink="RoadNode1458605068"
+		org="2884.009 0.000 2041.045"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458604536"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458606132"
+		BackZLink="RoadNode1456578576"
+		org="2911.007 0.000 2060.069"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458606132"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458602940"
+		BackZLink="RoadNode1458604536"
+		org="2941.359 0.000 2087.361"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458602940"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458606664"
+		BackZLink="RoadNode1458606132"
+		org="2971.710 0.000 2114.654"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458606664"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458607728"
+		BackZLink="RoadNode1458602940"
+		org="2998.766 0.000 2142.406"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458607728"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458607196"
+		BackZLink="RoadNode1458606664"
+		org="3015.941 0.000 2176.014"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458607196"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458608260"
+		BackZLink="RoadNode1458607728"
+		org="3029.821 0.000 2210.083"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458608260"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458608792"
+		BackZLink="RoadNode1458607196"
+		org="3050.400 0.000 2232.148"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458608792"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458609324"
+		BackZLink="RoadNode1458608260"
+		org="3076.321 0.000 2247.553"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458609324"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458609856"
+		BackZLink="RoadNode1458608792"
+		org="3107.937 0.000 2252.339"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458609856"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458610388"
+		BackZLink="RoadNode1458609324"
+		org="3140.054 0.000 2256.433"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458610388"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458610920"
+		BackZLink="RoadNode1458609856"
+		org="3172.172 0.000 2260.526"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458610920"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		BackZLink="RoadNode1458610388"
+		org="3225.095 0.000 2278.491"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1300629252"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458599216"
+		org="3480.533 0.000 3187.440"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458599216"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458599748"
+		BackZLink="RoadNode1300629252"
+		org="3509.109 0.000 3239.353"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458599748"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode1458600280"
+		BackZLink="RoadNode1458599216"
+		org="3534.844 0.000 3269.426"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode1458600280"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		BackZLink="RoadNode1458599748"
+		org="3560.578 0.000 3299.499"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120330288"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120330820"
+		BackZLink="RoadNode419108264"
+		org="1625.430 0.000 2007.883"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120330820"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120508952"
+		BackZLink="RoadNode2120330288"
+		org="1598.508 0.000 2026.361"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120508952"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120509484"
+		BackZLink="RoadNode2120330820"
+		org="1571.586 0.000 2044.839"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120509484"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120510016"
+		BackZLink="RoadNode2120508952"
+		org="1544.665 0.000 2063.318"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120510016"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120510548"
+		BackZLink="RoadNode2120509484"
+		org="1510.815 0.000 2082.781"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120510548"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120511080"
+		BackZLink="RoadNode2120510016"
+		org="1476.966 0.000 2102.244"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120511080"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120511612"
+		BackZLink="RoadNode2120510548"
+		org="1443.117 0.000 2121.707"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120511612"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120512144"
+		BackZLink="RoadNode2120511080"
+		org="1415.466 0.000 2147.031"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120512144"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120512676"
+		BackZLink="RoadNode2120511612"
+		org="1387.814 0.000 2172.355"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120512676"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120513208"
+		BackZLink="RoadNode2120512144"
+		org="1360.163 0.000 2197.679"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120513208"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120513740"
+		BackZLink="RoadNode2120512676"
+		org="1332.511 0.000 2223.003"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120513740"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120514272"
+		BackZLink="RoadNode2120513208"
+		org="1298.702 0.000 2244.539"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120514272"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120514804"
+		BackZLink="RoadNode2120513740"
+		org="1264.892 0.000 2266.075"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120514804"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120515336"
+		BackZLink="RoadNode2120514272"
+		org="1231.082 0.000 2287.611"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120515336"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120515868"
+		BackZLink="RoadNode2120514804"
+		org="1197.273 0.000 2309.147"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120515868"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120516400"
+		BackZLink="RoadNode2120515336"
+		org="1173.558 0.000 2336.958"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120516400"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120516932"
+		BackZLink="RoadNode2120515868"
+		org="1149.844 0.000 2364.770"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120516932"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120517464"
+		BackZLink="RoadNode2120516400"
+		org="1126.130 0.000 2392.582"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120517464"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120518528"
+		BackZLink="RoadNode2120516932"
+		org="1104.596 0.000 2419.654"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120518528"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120517996"
+		BackZLink="RoadNode2120517464"
+		org="1085.655 0.000 2452.887"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120517996"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120519060"
+		BackZLink="RoadNode2120518528"
+		org="1068.895 0.000 2485.382"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120519060"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120519592"
+		BackZLink="RoadNode2120517996"
+		org="1052.135 0.000 2517.876"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120519592"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120520656"
+		BackZLink="RoadNode2120519060"
+		org="1035.375 0.000 2550.371"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120520656"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120520124"
+		BackZLink="RoadNode2120519592"
+		org="1026.393 0.000 2582.152"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120520124"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120521188"
+		BackZLink="RoadNode2120520656"
+		org="1017.410 0.000 2613.933"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120521188"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120521720"
+		BackZLink="RoadNode2120520124"
+		org="1008.428 0.000 2645.715"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120521720"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120522252"
+		BackZLink="RoadNode2120521188"
+		org="999.445 0.000 2677.496"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120522252"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120523316"
+		BackZLink="RoadNode2120521720"
+		org="987.689 0.000 2703.922"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120523316"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120522784"
+		BackZLink="RoadNode2120522252"
+		org="966.023 0.000 2731.206"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120522784"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120523848"
+		BackZLink="RoadNode2120523316"
+		org="941.583 0.000 2753.135"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120523848"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120524380"
+		BackZLink="RoadNode2120522784"
+		org="917.143 0.000 2775.064"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120524380"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120524912"
+		BackZLink="RoadNode2120523848"
+		org="892.703 0.000 2796.992"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120524912"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120525444"
+		BackZLink="RoadNode2120524380"
+		org="868.263 0.000 2818.921"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120525444"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120543688"
+		BackZLink="RoadNode2120524912"
+		org="843.823 0.000 2840.850"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120543688"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120544220"
+		BackZLink="RoadNode2120525444"
+		org="819.383 0.000 2862.779"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120544220"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120544752"
+		BackZLink="RoadNode2120543688"
+		org="804.990 0.000 2885.862"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120544752"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120546348"
+		BackZLink="RoadNode2120544220"
+		org="798.158 0.000 2915.523"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120546348"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120546880"
+		BackZLink="RoadNode2120544752"
+		org="794.455 0.000 2948.262"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120546880"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120547412"
+		BackZLink="RoadNode2120546348"
+		org="791.124 0.000 2978.142"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120547412"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120547944"
+		BackZLink="RoadNode2120546880"
+		org="789.506 0.000 3014.114"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120547944"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120548476"
+		BackZLink="RoadNode2120547412"
+		org="779.104 0.000 3046.985"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120548476"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120549008"
+		BackZLink="RoadNode2120547944"
+		org="756.772 0.000 3080.076"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120549008"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120549540"
+		BackZLink="RoadNode2120548476"
+		org="734.441 0.000 3113.167"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120549540"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120550604"
+		BackZLink="RoadNode2120549008"
+		org="712.110 0.000 3146.258"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120550604"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120551136"
+		BackZLink="RoadNode2120549540"
+		org="691.662 0.000 3172.198"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120551136"
+		roadset="r4_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode2120551668"
+		BackZLink="RoadNode2120550604"
+		org="671.214 0.000 3198.138"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120551668"
+		roadset="r4_highway"
+		skinNumber="0"
+		BackZLink="RoadNode2120551136"
+		org="650.766 0.000 3224.077"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120552732"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120552200"
+		BackZLink="RoadNode2120550072"
+		org="596.810 0.000 2660.051"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120552200"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120553796"
+		BackZLink="RoadNode2120552732"
+		org="638.270 0.000 2663.705"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120553796"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120553264"
+		BackZLink="RoadNode2120552200"
+		org="670.842 0.000 2671.258"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120553264"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120554328"
+		BackZLink="RoadNode2120553796"
+		org="703.414 0.000 2678.811"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120554328"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120554860"
+		BackZLink="RoadNode2120553264"
+		org="735.985 0.000 2686.363"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120554860"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120555392"
+		BackZLink="RoadNode2120554328"
+		org="771.421 0.000 2681.684"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120555392"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120555924"
+		BackZLink="RoadNode2120554860"
+		org="806.856 0.000 2677.004"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120555924"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120556456"
+		BackZLink="RoadNode2120555392"
+		org="842.291 0.000 2672.324"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120556456"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120557520"
+		BackZLink="RoadNode2120555924"
+		org="877.726 0.000 2667.644"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120557520"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120556988"
+		BackZLink="RoadNode2120556456"
+		org="917.498 0.000 2648.479"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120556988"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		BackZLink="RoadNode2120557520"
+		org="957.270 0.000 2629.313"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2120550072"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120552732"
+		BackZLink="RoadNode2121047644"
+		org="569.934 0.000 2669.209"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2121047644"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2120550072"
+		org="541.744 0.000 2685.243"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2121049772"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2121051368"
+		org="585.252 0.000 2640.442"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2121051368"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2121050836"
+		BackZLink="RoadNode2121049772"
+		org="561.536 0.000 2614.101"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2121050836"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2121051900"
+		BackZLink="RoadNode2121051368"
+		org="536.903 0.000 2592.307"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2121051900"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		BackZLink="RoadNode2121050836"
+		org="500.392 0.000 2575.022"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122551416"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122551948"
+		org="933.527 0.000 2804.383"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122551948"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122550884"
+		BackZLink="RoadNode2122551416"
+		org="962.739 0.000 2824.951"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122550884"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122552480"
+		BackZLink="RoadNode2122551948"
+		org="991.950 0.000 2845.519"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122552480"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122553544"
+		BackZLink="RoadNode2122550884"
+		org="1021.987 0.000 2862.839"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122553544"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122553012"
+		BackZLink="RoadNode2122552480"
+		org="1054.174 0.000 2875.823"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122553012"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122554076"
+		BackZLink="RoadNode2122553544"
+		org="1087.188 0.000 2885.558"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122554076"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122554608"
+		BackZLink="RoadNode2122553012"
+		org="1120.201 0.000 2895.294"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122554608"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122555140"
+		BackZLink="RoadNode2122554076"
+		org="1158.201 0.000 2900.260"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122555140"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122555672"
+		BackZLink="RoadNode2122554608"
+		org="1193.980 0.000 2892.944"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122555672"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		FwdZLink="RoadNode2122556204"
+		BackZLink="RoadNode2122555140"
+		org="1234.746 0.000 2880.859"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode2122556204"
+		roadset="test_gravel_cross"
+		skinNumber="0"
+		BackZLink="RoadNode2122555672"
+		org="1275.511 0.000 2868.774"
+		ModelNum="0" />
+</Roads>

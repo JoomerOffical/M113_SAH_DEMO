@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object 	Name="ToR7M1" 						FullName = "Дорога на Прибрежье"/>
+	<Object 	Name="Sin_WestIerihon" 				FullName = "Восточный Иерихон"/>
+	<Object 	Name="Sin_WestIerihon_enter" 		FullName = "Восточный Иерихон"/>
+	<Object 	Name="Sin_WI_Bar_Barman" 			FullName = "Официантка Ханна"/>
+	<Object 	Name="Sin_WestIerihon_Bar" 			FullName = "Бар 'У Джо'"/>
+	<Object	    Name="Sin_WestIerihon_Shop" 		FullName = "Магазин"/>
+	<Object	    Name="Sin_WestIerihon_Workshop" 	FullName = "Мастерская"/>
+	<Object	    Name="Sin_EastIerihon_Shop" 		FullName = "Магазин"/>
+	<Object	    Name="Sin_EastIerihon_Workshop" 	FullName = "Мастерская"/>
+	<Object	    Name="Sin_EastIerihon_Bar" 			FullName = "Бар 'Шарк'"/>
+	<Object	    Name="Sin_SanRafael_Shop" 			FullName = "Магазин"/>
+	<Object	    Name="Sin_SanRafael_Workshop" 		FullName = "Мастерская"/>
+	<Object	    Name="Sin_CatHouse_Shop" 			FullName = "Магазин"/>
+	<Object	    Name="Sin_CatHouse_Workshop" 		FullName = "Мастерская"/>
+	<Object	    Name="Sin_DogHouse_Shop" 			FullName = "Магазин"/>
+	<Object	    Name="Sin_DogHouse_Workshop" 		FullName = "Мастерская"/>
+	<Object	    Name="Sin_DogHouse_Bar" 			FullName = "Ферма"/>
+	<Object	    Name="Sin_Church_Workshop" 			FullName = "Мастерская"/>
+	<Object	    Name="Sin_Church_Bar" 				FullName = "Храм"/>
+	<Object	    Name="Sin_Church_Bar_Barman" 		FullName = "Монашка Пэтти"/>
+	<Object	    Name="Sin_Church_House" 			FullName = "Дом Отца"/>
+	<Object	    Name="PetrolStation_Workshop" 		FullName = "Мастерская"/>
+	<Object	    Name="Sin_EastIerihon_Bar_Barman" 	FullName = "Бармен Денниель"/>
+	<Object	    Name="Sin_EastIerihon" 				FullName = "Западный Иерихон"/>
+	<Object	    Name="Sin_EastIerihon_enter" 		FullName = "Западный Иерихон"/>
+	<Object 	Name="Sin_IerihonEast_MayorPlace"	FullName = "Мэрия"/>
+	<Object 	Name="Sin_Joe" 						FullName = "Джо"/>
+	<Object 	Name="Sin_Kitty" 					FullName = "Крошка Китти"/>
+	<Object   	Name="Sin_Bulldog" 					FullName = "Борн"/>
+	<Object	    Name="Sin_Garfield" 				FullName = "Гарфилд"/>
+	<Object  	Name="Sin_BlackWood" 				FullName = "Блэквуд"/>
+	<Object   	Name="Sin_Egoist" 					FullName = "Эгоист"/>
+	<Object		Name="Sin_Kitty_Trapped" 			FullName = "Крошка Китти"/>
+	<Object		Name="Sin_JessDriver" 				FullName = "Водитель Джесс"/>
+	<Object		Name="Sin_Graveman" 				FullName = "Могильщик Ган"/>
+	<Object 	Name="Sin_Father" 					FullName = "Отец Патрик" />
+	<Object 	Name="Sin_Church" 					FullName = "Церковь Колеса" />
+	<Object 	Name="Sin_CatHouse" 				FullName = "Кошкин Дом"/>
+	<Object 	Name="Sin_CatHouse_enter" 			FullName = "Кошкин Дом"/>
+	<Object 	Name="Sin_DogHouse" 				FullName = "Старая Ферма" />
+	<Object 	Name="Sin_SanRafael" 				FullName = "Сан Рафаэль" />
+	<Object 	Name="Sin_Church_enter"				FullName = "Церковь Колеса" />
+	<Object 	Name="PetrolStation" 				FullName = "Заправка" />
+	<Object 	Name="Sin_CatHouse_Bar"      		FullName = "Винный погреб" />
+	<Object 	Name="Sin_CatHouse_Bar_Barman"      FullName = "Винодел Чак" />
+	<Object 	Name="Sin_CatHouse_House"      		FullName = "Штаб" />
+	<Object 	Name="Sin_SanRafael_Bar"     		FullName = "Бар 'Аллигатор'" />
+	<Object 	Name="Sin_SanRafael_Bar_Barman"     FullName = "Марио" />
+	<Object 	Name="SinDogHouse"     				FullName = "Собачья Будка" />
+	<Object 	Name="SinDogHouse_enter"     		FullName = "Собачья Будка" />
+	<Object 	Name="SinDogHouse_Shop"     		FullName = "Магазин" />
+	<Object 	Name="SinDogHouse_Workshop"     	FullName = "Мастерская" />
+	<Object 	Name="SinDogHouse_Bar"     			FullName = "Кальянная" />
+	<Object 	Name="SinDogHouse_Bar_Barman"     	FullName = "Табачник Пью" />
+	<Object 	Name="SinDogHouse_House"     		FullName = "Штаб" />
+
+	<Object 	Name="DynQEnemy01"     		FullName = "Мартин Кокс" />
+	<Object 	Name="DynQEnemy02"     		FullName = "Джефри Родригез" />
+	<Object 	Name="DynQEnemy03"     		FullName = "Роберт Фостер" />
+	<Object 	Name="DynQEnemy04"     		FullName = "Джошуа Грин" />
+	<Object 	Name="DynQEnemy05"     		FullName = "Дональд Санчез" />
+	<Object 	Name="DynQEnemy06"     		FullName = "Карл Джонсон" />
+	<Object 	Name="DynQEnemy07"     		FullName = "Евген Перри" />
+	<Object 	Name="DynQEnemy08"     		FullName = "Чарльз Адамс" />
+	<Object 	Name="DynQEnemy09"     		FullName = "Джон Мэтью" />
+	<Object 	Name="DynQEnemy10"     		FullName = "Генри Томпсон" />
+	<Object 	Name="DynQEnemy11"     		FullName = "Джереми Паркер" />
+	<Object 	Name="DynQEnemy12"     		FullName = "Франклин Парк" />
+	<Object 	Name="DynQEnemy13"     		FullName = "Вильям Рейнольд" />
+	<Object 	Name="DynQEnemy14"     		FullName = "Гарри Флеминг" />
+	<Object 	Name="DynQEnemy15"     		FullName = "Джошуа Келли" />
+	<Object 	Name="DynQEnemy16"     		FullName = "Гленн Деннис" />
+	<Object 	Name="DynQEnemy17"     		FullName = "Ли Рей" />
+	<Object 	Name="DynQEnemy18"     		FullName = "Вилли Кларк" />
+	<Object 	Name="DynQEnemy19"     		FullName = "Джерри Дан" />
+	<Object 	Name="DynQEnemy20"     		FullName = "Геральд Хил" />
+	<Object 	Name="DynQEnemy21"     		FullName = "Аарон Харис" />
+	<Object 	Name="DynQEnemy22"     		FullName = "Дэвид Хадсон" />
+	<Object 	Name="DynQEnemy23"     		FullName = "Брайан Овен" />
+	<Object 	Name="DynQEnemy24"     		FullName = "Джимми Ром" />
+	<Object 	Name="DynQEnemy25"     		FullName = "Уолтер Смит" />
+</ObjectNames>

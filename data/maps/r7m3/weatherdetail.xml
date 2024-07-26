@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Weather>
+	<WeatherItem
+		name="r4m1_clear">
+		<ColorType
+			name="sunrise"
+			CloudsTexture="SkyBlight.dds" />
+
+		<ColorType
+			name="day"
+			CloudsTexture="SkyClear.dds" />
+
+		<ColorType
+			name="sunset"
+			CloudsTexture="SkyBlight1.dds" />
+
+		<ColorType
+			name="night"
+			CloudsTexture="LoadMe.txt" />
+	</WeatherItem>
+
+	<WeatherItem
+		name="r4m1_clear_soft">
+		<ColorType
+			name="sunrise"
+			CloudsTexture="SkyBlight.dds" />
+
+		<ColorType
+			name="day"
+			CloudsTexture="SkyClear.dds" />
+
+		<ColorType
+			name="sunset"
+			CloudsTexture="SkyBlight1.dds" />
+
+		<ColorType
+			name="night"
+			CloudsTexture="SkyStars2.dds" />
+	</WeatherItem>
+</Weather>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+<!--Смотрим хранилище-->
+	<trigger Name="cinLookStorage" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="cinLookStorage_loc"/>
+		<script>
+			trigger:Deactivate()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			Fly	("StorageLook_cam0", CINEMATIC_NO_AIM, 0, 8, 1, 0)
+			Fly	("StorageLook_cam1", CINEMATIC_NO_AIM, 0, 18, 0, 1)
+			StartCinematic()
+
+			TActivate("cinLookStorage_FadeIn")
+			TActivate("cinLookStorage_cam01")
+			TActivate("cinLookStorage_End")
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinLookStorage_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			CreateNewDummyObject( "dweller_new_hero", "humPlayer", -1, -1, CVector(311.130, 577.369, 2600.383), Quaternion(0.0000, -0.8757, 0.0000, 0.4829), 0)
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetGamePositionOnGround( CVector(312.727, 577.369, 2604.029))
+				Plf:SetRotation(Quaternion(0.030, 0.997, 0.038, 0.057))
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+			end
+
+			AddCinematicMessage( 100, 0.25 )
+		</script>
+	</trigger>
+
+	<trigger Name="cinLookStorage_cam01" active="0">
+		<event flypath="StorageLook_cam1" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local humPl = GetEntityByName ("humPlayer")
+			if humPl 
+				then humPl:Remove() 
+			end
+
+			AddCinematicMessage( 101, 0.5 )
+			AddCinematicMessage( 102, 0.25 )
+		</script>
+	</trigger>
+
+	<trigger Name="cinLookStorage_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RestoreAllToleranceStatus()
+
+			TDeactivate("cinLookStorage_FadeIn")
+			TDeactivate("cinLookStorage_cam01")
+
+			CompleteQuest("r7m3_ComeToStorage1_Quest")
+
+			SetCameraBehindPlayerVehicle()
+		</script>
+	</trigger>
+
+<!--Отпустили бандита, с нами связывается Отшельник-->
+<trigger Name="cinHerCon" active="0">
+	<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+	<script>
+		trigger:Deactivate()
+
+		local Plf = GetPlayerVehicle()
+		Plf:SetThrottle( 0 )
+		Plf:SetCustomLinearVelocity( 0 )
+
+		local PlfID = GetPlayerVehicleId()
+		local PlfCoor = Plf:GetPosition()
+		PlfCoor.y = PlfCoor.y + 25*0.74
+		PlfCoor.z = PlfCoor.z + 25*0.74
+
+		SaveAllToleranceStatus(RS_NEUTRAL)
+
+		FlyAround(2, 0, 50, 25, PlfCoor, PlfID, 1, 1 )
+		StartCinematic()
+
+		TActivate("cinHerCon_FadeIn")
+		TActivate("cinHerCon_End")
+	</script>
+</trigger>
+
+<trigger Name="cinHerCon_FadeIn" active="0">
+	<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		AddCinematicMessage(200, 0.25)
+		AddCinematicMessage(201, 0.25)
+		AddCinematicMessage(202, 0.25)
+		AddCinematicMessage(203, 0.25)
+
+	</script>
+</trigger>
+
+<trigger Name="cinHerCon_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		RestoreAllToleranceStatus()
+
+		TDeactivate("cinHerCon_FadeIn")
+
+		TakeQuest("r7m1_BackToHermit_Quest")
+
+		SetCameraBehindPlayerVehicle()
+	</script>
+</trigger>	
+
+<!--Наемники у восточного хранилища-->
+<trigger Name="cinMercEast" active="0">
+	<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ArmyVino_loc"/>
+	<script>
+		trigger:Deactivate()
+
+		SaveAllToleranceStatus(RS_NEUTRAL)
+
+		Fly	("CapStorage_cam0", CINEMATIC_NO_AIM, 0, 6, 1, 0)
+		Fly	("CapStorage_cam1", CINEMATIC_NO_AIM, 0, 13, 0, 1)
+		StartCinematic()
+
+		TActivate("cinMercEast_FadeIn")
+		TActivate("cinMercEast_cam01")
+		TActivate("cinMercEast_End")
+
+		CompleteQuest("r7m3_GoToStorage_Quest")
+
+	</script>
+</trigger>
+
+<trigger Name="cinMercEast_FadeIn" active="0">
+	<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		CreateTeam("Merc01", 1108, CVector(3158.942, 560.611, 2257.302), {"Bug02"}, nil, nil, {Quaternion(0.038, 0.743, 0.044, -0.667)})
+		CreateTeam("Merc02", 1108, CVector(3155.334, 560.393, 2278.906), {"Scout01"}, nil, nil, {Quaternion(0.040, 0.908, 0.022, -0.417)})
+		CreateTeam("Merc03", 1108, CVector(3164.374, 560.085, 2238.086), {"Scout02"}, nil, nil, {Quaternion(0.021, 0.589, 0.065, -0.805)})
+
+		CreateTeam("Bndit01", 1105, CVector(getPos("Sml03Bnd_loc")), {"Sml301"}, nil, nil, {Quaternion(0.038, 0.743, 0.044, -0.667)})
+		CreateTeam("Bndit02", 1105, CVector(getPos("Scout02Bnd_loc")), {"Scout02"}, nil, nil, {Quaternion(0.038, 0.743, 0.044, -0.667)})
+		CreateTeam("Bndit03", 1105, CVector(getPos("Bug01Bnd_loc")), {"Bug01"}, nil, nil, {Quaternion(0.038, 0.743, 0.044, -0.667)})
+		CreateTeam("Bndit04", 1105, CVector(getPos("Molokovoz02Bnd_loc")), {"Molokovoz02"}, nil, nil, {Quaternion(0.038, 0.743, 0.044, -0.667)})
+		CreateTeam("Bndit05", 1105, CVector(getPos("Sml03_loc")), {"Sml301"}, nil, nil, {Quaternion(0.038, 0.743, 0.044, -0.667)})
+		CreateTeam("Bndit06", 1105, CVector(getPos("Scout01Bnd_loc")), {"Scout01"}, nil, nil, {Quaternion(0.038, 0.743, 0.044, -0.667)})
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetGamePositionOnGround( CVector(3133.955, 562.586, 2255.108))
+			Plf:SetRotation(Quaternion(-0.022, -0.679, 0.009, -0.734))
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		AddCinematicMessage( 300, 0.25 )
+	</script>
+</trigger>
+
+<trigger Name="cinMercEast_cam01" active="0">
+	<event flypath="CapStorage_cam1" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		AddCinematicMessage( 301, 0.5 )
+		AddCinematicMessage( 302, 0.25 )
+	</script>
+</trigger>
+
+<trigger Name="cinMercEast_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		RestoreAllToleranceStatus()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetGamePositionOnGround( CVector(getPos("PlayerSet_loc")))
+			Plf:SetRotation(Quaternion(-0.022, -0.679, 0.009, -0.734))
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		local Mr1 = getObj("Merc01_vehicle_0")
+		if Mr1 then
+			Mr1:SetCustomControlEnabled( true )
+			Mr1:SetGamePositionOnGround( CVector(getPos("Bug02Vino_loc")))
+			Mr1:SetRotation(Quaternion(-0.022, -0.679, 0.009, -0.734))
+			Mr1:SetCustomLinearVelocity( 0 )
+			Mr1:SetThrottle( 0 )
+			Mr1:SetCustomControlEnabled( false )
+		end
+
+		local Mr2 = getObj("Merc02_vehicle_0")
+		if Mr2 then
+			Mr2:SetCustomControlEnabled( true )
+			Mr2:SetGamePositionOnGround( CVector(getPos("Scout01Vino_loc")))
+			Mr2:SetRotation(Quaternion(-0.022, -0.679, 0.009, -0.734))
+			Mr2:SetCustomLinearVelocity( 0 )
+			Mr2:SetThrottle( 0 )
+			Mr2:SetCustomControlEnabled( false )
+		end
+
+		local Mr3 = getObj("Merc03_vehicle_0")
+		if Mr3 then
+			Mr3:SetCustomControlEnabled( true )
+			Mr3:SetGamePositionOnGround( CVector(getPos("Scout02Vino_loc")))
+			Mr3:SetRotation(Quaternion(-0.022, -0.679, 0.009, -0.734))
+			Mr3:SetCustomLinearVelocity( 0 )
+			Mr3:SetThrottle( 0 )
+			Mr3:SetCustomControlEnabled( false )
+		end
+
+
+		TDeactivate("cinMercEast_FadeIn")
+		TDeactivate("cinMercEast_cam01")
+
+		TActivate("trStorDie")
+
+		TakeQuest("r7m3_FightToStBnd_Quest")
+
+		SetCameraBehindPlayerVehicle()
+	</script>
+</trigger>
+
+<!--Освободили хранилище-->
+<trigger Name="cinFreeSto" active="0">
+	<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+	<script>
+		trigger:Deactivate()
+
+		local Plf = GetPlayerVehicle()
+		Plf:SetThrottle( 0 )
+		Plf:SetCustomLinearVelocity( 0 )
+
+		local PlfID = GetPlayerVehicleId()
+		local PlfCoor = Plf:GetPosition()
+		PlfCoor.y = PlfCoor.y + 25*0.74
+		PlfCoor.z = PlfCoor.z + 25*0.74
+
+		SaveAllToleranceStatus(RS_NEUTRAL)
+
+		FlyAround(2, 0, 50, 25, PlfCoor, PlfID, 1, 1 )
+		StartCinematic()
+
+		TActivate("cinFreeSto_FadeIn")
+		TActivate("cinFreeSto_End")
+	</script>
+</trigger>
+
+<trigger Name="cinFreeSto_FadeIn" active="0">
+	<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		AddCinematicMessage(400, 0.25)
+		AddCinematicMessage(401, 0.25)
+		AddCinematicMessage(402, 0.25)
+
+	</script>
+</trigger>
+
+<trigger Name="cinFreeSto_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		RestoreAllToleranceStatus()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetGamePositionOnGround( CVector(3103.102, 563.829, 2253.426))
+			Plf:SetRotation(Quaternion(-0.010, -0.766, -0.017, 0.642))
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		TDeactivate("cinFreeSto_FadeIn")
+
+		SetTolerance(1100, 1108, RS_ALLY)
+
+		TakeQuest("r7m3_BackToJefe3_Quest")
+
+		SetCameraBehindPlayerVehicle()
+	</script>
+</trigger>
+
+<!--Прошли границу одни-->
+<trigger Name="cinPassGranAl" active="0">
+	<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+	<script>
+		trigger:Deactivate()
+
+		SaveAllToleranceStatus(RS_NEUTRAL)
+
+		Fly	("GranitsaPass_cam0", CINEMATIC_NO_AIM, 0, 14, 1, 0)
+		Fly	("GranitsaPass_cam2", CINEMATIC_NO_AIM, 0, 75, 0, 1)
+		StartCinematic()
+
+		TActivate("cinPassGranAl_FadeIn")
+		TActivate("cinPassGranAl_cam02")
+		TActivate("cinPassGranAl_End")
+
+	</script>
+</trigger>
+
+<trigger Name="cinPassGranAl_FadeIn" active="0">
+	<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetPosition( CVector(2309.551, 544.840, 2747.727))
+			Plf:SetRotation(Quaternion(-0.074, 0.059, 0.000, 0.995))
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetExternalPathByName("AfterGran")
+			Plf:SetCustomControlEnabled( false )
+		end
+
+	</script>
+</trigger>
+
+<trigger Name="cinPassGranAl_cam02" active="0">
+	<event flypath="GranitsaPass_cam2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		AddCinematicMessage( 500, 1 )
+		AddCinematicMessage( 501, 0.25 )
+		AddCinematicMessage( 502, 0.25 )
+		AddCinematicMessage( 503, 0.25 )
+		AddCinematicMessage( 504, 0.25 )
+		AddCinematicMessage( 505, 0.25 )
+		AddCinematicMessage( 506, 0.25 )
+		AddCinematicMessage( 507, 0.25 )
+		AddCinematicMessage( 508, 0.25 )
+		AddCinematicMessage( 509, 0.25 )
+	</script>
+</trigger>
+
+<trigger Name="cinPassGranAl_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		RestoreAllToleranceStatus()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:PlaceToEndOfPath()
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		TDeactivate("cinPassGranAl_FadeIn")
+		TDeactivate("cinPassGranAl_cam02")
+
+		SpawnMessageBox(700)
+
+		ShowDeathMenu()
+
+	</script>
+</trigger>
+
+<!--Прошли границу с караванщиком-->
+<trigger Name="cinPassGranCr" active="0">
+	<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+	<script>
+		trigger:Deactivate()
+
+		SaveAllToleranceStatus(RS_NEUTRAL)
+
+		Fly	("GranitsaPass_cam0", CINEMATIC_NO_AIM, 0, 14, 1, 0)
+		Fly	("GranitsaPass_cam1", CINEMATIC_NO_AIM, 0, 17, 0, 0)
+		Fly	("GranitsaPass_cam2", CINEMATIC_NO_AIM, 0, 75, 0, 1)
+		StartCinematic()
+
+		TActivate("cinPassGranCr_FadeIn")
+		TActivate("cinPassGranCr_cam01")
+		TActivate("cinPassGranCr_cam02")
+		TActivate("cinPassGranCr_End")
+
+	</script>
+</trigger>
+
+<trigger Name="cinPassGranCr_FadeIn" active="0">
+	<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		CreateTeam("Caravanshik", 1101, CVector(2294.808, 545.669, 2750.123), {"Molokovoz01"}, nil, nil, {Quaternion(-0.078, 0.026, -0.018, 0.996)})
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetPosition( CVector(2315.077, 544.792, 2747.168))
+			Plf:SetRotation(Quaternion(-0.070, -0.012, 0.002, 0.997))
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetExternalPathByName("AfterGranAssis")
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		local CrV = getObj("Caravanshik_vehicle_0")
+		if CrV then
+			CrV:SetCustomControlEnabled( true )
+			CrV:SetCustomLinearVelocity( 0 )
+			CrV:SetThrottle( 0 )
+			CrV:SetExternalPathByName("AfterGranCarav")
+			CrV:SetCustomControlEnabled( false )
+		end		
+	</script>
+</trigger>
+
+<trigger Name="cinPassGranCr_cam01" active="0">
+	<event flypath="GranitsaPass_cam1" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetPosition( CVector(2390.141, 556.595, 3042.380))
+			Plf:SetRotation(Quaternion(-0.011, 0.256, -0.033, 0.966))
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:PlaceToEndOfPath()
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		local CrV = getObj("Caravanshik_vehicle_0")
+		if CrV then
+			CrV:SetCustomControlEnabled( true )
+			CrV:SetPosition( CVector(2398.003, 555.830, 3038.518))
+			CrV:SetRotation(Quaternion(-0.015, 0.225, -0.046, 0.973))
+			CrV:SetCustomLinearVelocity( 0 )
+			CrV:SetThrottle( 0 )
+			CrV:PlaceToEndOfPath()
+			CrV:SetCustomControlEnabled( false )
+		end	
+		
+		AddCinematicMessage( 600, 0.5 )
+		AddCinematicMessage( 601, 0.25 )
+		AddCinematicMessage( 602, 0.25 )
+		AddCinematicMessage( 603, 0.25 )
+	</script>
+</trigger>
+
+<trigger Name="cinPassGranCr_cam02" active="0">
+	<event flypath="GranitsaPass_cam2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetExternalPathByName("AfterGran2")
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		local CrV = getObj("Caravanshik_vehicle_0")
+		if CrV then
+			CrV:SetCustomControlEnabled( true )
+			CrV:SetCustomLinearVelocity( 0 )
+			CrV:SetThrottle( 0 )
+			CrV:SetExternalPathByName("AfterGranCarav2")
+			CrV:SetCustomControlEnabled( false )
+		end	
+
+		AddCinematicMessage( 501, 1 )
+		AddCinematicMessage( 502, 0.25 )
+		AddCinematicMessage( 503, 0.25 )
+		AddCinematicMessage( 504, 0.25 )
+		AddCinematicMessage( 505, 0.25 )
+		AddCinematicMessage( 506, 0.25 )
+		AddCinematicMessage( 507, 0.25 )
+		AddCinematicMessage( 508, 0.25 )
+		AddCinematicMessage( 509, 0.25 )
+	</script>
+</trigger>
+
+<trigger Name="cinPassGranCr_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+	<script>
+		trigger:Deactivate()
+
+		RestoreAllToleranceStatus()
+
+		local Plf = GetPlayerVehicle()
+		if Plf then
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:PlaceToEndOfPath()
+			Plf:SetCustomControlEnabled( false )
+		end
+
+		TDeactivate("cinPassGranCr_FadeIn")
+		TDeactivate("cinPassGranCr_cam01")
+		TDeactivate("cinPassGranCr_cam02")
+
+		SpawnMessageBox(700)
+
+		ShowDeathMenu()
+
+	</script>
+</trigger>
+</triggers>

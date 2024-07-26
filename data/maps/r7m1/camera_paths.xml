@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+
+	<Path Name="StartGame_cam0">
+		<Point  coord="3393.947 360.506 295.705" rotation="-0.039 0.838 -0.060 0.541"/>
+		<Point  coord="3393.947 344.506 295.705" rotation="-0.039 0.838 -0.060 0.541"/>
+	</Path>
+
+	<Path Name="StartGame_cam1">
+		<Point  coord="3385.856 345.092 305.544" rotation="0.003 0.993 -0.028 -0.118"/>
+		<Point  coord="3385.781 345.110 305.854" rotation="0.003 0.993 -0.028 -0.118"/>
+	</Path>
+
+	<Path Name="StartGame_cam2">
+		<Point  coord="3388.915 344.773 293.670" rotation="-0.037 0.956 -0.139 0.255"/>
+		<Point  coord="3389.429 345.080 294.569" rotation="-0.037 0.956 -0.139 0.255"/>
+	</Path>
+
+	<Path Name="StartGame_cam3">
+		<Point  coord="3388.895 344.399 292.957" rotation="-0.001 0.484 -0.001 0.875"/>
+	</Path>
+
+	<Path Name="StartGame_cam4">
+		<Point  coord="3404.530 346.506 277.588" rotation="-0.082 0.291 -0.025 0.953"/>
+		<Point  coord="3405.146 346.697 276.672" rotation="-0.082 0.291 -0.025 0.953"/>
+	</Path>
+
+	<Path Name="StartGame_cam5">
+		<Point  coord="3390.146 344.268 293.303" rotation="-0.025 0.650 -0.021 0.759"/>
+		<Point  coord="3391.606 344.366 293.077" rotation="-0.025 0.650 -0.021 0.759"/>
+	</Path>
+
+	<Path Name="StartGame_cam6">
+		<Point  coord="3391.155 342.738 305.454" rotation="-0.007 0.982 0.037 -0.184"/>
+		<Point  coord="3389.835 342.463 308.857" rotation="-0.007 0.982 0.037 -0.184"/>
+	</Path>
+
+
+	<Path Name="FirstBandit_cam0">
+		<Point  coord="3044.607 257.405 544.375" rotation="-0.000 0.988 0.000 -0.157"/>
+		<Point  coord="3070.258 258.231 567.583" rotation="0.000 1.000 0.009 0.012"/>
+	</Path>
+
+
+	<Path Name="TruckTre_cam0">
+		<Point  coord="698.105 263.299 750.300" rotation="-0.077 -0.162 0.013 0.984"/>
+		<Point  coord="691.022 266.779 729.336" rotation="-0.077 -0.162 0.013 0.984"/>
+	</Path>
+
+	<Path Name="TruckTre_cam1">
+		<Point  coord="0.000 1.000 0.000"/>
+	</Path>
+
+
+	<Path Name="RunBnd_cam0">
+		<Point  coord="687.260 296.117 1332.791" rotation="0.015 0.985 -0.104 -0.138"/>
+		<Point  coord="654.780 291.108 1259.953" rotation="0.002 0.986 -0.013 -0.164"/>
+	</Path>
+
+
+	<Path Name="AvpBnd_cam0">
+		<Point  coord="2136.722 299.937 3433.130" rotation="-0.035 0.950 -0.115 0.288"/>
+		<Point  coord="2028.664 283.737 3345.220" rotation="-0.015 0.985 -0.107 0.137"/>
+	</Path>
+</Paths>

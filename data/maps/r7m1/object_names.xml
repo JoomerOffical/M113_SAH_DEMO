@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+
+	<Object	
+		Name = "ToR7M2"						
+		FullName = "Дорога в Свободные Земли" />
+	
+	<Object	
+		Name = "ToR7M3"						
+		FullName = "Дорога в Вексику" />
+
+	<Object
+		Name="MayakCity"
+		FullName="Старый Маяк" />
+
+	<Object
+		Name="MayakCity_enter"
+		FullName="Старый Маяк" />
+
+	<Object
+		Name="MayakCity_House"
+		FullName="Домик Смотрителя" />
+
+	<Object
+		Name="MayakCity_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="DocVincent_NPC"
+		FullName="Смотритель Винсент " />
+
+	<Object
+		Name="MaraMotos"
+		FullName="Марамотос" />
+
+	<Object
+		Name="MaraMotos_enter"
+		FullName="Марамотос" />
+
+	<Object
+		Name="MaraMotos_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="MaraMotos_Bar"
+		FullName="Сельская пивнушка" />
+
+	<Object
+		Name="MaraMotos_Bar_Barman"
+		FullName="Селянин Игназио" />
+
+	<Object
+		Name="DrunkMateo_NPC"
+		FullName="Пьяница Матео" />
+
+	<Object
+		Name="BattleRevol_NPC"
+		FullName="Боец Раволь" />
+
+	<Object
+		Name="BanditThiago_NPC"
+		FullName="Бандит Тьяго" />
+
+	<Object
+		Name="MaraMotos_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Kristy"
+		FullName="Кристи" />
+
+	<Object
+		Name="Kristy_enter"
+		FullName="Кристи" />
+
+	<Object
+		Name="Kristy_Bar"
+		FullName="Гостинница" />
+
+	<Object
+		Name="Kristy_Bar_Barman"
+		FullName="Смотрительница Цири" />
+
+	<Object
+		Name="MomGato_NPC"
+		FullName="Мама Гато" />
+
+	<Object
+		Name="PetrolStationr7m1_1"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationr7m1_1_enter"
+		FullName="Заправка" />
+
+	<Object
+		Name="Monterrey"
+		FullName="Монтерей" />
+
+	<Object
+		Name="Monterrey_enter"
+		FullName="Монтерей" />
+
+	<Object
+		Name="Monterrey_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="Monterrey_Bar"
+		FullName="Бар ''Alvarez''" />
+
+	<Object
+		Name="Monterrey_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Monterrey_Bar_Barman"
+		FullName="Хозяйка Альварез" />
+
+	<Object
+		Name="SellerTadeo_NPC"
+		FullName="Продавец Тадэо" />
+
+	<Object
+		Name="TreasureNodin_NPC"
+		FullName="Авантюрист Нодин" />
+
+	<Object
+		Name="PetrolStationr7m1_2"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationr7m1_2_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationr7m1_2_enter"
+		FullName="Заправка" />
+
+	<Object
+		Name="MechanicLeonel_NPC"
+		FullName="Механик Леонель" />
+
+	<Object	
+		Name = "DynQEnemy01"					
+		FullName = "Вентуро Касадо" />
+
+	<Object	
+		Name = "DynQEnemy02"					
+		FullName = "Джеральд Баса" />
+	
+	<Object	
+		Name = "DynQEnemy03"					
+		FullName = "Данило Монтальбо" />
+	
+	<Object	
+		Name = "DynQEnemy04"					
+		FullName = "Нето Сепеда" />
+	
+	<Object	
+		Name = "DynQEnemy05"					
+		FullName = "Фредерико Мерсед" />
+	
+	<Object	
+		Name = "DynQEnemy06"					
+		FullName = "Николас Дурон" />
+	
+	<Object	
+		Name = "DynQEnemy07"					
+		FullName = "Алехандро Беннито" />
+	
+	<Object	
+		Name = "DynQEnemy08"					
+		FullName = "Викториано Кампано" />
+	
+	<Object	
+		Name = "DynQEnemy09"					
+		FullName = "Тимо Ороско" />
+	
+	<Object	
+		Name = "DynQEnemy10"					
+		FullName = "Бартоло Вирджен" />
+	
+	<Object	
+		Name = "DynQEnemy11"					
+		FullName = "Кристиан Солар" />
+	
+	<Object	
+		Name = "DynQEnemy12"					
+		FullName = "Гаспард Мартинез" />
+	
+	<Object	
+		Name = "DynQEnemy13"					
+		FullName = "Лисандро Негрин" />
+	
+	<Object	
+		Name = "DynQEnemy14"					
+		FullName = "Алано Миераз" />
+	
+	<Object	
+		Name = "DynQEnemy15"					
+		FullName = "Орлан Веласко" />
+	
+	<Object	
+		Name = "DynQEnemy16"					
+		FullName = "Айвен Дена" />
+	
+	<Object	
+		Name = "DynQEnemy17"					
+		FullName = "Фермин Манзано" />
+	
+	<Object	
+		Name = "DynQEnemy18"					
+		FullName = "Оливер Пиззаро" />
+	
+	<Object	
+		Name = "DynQEnemy19"					
+		FullName = "Вирджилио Вилальпандо" />
+	
+	<Object	
+		Name = "DynQEnemy20"					
+		FullName = "Мануэль Мато" />
+	
+	<Object	
+		Name = "DynQEnemy21"					
+		FullName = "Вето Галеас" />
+	
+	<Object	
+		Name = "DynQEnemy22"					
+		FullName = "Фиделее Мелон" />
+	
+	<Object	
+		Name = "DynQEnemy23"					
+		FullName = "Джуан Эсперанза" />
+	
+	<Object	
+		Name = "DynQEnemy24"					
+		FullName = "Крис Тирадо" />
+	
+	<Object	
+		Name = "DynQEnemy25"					
+		FullName = "Цицерон Гордильо" />
+
+</ObjectNames>

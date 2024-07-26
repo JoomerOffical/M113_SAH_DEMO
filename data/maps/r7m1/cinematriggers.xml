@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+<!--Начало игры-->
+	<trigger Name="cinDoctorOut" active="1">
+	<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			trigger:Deactivate()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			SetRadarUpgrade(1)
+
+			PlayCustomMusic("QuietDialogue01")
+
+			RuleConsole("cinematic_spring_coeff 1.7")
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+
+			TActivate("cinDoctorOut_FadeIn")
+
+			Fly("StartGame_cam0", CINEMATIC_NO_AIM, 0, 25, 1, 0 )
+			Fly("StartGame_cam1", CINEMATIC_NO_AIM, 0, 10, 0, 0 )
+			Fly("StartGame_cam2", CINEMATIC_NO_AIM, 0, 10, 0, 0 )
+			Fly("StartGame_cam3", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
+			Fly("StartGame_cam4", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
+			Fly("StartGame_cam5", CINEMATIC_NO_AIM, 0, 10, 0, 0 )
+			Fly("StartGame_cam6", CINEMATIC_NO_AIM, 0, 3, 0, 1 )
+			StartCinematic()
+			UpdateCinematic(1)
+
+			TActivate( "cinDoctorOut_cam1" )
+			TActivate( "cinDoctorOut_cam2" )
+			TActivate( "cinDoctorOut_cam3" )
+			TActivate( "cinDoctorOut_cam4" )
+			TActivate( "cinDoctorOut_cam5" )
+			TActivate( "cinDoctorOut_cam6" )
+			TActivate( "cinDoctorOut_end" )
+		</script>
+	</trigger>
+
+	<trigger Name="cinDoctorOut_FadeIn" active="0">
+	<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			SetWeather (0)
+			SetGameTime (12,0)
+
+			CreateNewDummyObject( "dweller_new_hero", "humPlayer", -1, -1, CVector(3388.285, 342.710, 292.459), Quaternion(0.0000, 0.2840, 0.0000, 0.9588), 0)
+			CreateNewDummyObject( "dweller_vincent", "doc1", -1, -1, CVector(3387.748, 342.700, 293.654), Quaternion(0.0000, 0.7163, 0.0000, 0.6978), 0)
+
+			AddCinematicMessage( 100, 2.5)
+			AddCinematicMessage( 101, 0.25 )
+			AddCinematicMessage( 102, 0.25  )
+		</script>
+	</trigger>
+
+	<trigger Name="cinDoctorOut_cam1" active="0">
+	<event	flypath="StartGame_cam1"		eventid="GE_START_CINEMATIC_FLY"	ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local docml = getObj("doc1")
+			if docml then
+				docml:SetNodeAction(AT_RESERVED1)
+				docml:SetNextForAnimation(AT_RESERVED1, AT_RESERVED1)
+			end
+
+			AddCinematicMessage( 103, 0.25  )
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinDoctorOut_cam2" active="0">
+	<event	flypath="StartGame_cam2"		eventid="GE_START_CINEMATIC_FLY"	ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local docml = getObj("doc1")
+			if docml then
+				docml:SetNodeAction(AT_STAND1)
+				docml:SetNextForAnimation(AT_STAND1, AT_STAND1)
+			end
+
+			local humPl = GetEntityByName("humPlayer")
+			if humPl then
+				humPl:SetNodeAction(AT_PAIN1)
+				humPl:SetNextForAnimation(AT_PAIN1, AT_PAIN2)
+			end
+
+			AddCinematicMessage( 104, 0.75  )
+			AddCinematicMessage( 105, 0.25  )
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinDoctorOut_cam3" active="0">
+	<event	flypath="StartGame_cam3"		eventid="GE_START_CINEMATIC_FLY"	ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local docml = getObj("doc1")
+			if docml then
+				docml:SetNodeAction(AT_RESERVED1)
+				docml:SetNextForAnimation(AT_RESERVED1, AT_RESERVED1)
+			end
+
+			local humPl = GetEntityByName ("humPlayer")
+				if humPl 
+					then humPl:Remove() 
+				end
+
+			CreateNewDummyObject( "dweller_new_hero", "humPlayer1", -1, -1, CVector(3399.573, 343.700, 284.772), Quaternion(0.0000, -0.6724, 0.0000, 0.7402), 0)
+
+			AddCinematicMessage( 106, 0.25  )
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinDoctorOut_cam4" active="0">
+	<event	flypath="StartGame_cam4"		eventid="GE_START_CINEMATIC_FLY"	ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local docml = getObj("doc1")
+			if docml then
+				docml:SetNodeAction(AT_STAND1)
+				docml:SetNextForAnimation(AT_STAND1, AT_STAND1)
+			end
+
+			local humPl1 = GetEntityByName("humPlayer1")
+			if humPl1 then
+				humPl1:SetNodeAction(AT_PAIN1)
+				humPl1:SetNextForAnimation(AT_PAIN1, AT_PAIN2)
+			end
+
+			AddCinematicMessage( 107, 0.25  )
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinDoctorOut_cam5" active="0">
+	<event	flypath="StartGame_cam5"		eventid="GE_START_CINEMATIC_FLY"	ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local docml = getObj("doc1")
+			if docml then
+				docml:SetNodeAction(AT_RESERVED1)
+				docml:SetNextForAnimation(AT_RESERVED1, AT_RESERVED1)
+			end
+
+			local humPl1 = GetEntityByName("humPlayer1")
+				if humPl1 
+					then humPl1:Remove() 
+				end
+
+			AddCinematicMessage( 108, 0.25  )
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinDoctorOut_cam6" active="0">
+	<event	flypath="StartGame_cam6"		eventid="GE_START_CINEMATIC_FLY"	ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local docml = getObj("doc1")
+			if docml then
+				docml:SetNodeAction(AT_STAND1)
+				docml:SetNextForAnimation(AT_STAND1, AT_STAND1)
+			end
+
+			AddCinematicMessage( 109, 0.25  )
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinDoctorOut_end" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			local humPl1 = GetEntityByName("humPlayer1")
+				if humPl1 
+					then humPl1:Remove() 
+				end
+
+			local humPl = GetEntityByName ("humPlayer")
+				if humPl 
+					then humPl:Remove() 
+				end
+
+			local docml = GetEntityByName ("doc1")
+			if docml 
+				then docml:Remove() 
+			end
+
+			TDeactivate( "cinDoctorOut_FadeIn" )
+			TDeactivate( "cinDoctorOut_cam1" )
+			TDeactivate( "cinDoctorOut_cam2" )
+			TDeactivate( "cinDoctorOut_cam3" )
+			TDeactivate( "cinDoctorOut_cam4" )
+			TDeactivate( "cinDoctorOut_cam5" )
+			TDeactivate( "cinDoctorOut_cam6" )
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetRotation(Quaternion(0.061, -0.174, 0.007, 0.983))
+			end
+
+			TakeQuest("r7m1_LampToMayak_Quest")
+			AddQuestItem("quest_letter_lamp")
+
+			getObj("Mayak"):SetNodeAction(AT_MOVE1)
+
+			StopPlayingCustomMusic()
+
+			SetCameraBehindPlayerVehicle()
+
+			TActivate( "trTutotialStart" )
+		</script>
+	</trigger>
+
+
+<!--Первый бандит-->
+	<trigger Name="cinFirstBandit" active="1">
+	<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="FirstBandit_loc" />
+		<script>
+			trigger:Deactivate()
+
+			PlayCustomMusic("Battle02")
+
+			RuleConsole("cinematic_spring_coeff 1.7")
+
+			CreateTeam("FirstBandit1", 1105, CVector(3082.270, 256.448, 472.329), {"r1m1_sml01"})
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+
+			Fly("FirstBandit_cam0", CINEMATIC_NO_AIM, 0, 5, 1, 1 )
+			StartCinematic()
+
+			TActivate( "cinFirstBandit_FadeIn" )
+			TActivate( "cinFirstBandit_End" )
+		</script>
+	</trigger>
+
+	<trigger Name="cinFirstBandit_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local Bnd = getObj("FirstBandit1_vehicle_0")
+			if Bnd then
+				Bnd:setGodMode(1)
+				Bnd:SetGamePositionOnGround(CVector(3082.270, 256.448, 472.329))
+				Bnd:SetRotation(Quaternion(-0.007, 0.388, -0.063, -0.919))
+				Bnd:SetCustomLinearVelocity( 40 )
+				Bnd:SetThrottle( 1 )
+				Bnd:SetExternalPathByName("FirstBandit_path0")
+			end
+			
+			local vehPl = GetPlayerVehicle()
+			if vehPl then
+				vehPl:setGodMode(1)
+				vehPl:SetPosition(CVector(3131.734, 255.923, 616.053))
+				vehPl:SetRotation(Quaternion(-0.001, 0.808, -0.002, -0.589))
+			end
+		</script>
+	</trigger>
+
+	<trigger Name="cinFirstBandit_End" active="0">
+	<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+	<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local Bnd = getObj("FirstBandit1_vehicle_0")
+			if Bnd then
+				Bnd:setGodMode(0)
+				Bnd:SetExternalPathByName("FirstBandit_path0")
+				Bnd:PlaceToEndOfPath()
+			end
+
+			local vehPl = GetPlayerVehicle()
+			if vehPl then
+				vehPl:setGodMode(0)
+			end
+
+			TDeactivate( "cinFirstBandit_FadeIn" )
+
+			RuleConsole("cinematic_spring_coeff 0.7")
+
+			TActivate( "FirstBanditDie" )
+		</script>
+	</trigger>
+
+	<trigger	Name="FirstBanditDie"		active="0">
+		<event	eventid="GE_OBJECT_DIE"	ObjName="FirstBandit1_vehicle_0" />
+		<script>
+			trigger:Deactivate()
+
+			StopPlayingCustomMusic()
+		</script>
+	</trigger>
+
+<!--Грузовик с товаром-->
+	<trigger Name="cinTruckTreasure" active="0">
+	<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="PlayerHideTruck_loc" />
+		<script>
+			trigger:Deactivate()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			RuleConsole("cinematic_spring_coeff 1.7")
+
+			CreateVehicleEx("UralTreasure","vehSeller",( CVector(0, 10000, 0) ))
+			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(719.902, 259.323, 800.587), Quaternion(0, 0, 0, 0), 0)
+
+			local vehP = GetEntityByName("vehSeller")
+			local vehPID = vehP:GetId()
+			local CToch = GetEntityByName("CamTochka")
+			local CTochID = CToch:GetId()
+
+			Fly("TruckTre_cam0", CINEMATIC_NO_AIM, 0, 12, 1, 0 )
+			FlyLinked( "TruckTre_cam1", CTochID, 17, 0, 1, vehPID )
+			StartCinematic()
+
+			TActivate( "cinTruckTreasure_FadeIn" )
+			TActivate( "cinTruckTreasure_cam01" )
+			TActivate( "cinTruckTreasure_End" )
+		</script>
+	</trigger>
+
+	<trigger Name="cinTruckTreasure_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:SetCustomControlEnabled( true )
+				vehPlayer:SetGamePositionOnGround( CVector(getPos("PlayerHideTruck_loc")))
+				vehPlayer:SetRotation(Quaternion(-0.002, -0.916, 0.000, -0.401))
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+			end
+
+			AddCinematicMessage(201, 0.25)
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinTruckTreasure_cam01" active="0">
+		<event	flypath="TruckTre_cam1"	eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local vehP = GetEntityByName("vehSeller")
+			if vehP then
+				vehP:SetGamePositionOnGround( CVector(569.827, 256.701, 1216.539))
+				vehP:SetRotation(Quaternion(-0.000, 0.858, -0.003, 0.514))
+				vehP:SetExternalPathByName("TruckTreasure")
+			end
+
+			AddCinematicMessage(202, 0.25)
+		</script>
+	</trigger>
+
+	<trigger Name="cinTruckTreasure_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local vehP = GetEntityByName("vehSeller")
+			local Toch = GetEntityByName("CamTochka")
+
+			if vehP then vehP:Remove() end
+			if Toch then Toch:Remove() end
+
+			CreateTeam("Seller", 1105, CVector(850.444, 256.701, 589.806), {"UralTreasure"})
+
+			TDeactivate( "cinTruckTreasure_FadeIn" )
+			TDeactivate( "cinTruckTreasure_cam01" )
+			TActivate("trDieTruckTr")
+
+			CompleteQuest("r7m1_ZasadaTr_Quest")
+
+			RestoreAllToleranceStatus()
+		</script>
+	</trigger>
+
+<!--Грузовик уничтожен-->
+	<trigger Name="cinAfterTruckTre" active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			trigger:Deactivate()
+
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			FlyAround(2, 0, 25, 27, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+
+			TActivate("cinAfterTruckTre_FadeIn")
+			TActivate("cinAfterTruckTre_End")
+		</script>
+	</trigger>
+
+	<trigger Name="cinAfterTruckTre_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+			end
+
+			AddCinematicMessage(203, 1.0)
+			AddCinematicMessage(204, 0.25)
+			AddCinematicMessage(205, 0.25)
+		</script>
+	</trigger>
+
+	<trigger Name="cinAfterTruckTre_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RestoreAllToleranceStatus()
+
+			TDeactivate("cinAfterTruckTre_FadeIn")
+
+			SetCameraBehindPlayerVehicle()
+		</script>
+	</trigger>
+
+<!--Бандит убегает-->
+	<trigger Name="cinRubBnd" active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			trigger:Deactivate()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			Fly	("RunBnd_cam0", CINEMATIC_NO_AIM, 0, 10, 1, 1)
+			StartCinematic()
+
+			TActivate("cinRubBnd_FadeIn")
+			TActivate("cinRubBnd_cam0")
+			TActivate("cinRubBnd_End")
+
+			</script>
+	</trigger>
+
+	<trigger Name="cinRubBnd_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			CreateTeam("RunBnd", 1190, { CVector(733.011, 249.872, 1197.864)}, {"Sml401"}, nil, nil, {Quaternion(0.029, 0.710, 0.023, -0.703)})
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetGamePositionOnGround( CVector(749.116, 244.367, 1236.936))
+				Plf:SetRotation(Quaternion(0.032, 0.988, 0.068, -0.135))
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+			end
+
+			local RBn = getObj("RunBnd_vehicle_0")
+			if RBn then
+				RBn:SetCustomControlEnabled( true )
+				RBn:SetCustomLinearVelocity( 0 )
+				RBn:SetThrottle( 0 )
+				RBn:SetExternalPathByName("RunBandit_path0")
+				RBn:SetCustomControlEnabled( false )
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinRubBnd_cam0" active="0">
+		<event flypath="RunBnd_cam0" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			AddCinematicMessage( 300, 0.25 )
+		</script>
+	</trigger>
+
+	<trigger Name="cinRubBnd_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RestoreAllToleranceStatus()
+
+			TDeactivate("cinRubBnd_FadeIn")
+			TDeactivate("cinRubBnd_cam0")
+			TActivate("trNearBnd")
+			TActivate("trAvaCome")
+			TActivate("trBndDead")
+
+			SetCameraBehindPlayerVehicle()
+		</script>
+	</trigger>
+
+
+<!--Провалили преследование-->
+	<trigger Name="cinRubBndLose" active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			trigger:Deactivate()
+
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			FlyAround(2, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+
+			TActivate("cinRubBndLose_FadeIn")
+			TActivate("cinRubBndLose_End")
+		</script>
+	</trigger>
+
+	<trigger Name="cinRubBndLose_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+			end
+
+			local RBn = getObj("RunBnd_vehicle_0")
+			if RBn then
+				RBn:SetCustomControlEnabled( true )
+				RBn:SetCustomLinearVelocity( 0 )
+				RBn:SetGamePositionOnGround(CVector(2005.280, 255.749, 3255.257))
+				RBn:SetThrottle( 0 )
+				RBn:PlaceToEndOfPath()
+				RBn:setGodMode(1)
+				RBn:SetCustomControlEnabled( false )
+			end
+
+			AddCinematicMessage(301, 1.0)
+		</script>
+	</trigger>
+
+	<trigger Name="cinRubBndLose_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RestoreAllToleranceStatus()
+
+			TDeactivate("cinRubBndLose_FadeIn")
+
+			SetCameraBehindPlayerVehicle()
+		</script>
+	</trigger>	
+
+<!--Приехали к Аванпосту-->
+	<trigger Name="cinAvaBnd" active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			trigger:Deactivate()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			Fly	("AvpBnd_cam0", CINEMATIC_NO_AIM, 0, 10, 1, 1)
+			StartCinematic()
+
+			TDeactivate("trNearBnd")
+			TActivate("cinAvaBnd_FadeIn")
+			TActivate("cinAvaBnd_cam0")
+			TActivate("cinAvaBnd_End")
+
+			</script>
+	</trigger>
+
+	<trigger Name="cinAvaBnd_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			CreateTeam("Boss", 1105, { CVector(2004.716, 256.609, 3214.269)}, {"Molokovoz02"}, nil, nil, {Quaternion(-0.032, 0.457, 0.034, -0.888)})
+			CreateTeam("AvaBnd1", 1105, { CVector(1979.420, 255.176, 3253.201)}, {"Bug01"}, nil, nil, {Quaternion(1979.420, 255.176, 3253.201)})
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+			end
+
+			local RBn = getObj("RunBnd_vehicle_0")
+			if RBn then
+				RBn:SetCustomControlEnabled( true )
+				RBn:SetCustomLinearVelocity( 0 )
+				RBn:SetThrottle( 0 )
+				RBn:PlaceToEndOfPath()
+				RBn:setGodMode(0)
+				RBn:SetCustomControlEnabled( false )
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinAvaBnd_cam0" active="0">
+		<event flypath="AvpBnd_cam0" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			AddCinematicMessage( 302, 1.00 )
+		</script>
+	</trigger>
+
+	<trigger Name="cinAvaBnd_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RestoreAllToleranceStatus()
+
+			SetTolerance(1100, 1190, RS_ENEMY)
+
+			TDeactivate("cinAvaBnd_FadeIn")
+			TDeactivate("cinAvaBnd_cam0")
+			TActivate("trAvaDead")
+			TDectivate("trNearBnd")
+
+			SetCameraBehindPlayerVehicle()
+		</script>
+	</trigger>
+
+<!--Отпустили бандита, с нами связывается Отшельник-->
+	<trigger Name="cinHerCon" active="0">
+		<event	timeout="0.1"		eventid="GE_TIME_PERIOD" />
+		<script>
+			trigger:Deactivate()
+
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			FlyAround(2, 0, 50, 25, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+
+			TActivate("cinHerCon_FadeIn")
+			TActivate("cinHerCon_End")
+		</script>
+	</trigger>
+
+	<trigger Name="cinHerCon_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			local Plf = GetPlayerVehicle()
+			if Plf then
+				Plf:SetCustomControlEnabled( true )
+				Plf:SetCustomLinearVelocity( 0 )
+				Plf:SetThrottle( 0 )
+				Plf:SetCustomControlEnabled( false )
+			end
+
+			local RBn = getObj("RunBnd_vehicle_0")
+			if RBn then
+				RBn:SetCustomControlEnabled( true )
+				RBn:SetCustomLinearVelocity( 0 )
+				RBn:SetGamePositionOnGround(CVector(2005.280, 255.749, 3255.257))
+				RBn:SetThrottle( 0 )
+				RBn:PlaceToEndOfPath()
+				RBn:SetCustomControlEnabled( false )
+			end
+
+			AddCinematicMessage(400, 0.25)
+			AddCinematicMessage(401, 0.25)
+			AddCinematicMessage(402, 0.25)
+			AddCinematicMessage(403, 0.25)
+
+		</script>
+	</trigger>
+
+	<trigger Name="cinHerCon_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RestoreAllToleranceStatus()
+
+			TDeactivate("cinHerCon_FadeIn")
+
+			TakeQuest("r7m1_BackToHermit_Quest")
+
+			SetCameraBehindPlayerVehicle()
+		</script>
+	</trigger>	
+</triggers>

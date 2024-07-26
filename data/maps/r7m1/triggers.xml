@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+<!--Тутор-->
+	<trigger Name="trTutotialStart" active="0">
+		<event 	timeout="2" eventid="GE_TIME_PERIOD" />
+		<script>
+			trigger:Deactivate() 
+
+			EnableAutoHelp( false )
+
+			local b = SpawnMessageBox( "196" )
+			if b == 1 then
+				EnableAutoHelp( true )
+				ShowHelp( "HELP_ID_MAIN_GAME_INTERFACE" )
+			end
+		</script>
+	</trigger>
+
+<!--Книги-->
+	<trigger Name="trBooks" active="1">
+		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewDummyObject( "books", "forb_books", -1, -1, CVector(402.926, 256.265, 3506.637), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!--Разговор с Лео в первый раз-->
+	<trigger Name="trDialogLeo1" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MechanicLeo_loc" />
+		<script>
+			StartConversation("MechanicLeonel_NPC")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!--Подбираем книги на складе-->
+	<trigger Name="trBooksBurn" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Books_loc" />
+		<script>
+			AddFadingMsgByStrIdFormatted( "fm_player_add_thing", "forb_books")
+
+			local rrr = GetEntityByName ("forb_books")
+			if rrr then rrr:Remove() end
+	
+			AddQuestItem("forb_books")
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!--Правосудие над бандитами-->
+	<trigger Name="trSpawnMestEd" active="0">
+		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateTeam ("MestEd", 1101, CVector(getPos("MestEd_loc")), {"Scout01", "Scout02"}, nil, nil, nil)
+			CreateTeam ("MestBandits", 1105, CVector(getPos("MestBandits_loc")), {"r1m1_sml03", "r1m1_sml03", "r1m1_sml02", "r1m1_sml04"}, nil, nil, nil)
+
+			local edteam = GetEntityByName ("MestEd")
+			if edteam then
+				edteam:SetDestination(CVector(getPos("MestBandits_loc")))
+				edteam:SetCruisingSpeed(100)
+				edteam:SetReactingOnDisturbingVehicles(false)
+			end
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+<!--Возвращаемся к Лео после Иерихона-->
+<trigger Name="trAfterIerihon" active="1">
+	<event 	timeout="1" eventid="GE_TIME_PERIOD" />
+	<script>	
+		if QuestStatus("sin_BackToLeo_Quest")==Q_TAKEN then
+			TActivate("trAfterIerihon2")
+			trigger:Deactivate()
+		end
+
+	</script>
+</trigger>
+
+<!--Возвращаемся к Лео после Иерихона 2-->
+	<trigger Name="trAfterIerihon2" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MechanicLeo_loc" />
+		<script>
+			trigger:Deactivate()
+			
+			StartConversation("MechanicLeonel_NPC")
+	
+		</script>
+	</trigger>
+
+<!--Уничтожен грузовик-->
+	<trigger Name="trDieTruckTr" active="0">
+		<event	eventid="GE_OBJECT_DIE"	ObjName="Seller" />
+		<script>
+			trigger:Deactivate()
+	
+			AddQuestItem("collectionbook1")
+			CompleteQuest("r7m1_KillTruck_Quest")
+			TActivate("cinAfterTruckTre")
+	
+		</script>
+	</trigger>
+
+<!--Появляются бандиты из засады-->
+	<trigger Name="trZasadaBandits" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ZasadaBnd_loc" />
+		<script>	
+			if QuestStatus("r7m1_GoMont_Quest")==Q_TAKEN then
+				CreateTeam ("BehindBnd", 1105, CVector(701.825, 253.310, 1174.078), {"Scout01", "Sml401"}, nil, nil, nil)
+				CreateTeam ("Bnd1", 1105, CVector(796.655, 235.338, 1269.085), {"Scout03"}, nil, nil, nil)
+				CreateTeam ("Bnd2", 1105, CVector(718.007, 245.188, 1254.415), {"Bug01"}, nil, nil, nil)
+
+				CompleteQuest("r7m1_GoMont_Quest")
+				TActivate("trZasadaDie")
+
+				trigger:Deactivate()
+			end
+	
+		</script>
+	</trigger>
+
+<!--Бандиты подохли-->
+	<trigger Name="trZasadaDie" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="BehindBnd_vehicle_0"/>
+		<event eventid="GE_OBJECT_DIE" ObjName="BehindBnd_vehicle_1"/>
+		<event eventid="GE_OBJECT_DIE" ObjName="Bnd1_vehicle_0"/>
+		<event eventid="GE_OBJECT_DIE" ObjName="Bnd2_vehicle_0"/>
+		<script>
+			trigger:IncCount()
+			local count = trigger:GetCount()
+			if 4>count then
+				return
+			end
+
+			CompleteQuest("r7m1_KillBandMont_Quest")
+			TActivate("cinRubBnd")
+	</script>
+	</trigger>
+
+<!--Преследуем бандита-->
+	<trigger Name="trNearBnd" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local run = GetEntityByName("RunBnd_vehicle_0")
+			local pl = GetPlayerVehicle()
+			local len
+
+			if run and run:IsAlive() then
+				len = Dist(pl, run)
+				if (len > 300) or (20 > len) then
+					CinemaFiltersUse()
+					
+				    FailQuest("r7m1_FindRats_Quest")
+					TakeQuest("r7m1_FindRatsYS_Quest")
+
+					trigger:Deactivate()
+					TDeactivate("trBndDead")
+					TActivate("cinRubBndLose")
+				end
+			end
+		</script>
+	</trigger>
+
+<!--Преследуемый бандит подох-->
+	<trigger Name="trBndDead" active="0">
+		<event	eventid="GE_OBJECT_DIE"	ObjName="RunBnd_vehicle_0" />
+		<script>
+			FailQuest("r7m1_FindRats_Quest")
+			TakeQuest("r7m1_FindRatsYS_Quest")
+
+			SetTolerance(1100, 1190, RS_NEUTRAL)
+
+			TDeactivate("trNearBnd")
+			TActivate("cinRubBndLose")
+		</script>
+	</trigger>
+
+<!--Подъезжаем к аванпосту-->
+	<trigger Name="trAvaCome" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Avanpost_loc" />
+		<script>
+			trigger:Deactivate()
+
+			CompleteQuest("r7m1_FindApost_Quest")
+			TActivate("cinAvaBnd")
+	</script>
+	</trigger>
+
+<!--Уничтожаем оставшихся и бандит начинает с нами диалог-->
+	<trigger Name="trAvaDead" active="0">
+		<event	eventid="GE_OBJECT_DIE"	ObjName="Boss_vehicle_0" />
+		<event	eventid="GE_OBJECT_DIE"	ObjName="AvaBnd1_vehicle_0" />
+		<script>
+			trigger:IncCount()
+			local count = trigger:GetCount()
+			if 2>count then
+				return
+			end
+
+			StartConversation("BanditThiago_NPC")
+	</script>
+	</trigger>
+
+<!--Телепорт в Вексику-->
+	<trigger Name="triggerExitToMap73" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR7M3" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			if QuestStatus("r7m1_TruckSell_Quest")==Q_COMPLETED then
+				local b = SpawnMessageBox(197)
+				if b == 1 then
+					PassToMap("r7m3", "FromR7M1", -1 )
+
+					GetPlayerVehicle():AddModifier( "fuel", "- "..random(0.5*GetPlayerFuel()) )
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 2, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					TActivate ("RolikExitToMap73")
+					TActivate ("RolikENDExitToMap73")
+				end
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+				AddCinematicMessage( 198, 0.25 )
+
+				TActivate ("RolikExitToMap73")
+				TActivate ("RolikENDExitToMap73")
+			end
+ 		</script>
+	</trigger>
+	<trigger Name="RolikExitToMap73" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RuleConsole("g_postEffect NoiseOn")
+
+			RotationPlayerByPoints(CVector(getPos("ToR7M3")), CVector(getPos("FromR7M3")))
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR7M3")))
+		</script>
+	</trigger>
+	<trigger Name="RolikENDExitToMap73" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RuleConsole("g_postEffect NoiseOff")
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR7M3")))
+
+			TDeactivate("RolikExitToMap73")
+
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+		</script>
+	</trigger>
+
+<!--Телепорт в Иерихон-->
+	<trigger Name="triggerExitToMap72" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR7M2" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			if QuestStatus("r7m1_DolgForMechanic_Quest")==Q_COMPLETED then
+				local b = SpawnMessageBox(197)
+				if b == 1 then
+					PassToMap("sin", "FromR7M1", -1 )
+
+					GetPlayerVehicle():AddModifier( "fuel", "- "..random(0.5*GetPlayerFuel()) )
+				else
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					FlyAround(1, 0, 25, 2, PlfCoor, PlfID, 1, 1 )
+					StartCinematic()
+
+					TActivate ("RolikExitToMap72")
+					TActivate ("RolikENDExitToMap72")
+				end
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+				AddCinematicMessage( 198, 0.25 )
+
+				TActivate ("RolikExitToMap72")
+				TActivate ("RolikENDExitToMap72")
+			end
+
+ 		</script>
+	</trigger>
+	<trigger Name="RolikExitToMap72" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RuleConsole("g_postEffect NoiseOn")
+
+			RotationPlayerByPoints(CVector(getPos("ToR7M2")), CVector(getPos("FromR7M2")))
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR7M2")))
+		</script>
+	</trigger>
+	<trigger Name="RolikENDExitToMap72" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			trigger:Deactivate()
+
+			RuleConsole("g_postEffect NoiseOff")
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR7M2")))
+
+			TDeactivate("RolikExitToMap72")
+
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+		</script>
+	</trigger>
+
+</triggers>

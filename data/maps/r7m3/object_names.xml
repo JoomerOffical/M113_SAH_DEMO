@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object	Name = "ToR7M1"	FullName = "Дорога на Прибрежье" />
+	<Object	Name = "ToR5M1"	FullName = "Дорога в Земли Сэма" />
+
+	<Object	Name = "r7m3_Saltilio"				FullName = "Сальтилио" />
+	<Object	Name = "r7m3_Saltilio_enter"		FullName = "Сальтилио" />
+	<Object	Name = "r7m3_Saltilio_Bar"			FullName = "Таверна 'Campo'" />
+	<Object	Name = "r7m3_Saltilio_Bar_Barman"	FullName = "Повариха Корнелио" />
+	<Object	Name = "r7m3_Saltilio_Workshop"		FullName = "Мастерская" />
+	<Object	Name = "r7m3_Saltilio_Shop"			FullName = "Магазин" />
+	<Object	Name = "FarmerSamuel_NPC"			FullName = "Фермер Самуель" />
+	<Object	Name = "CaravanGarcia_NPC"			FullName = "Караванщик Гарсия" />
+
+	<Object	Name = "r7m3_OldStorage"			FullName = "Старые Склады" />
+	<Object	Name = "r7m3_OldStorage_enter"		FullName = "Старые Склады" />
+
+	<Object	Name = "r7m3_Huares"				FullName = "Хуарес" />
+	<Object	Name = "r7m3_Huares_enter"			FullName = "Хуарес" />
+	<Object	Name = "r7m3_Huares_Shop"			FullName = "Магазин" />
+	<Object	Name = "r7m3_Huares_Workshop"		FullName = "Мастерская" />
+	<Object	Name = "r7m3_Huares_Bar"			FullName = "Бар 'Puente'" />
+	<Object	Name = "r7m3_Huares_Bar_Barman"		FullName = "Бармен Рамон" />
+	<Object	Name = "ProniraDylan_NPC"			FullName = "Проныра Дилан" />
+	<Object	Name = "SheriffMikel_NPC"			FullName = "Шериф Микель" />
+	<Object	Name = "WilgelmErmo_NPC"			FullName = "Вильгельм Эрмосиньо" />
+
+	<Object	Name = "PetrolStationTownr7m3_1"	FullName = "Заправка" />
+	<Object	Name = "PetrolStationTownr7m3_1_enter"	FullName = "Заправка" />
+
+	<Object	Name = "PetrolStationTownr7m3_2"	FullName = "Заправка" />
+	<Object	Name = "PetrolStationTownr7m3_2_enter"	FullName = "Заправка" />
+
+	<Object	Name = "r7m3_HermetHouse"			FullName = "Дом Отшельника" />
+	<Object	Name = "r7m3_HermetHouse_enter"		FullName = "Дом Отшельника" />
+	<Object	Name = "r7m3_HermetHouse_House"		FullName = "Дом Отшельника" />
+	<Object	Name = "r7m3_HermetHouse_Workshop"	FullName = "Мастерская" />
+	<Object	Name = "r7m3_Hermet"				FullName = "Отшельник Эрмитано" />
+
+	<Object	Name = "r7m3_Torreon"				FullName = "Торреон" />
+	<Object	Name = "r7m3_Torreon_enter"			FullName = "Торреон" />
+	<Object	Name = "r7m3_Torreon_Shop"			FullName = "Магазин" />
+	<Object	Name = "r7m3_Torreon_Workshop"		FullName = "Мастерская" />
+	<Object	Name = "r7m3_Torreon_Bar"			FullName = "Бар 'Montana'" />
+	<Object	Name = "r7m3_Torreon_Bar_Barman"	FullName = "Официантка Вилламона" />
+	<Object	Name = "SellerValdez_NPC"			FullName = "Торговец Вальдез" />
+
+	<Object	Name = "r7m3_ErmosinyoVine"			FullName = "Винодельня Эрмосиньо" />
+	<Object	Name = "r7m3_ErmosinyoVine_enter"	FullName = "Винодельня Эрмосиньо" />
+	<Object	Name = "r7m3_ErmosinyoVine_Shop"	FullName = "Магазин" />
+	<Object	Name = "r7m3_ErmosinyoVine_Workshop"	FullName = "Мастерская" />
+	<Object	Name = "r7m3_ErmosinyoVine_Bar"		FullName = "Винный Погреб" />
+	<Object	Name = "r7m3_ErmosinyoVine_Bar_Barman"	FullName = "Винодел Сансон" />
+	<Object	Name = "r7m3_ErmosinyoVine_House"		FullName = "Кабинет хефе" />
+	<Object	Name = "JefeErmosinyo_NPC"			FullName = "Хефе Эрмосиньо" />
+	<Object	Name = "GuardErmocinyo_NPC"			FullName = "Охраник Эскаланте" />
+	<Object	Name = "GuardLine_NPC"			FullName = "Пограничник Эдмундо" />
+
+	<Object	Name = "DynQEnemy01"					FullName = "Вентуро Касадо" />
+	<Object	Name = "DynQEnemy02"					FullName = "Джеральд Баса" />	
+	<Object	Name = "DynQEnemy03"					FullName = "Данило Монтальбо" />	
+	<Object	Name = "DynQEnemy04"					FullName = "Нето Сепеда" />	
+	<Object	Name = "DynQEnemy05"					FullName = "Фредерико Мерсед" />	
+	<Object	Name = "DynQEnemy06"					FullName = "Николас Дурон" />	
+	<Object	Name = "DynQEnemy07"					FullName = "Алехандро Беннито" />	
+	<Object	Name = "DynQEnemy08"					FullName = "Викториано Кампано" />
+	<Object Name = "DynQEnemy09"					FullName = "Тимо Ороско" />	
+	<Object	Name = "DynQEnemy10"					FullName = "Бартоло Вирджен" />	
+	<Object	Name = "DynQEnemy11"					FullName = "Кристиан Солар" />	
+	<Object	Name = "DynQEnemy12"					FullName = "Гаспард Мартинез" />	
+	<Object	Name = "DynQEnemy13"					FullName = "Лисандро Негрин" />	
+	<Object	Name = "DynQEnemy14"					FullName = "Алано Миераз" />	
+	<Object	Name = "DynQEnemy15"					FullName = "Орлан Веласко" />	
+	<Object	Name = "DynQEnemy16"					FullName = "Айвен Дена" />	
+	<Object	Name = "DynQEnemy17"					FullName = "Фермин Манзано" />	
+	<Object	Name = "DynQEnemy18"					FullName = "Оливер Пиззаро" />	
+	<Object	Name = "DynQEnemy19"					FullName = "Вирджилио Вилальпандо" />	
+	<Object	Name = "DynQEnemy20"					FullName = "Мануэль Мато" />	
+	<Object	Name = "DynQEnemy21"					FullName = "Вето Галеас" />	
+	<Object	Name = "DynQEnemy22"					FullName = "Фиделее Мелон" />	
+	<Object	Name = "DynQEnemy23"					FullName = "Джуан Эсперанза" />	
+	<Object	Name = "DynQEnemy24"					FullName = "Крис Тирадо" />
+	<Object	Name = "DynQEnemy25"					FullName = "Цицерон Гордильо" />
+
+</ObjectNames>
